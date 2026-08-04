@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/08/2026 10:34",
+  "atualizado_em": "04/08/2026 11:27",
   "total": 631,
   "requerimentos": [
     {
@@ -1304,7 +1304,8 @@
         {
           "prazo": "26/08/2026",
           "situacao": "Recebida",
-          "texto": "Prezado(a) Usuário(a), Referente ao requerimento nº 20260010217-B96, informamos que é necessário a..."
+          "texto": "Prezado(a) Usuário(a), Referente ao requerimento nº 20260010217-B96, informamos que é necessário a...",
+          "data_notif": "04/08/2026"
         }
       ]
     },
@@ -5330,7 +5331,8 @@
         {
           "prazo": "06/08/2026",
           "situacao": "Recebida",
-          "texto": "Tendo em visto o envio do cadastro do SISÁGUA, referente ao mês de janeiro de 2026, necessitamos que..."
+          "texto": "Tendo em visto o envio do cadastro do SISÁGUA, referente ao mês de janeiro de 2026, necessitamos que...",
+          "data_notif": "04/08/2026"
         }
       ]
     },
@@ -5356,17 +5358,20 @@
         {
           "prazo": "06/08/2026",
           "situacao": "Recebida",
-          "texto": "Comprovante de endereço, trata-se de INSCRIÇÃO CADASTRAL - 2024. Necessitamos de conta de água, luz,..."
+          "texto": "Comprovante de endereço, trata-se de INSCRIÇÃO CADASTRAL - 2024. Necessitamos de conta de água, luz,...",
+          "data_notif": "04/08/2026"
         },
         {
           "prazo": "06/08/2026",
           "situacao": "Recebida",
-          "texto": "Não localizamos o Fluxograma, contendo a destinação/ uso das águas."
+          "texto": "Não localizamos o Fluxograma, contendo a destinação/ uso das águas.",
+          "data_notif": "04/08/2026"
         },
         {
           "prazo": "06/08/2026",
           "situacao": "Recebida",
-          "texto": "Tendo em visto o envio do cadastro do SISÁGUA, referente ao mês de janeiro de 2026, necessitamos que..."
+          "texto": "Tendo em visto o envio do cadastro do SISÁGUA, referente ao mês de janeiro de 2026, necessitamos que...",
+          "data_notif": "04/08/2026"
         }
       ]
     },
@@ -6571,26 +6576,6 @@
       "notificacoes": []
     },
     {
-      "emp_id": "49996",
-      "emp_nome": "HOSPITAL SANTA HELENA SÃO BERNARDO",
-      "emp_tipo": "",
-      "emp_end": "AVENIDA LUCAS NOGUEIRA GARCEZ",
-      "emp_cep_cidade": "09.750-660 - São Bernardo Do Campo",
-      "req_nome": "HOSPITAL SANTA HELENA SÃO BERNARDO",
-      "req_cnpj": "08.100.676/0004-01",
-      "req_tel": "(11) 98349-5884",
-      "req_email": "gfirmino@amil.com.br",
-      "solicitacao": "20200014898",
-      "codigo": "20200014898-JVM",
-      "tipo": "Regularização para Poço Tubular",
-      "codigo_spaguas": "Não Consta",
-      "status": "Resultado: Dispensa deferida",
-      "prazo_notif": "",
-      "situacao_notif": "",
-      "qtd_notificacoes": 0,
-      "notificacoes": []
-    },
-    {
       "emp_id": "167286",
       "emp_nome": "HOSPITAL SANTA HELENA SÃO BERNARDO",
       "emp_tipo": "",
@@ -6604,6 +6589,26 @@
       "codigo": "20240010585-WCO",
       "tipo": "Desistência com Transferência de Captação Subterrânea",
       "codigo_spaguas": "PO-343-01820",
+      "status": "Resultado: Dispensa deferida",
+      "prazo_notif": "",
+      "situacao_notif": "",
+      "qtd_notificacoes": 0,
+      "notificacoes": []
+    },
+    {
+      "emp_id": "49996",
+      "emp_nome": "HOSPITAL SANTA HELENA SÃO BERNARDO",
+      "emp_tipo": "",
+      "emp_end": "AVENIDA LUCAS NOGUEIRA GARCEZ",
+      "emp_cep_cidade": "09.750-660 - São Bernardo Do Campo",
+      "req_nome": "HOSPITAL SANTA HELENA SÃO BERNARDO",
+      "req_cnpj": "08.100.676/0004-01",
+      "req_tel": "(11) 98349-5884",
+      "req_email": "gfirmino@amil.com.br",
+      "solicitacao": "20200014898",
+      "codigo": "20200014898-JVM",
+      "tipo": "Regularização para Poço Tubular",
+      "codigo_spaguas": "Não Consta",
       "status": "Resultado: Dispensa deferida",
       "prazo_notif": "",
       "situacao_notif": "",
@@ -7151,52 +7156,6 @@
       "notificacoes": []
     },
     {
-      "emp_id": "57714",
-      "emp_nome": "HOTEIS ROYAL PALM PLAZA LTDA",
-      "emp_tipo": "",
-      "emp_end": "RUA MONSENHOR LUÍS FERNANDES DE ABREU",
-      "emp_cep_cidade": "13.051-093 - Campinas",
-      "req_nome": "HOTEIS ROYAL PALM PLAZA LTDA",
-      "req_cnpj": "46.134.425/0005-18",
-      "req_tel": "(19) 2117-8048",
-      "req_email": "manutencao@royalpalm.com.br",
-      "solicitacao": "20200024223",
-      "codigo": "20200024223-1OT",
-      "tipo": "Autorização para perfuração e Direito de Uso para Poço Tubular",
-      "codigo_spaguas": "Não Consta",
-      "status": "Resultado: Dispensa deferida",
-      "prazo_notif": "",
-      "situacao_notif": "",
-      "qtd_notificacoes": 0,
-      "notificacoes": []
-    },
-    {
-      "emp_id": "57714",
-      "emp_nome": "HOTEIS ROYAL PALM PLAZA LTDA",
-      "emp_tipo": "",
-      "emp_end": "RUA MONSENHOR LUÍS FERNANDES DE ABREU",
-      "emp_cep_cidade": "13.051-093 - Campinas",
-      "req_nome": "HOTEIS ROYAL PALM PLAZA LTDA",
-      "req_cnpj": "46.134.425/0005-18",
-      "req_tel": "(19) 2117-8048",
-      "req_email": "manutencao@royalpalm.com.br",
-      "solicitacao": "20200024223",
-      "codigo": "20250059487-V4G",
-      "tipo": "Renovação de Outorga de Direito de Uso para Captação Subterrânea - Poço Tubular",
-      "codigo_spaguas": "PO-277-02217",
-      "status": "Em processamento",
-      "prazo_notif": "12/08/2026",
-      "situacao_notif": "Recebida",
-      "qtd_notificacoes": 1,
-      "notificacoes": [
-        {
-          "prazo": "12/08/2026",
-          "situacao": "Recebida",
-          "texto": "Prezado(a) Usuário(a), Referente ao requerimento nº 20250059487-V4G, informamos que é necessário a..."
-        }
-      ]
-    },
-    {
       "emp_id": "57710",
       "emp_nome": "HOTEIS ROYAL PALM PLAZA LTDA",
       "emp_tipo": "",
@@ -7318,7 +7277,8 @@
         {
           "prazo": "12/08/2026",
           "situacao": "Recebida",
-          "texto": "Prezado(a) Usuário(a), Referente ao requerimento nº 20250059379-UCD, informamos que é necessário a..."
+          "texto": "Prezado(a) Usuário(a), Referente ao requerimento nº 20250059379-UCD, informamos que é necessário a...",
+          "data_notif": "04/08/2026"
         }
       ]
     },
@@ -7344,7 +7304,55 @@
         {
           "prazo": "12/08/2026",
           "situacao": "Recebida",
-          "texto": "Prezado(a) Usuário(a), Referente ao requerimento nº 20250059470-AAK, informamos que é necessário a..."
+          "texto": "Prezado(a) Usuário(a), Referente ao requerimento nº 20250059470-AAK, informamos que é necessário a...",
+          "data_notif": "04/08/2026"
+        }
+      ]
+    },
+    {
+      "emp_id": "57714",
+      "emp_nome": "HOTEIS ROYAL PALM PLAZA LTDA",
+      "emp_tipo": "",
+      "emp_end": "RUA MONSENHOR LUÍS FERNANDES DE ABREU",
+      "emp_cep_cidade": "13.051-093 - Campinas",
+      "req_nome": "HOTEIS ROYAL PALM PLAZA LTDA",
+      "req_cnpj": "46.134.425/0005-18",
+      "req_tel": "(19) 2117-8048",
+      "req_email": "manutencao@royalpalm.com.br",
+      "solicitacao": "20200024223",
+      "codigo": "20200024223-1OT",
+      "tipo": "Autorização para perfuração e Direito de Uso para Poço Tubular",
+      "codigo_spaguas": "Não Consta",
+      "status": "Resultado: Dispensa deferida",
+      "prazo_notif": "",
+      "situacao_notif": "",
+      "qtd_notificacoes": 0,
+      "notificacoes": []
+    },
+    {
+      "emp_id": "57714",
+      "emp_nome": "HOTEIS ROYAL PALM PLAZA LTDA",
+      "emp_tipo": "",
+      "emp_end": "RUA MONSENHOR LUÍS FERNANDES DE ABREU",
+      "emp_cep_cidade": "13.051-093 - Campinas",
+      "req_nome": "HOTEIS ROYAL PALM PLAZA LTDA",
+      "req_cnpj": "46.134.425/0005-18",
+      "req_tel": "(19) 2117-8048",
+      "req_email": "manutencao@royalpalm.com.br",
+      "solicitacao": "20200024223",
+      "codigo": "20250059487-V4G",
+      "tipo": "Renovação de Outorga de Direito de Uso para Captação Subterrânea - Poço Tubular",
+      "codigo_spaguas": "PO-277-02217",
+      "status": "Em processamento",
+      "prazo_notif": "12/08/2026",
+      "situacao_notif": "Recebida",
+      "qtd_notificacoes": 1,
+      "notificacoes": [
+        {
+          "prazo": "12/08/2026",
+          "situacao": "Recebida",
+          "texto": "Prezado(a) Usuário(a), Referente ao requerimento nº 20250059487-V4G, informamos que é necessário a...",
+          "data_notif": "04/08/2026"
         }
       ]
     },
@@ -8230,7 +8238,8 @@
         {
           "prazo": "16/08/2026",
           "situacao": "Recebida",
-          "texto": "Não identificamos junto aos documentos o  Licençiamento - CETESB, vigente. Solicitamos o envio do r..."
+          "texto": "Não identificamos junto aos documentos o  Licençiamento - CETESB, vigente. Solicitamos o envio do r...",
+          "data_notif": "04/08/2026"
         }
       ]
     },
@@ -8256,7 +8265,8 @@
         {
           "prazo": "16/08/2026",
           "situacao": "Pendente",
-          "texto": "Relatório fotográfico: Evidenciado uma derivação antes do hidrômetro (torneira/registro, sem o volan..."
+          "texto": "Relatório fotográfico: Evidenciado uma derivação antes do hidrômetro (torneira/registro, sem o volan...",
+          "data_notif": "04/08/2026"
         }
       ]
     },
@@ -8282,7 +8292,8 @@
         {
           "prazo": "16/08/2026",
           "situacao": "Pendente",
-          "texto": "Relatório fotográfico: Evidenciado uma derivação antes do hidrômetro (torneira/registro, sem o volan..."
+          "texto": "Relatório fotográfico: Evidenciado uma derivação antes do hidrômetro (torneira/registro, sem o volan...",
+          "data_notif": "04/08/2026"
         }
       ]
     },
@@ -12208,12 +12219,14 @@
         {
           "prazo": "15/08/2026",
           "situacao": "Pendente",
-          "texto": "Teste de bombeamento e recuperação atualizado, acompanhado da ART do responsável técnico."
+          "texto": "Teste de bombeamento e recuperação atualizado, acompanhado da ART do responsável técnico.",
+          "data_notif": "04/08/2026"
         },
         {
           "prazo": "15/08/2026",
           "situacao": "Recebida",
-          "texto": "Prezado(a) Usuário(a), Referente ao requerimento nº 20260078288-KX4, informamos que é necessário a..."
+          "texto": "Prezado(a) Usuário(a), Referente ao requerimento nº 20260078288-KX4, informamos que é necessário a...",
+          "data_notif": "04/08/2026"
         }
       ]
     },
