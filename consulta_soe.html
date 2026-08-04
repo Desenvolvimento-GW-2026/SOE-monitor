@@ -109,7 +109,7 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 12:33
+      04/08/2026 12:37
     </div>
     <div class="hd-pill">Uso Interno</div>
   </div>
@@ -137,6 +137,28 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
       </div>
       <div class="stat stat-result" onclick="filtrarStatus('__resultado__')" id="stat-result">
         <strong id="cnt-result">504</strong><span>🚩 Resultado</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- MÉDIAS POR ETAPA -->
+  <div class="card" style="padding:16px 24px">
+    <div style="font-size:11px;font-weight:600;color:#6b7280;letter-spacing:.05em;text-transform:uppercase;margin-bottom:12px">Média de dias por etapa (requerimentos com data registrada)</div>
+    <div style="display:flex;gap:16px;flex-wrap:wrap">
+      <div style="flex:1;min-width:160px;background:#eff6ff;border-radius:8px;padding:14px 18px;border-left:4px solid #3b82f6">
+        <div style="font-size:11px;color:#1e40af;font-weight:600;margin-bottom:4px">PROTOCOLO</div>
+        <div style="font-size:28px;font-weight:700;color:#1e40af" id="media-prot">—</div>
+        <div style="font-size:11px;color:#6b7280" id="media-prot-n"></div>
+      </div>
+      <div style="flex:1;min-width:160px;background:#fefce8;border-radius:8px;padding:14px 18px;border-left:4px solid #eab308">
+        <div style="font-size:11px;color:#854d0e;font-weight:600;margin-bottom:4px">NA FILA</div>
+        <div style="font-size:28px;font-weight:700;color:#854d0e" id="media-fila">—</div>
+        <div style="font-size:11px;color:#6b7280" id="media-fila-n"></div>
+      </div>
+      <div style="flex:1;min-width:160px;background:#fff7ed;border-radius:8px;padding:14px 18px;border-left:4px solid #f97316">
+        <div style="font-size:11px;color:#9a3412;font-weight:600;margin-bottom:4px">EM PROCESSAMENTO</div>
+        <div style="font-size:28px;font-weight:700;color:#9a3412" id="media-proc">—</div>
+        <div style="font-size:11px;color:#6b7280" id="media-proc-n"></div>
       </div>
     </div>
   </div>
@@ -198,8 +220,7 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
             <th onclick="ordenar('data_processamento')">DATA<br>PROCESSAMENTO<span class="sort-icon" id="si-data_processamento">↕</span></th>
             <th onclick="ordenar('tipo')">TIPO<span class="sort-icon" id="si-tipo">↕</span></th>
             <th onclick="ordenar('codigo')">IDENTIFICAÇÃO<span class="sort-icon" id="si-codigo">↕</span></th>
-            <th onclick="ordenar('dias_ultima_notif')">DIAS<br>(RESP. AO SOE)<span class="sort-icon" id="si-dias_ultima_notif">↕</span></th>
-            <th onclick="ordenar('data_ultima_notif')">DATA<br>RESPOSTA SOE<span class="sort-icon" id="si-data_ultima_notif">↕</span></th>
+            <th>NOTIFICAÇÕES</th>
           </tr>
         </thead>
         <tbody id="tbody"></tbody>
@@ -298,13 +319,15 @@ function badgeStatus(s) {
 function renderTabela(dados) {
   const tbody = document.getElementById('tbody');
   if (!dados.length) {
-    tbody.innerHTML = '<tr><td colspan="13" class="vazio">Nenhum requerimento encontrado com esses filtros.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="12" class="vazio">Nenhum requerimento encontrado com esses filtros.</td></tr>';
     document.getElementById('resultsInfo').innerHTML = '';
     return;
   }
   const total = DADOS.length;
   document.getElementById('resultsInfo').innerHTML =
     `Exibindo <strong>${dados.length}</strong> de <strong>${total}</strong> requerimento${total !== 1 ? 's' : ''}`;
+
+  atualizarMedias(dados);
 
   tbody.innerHTML = dados.map(r => {
     const empNome = r.emp_nome || r.req_nome || '—';
@@ -322,10 +345,34 @@ function renderTabela(dados) {
       ${dateCell(r.data_processamento)}
       <td class="td-tipo">${esc(r.tipo || '—')}</td>
       <td style="font-size:11px;white-space:nowrap"><a href="${portalUrl}" target="_blank" class="link-soe">${esc(r.codigo)}</a></td>
-      ${diasCell(r.dias_ultima_notif, !!r.data_ultima_notif)}
-      ${dateCell(r.data_ultima_notif)}
+      ${renderNotifs(r.notificacoes)}
     </tr>`;
   }).join('');
+}
+
+function atualizarMedias(dados) {
+  function media(campo) {
+    const vals = dados.map(r => r[campo]).filter(v => v !== null && v !== undefined && v !== '');
+    if (!vals.length) return {media: null, n: 0};
+    return {media: Math.round(vals.reduce((a,b) => a + Number(b), 0) / vals.length), n: vals.length};
+  }
+  function set(id, nId, res) {
+    document.getElementById(id).textContent = res.media !== null ? res.media + ' dias' : '—';
+    document.getElementById(nId).textContent = res.n ? res.n + ' requerimentos' : '';
+  }
+  set('media-prot',  'media-prot-n',  media('dias_protocolo'));
+  set('media-fila',  'media-fila-n',  media('dias_fila'));
+  set('media-proc',  'media-proc-n',  media('dias_processamento'));
+}
+
+function renderNotifs(notifs) {
+  if (!notifs || !notifs.length) return '<td style="color:#ccc;font-size:11px;text-align:center;vertical-align:middle">—</td>';
+  const html = notifs.map(n => `<div style="font-size:11px;border-bottom:1px solid #eee;padding:3px 0;line-height:1.5">
+    <span style="color:#888">Recebida: </span><strong>${esc(n.data_notif||'—')}</strong><br>
+    <span style="color:#888">Prazo: </span><strong>${esc(n.prazo||'—')}</strong><br>
+    <span style="font-weight:bold;color:${n.situacao==='Pendente'?'#f97316':'#16a34a'}">${esc(n.situacao||'—')}</span>
+  </div>`).join('');
+  return `<td style="min-width:160px;vertical-align:top;padding:4px">${html}</td>`;
 }
 
 function esc(s) {
@@ -410,11 +457,13 @@ function ordenarERendar() {
 }
 
 function exportarCSV() {
-  const cols = ['emp_nome','req_cnpj','status','dias_protocolo','data_protocolo','dias_fila','data_fila','dias_processamento','data_processamento','tipo','codigo','dias_ultima_notif','data_ultima_notif'];
-  const headers = ['CLIENTE','CNPJ','STATUS','DIAS(PROTOCOLO)','DATA PROTOCOLO','DIAS(FILA)','DATA FILA','DIAS(PROCESSAMENTO)','DATA PROCESSAMENTO','TIPO','IDENTIFICAÇÃO','DIAS(RESP.SOE)','DATA RESP.SOE'];
+  const cols = ['emp_nome','req_cnpj','status','dias_protocolo','data_protocolo','dias_fila','data_fila','dias_processamento','data_processamento','tipo','codigo','_notif_resumo'];
+  const headers = ['CLIENTE','CNPJ','STATUS','DIAS(PROTOCOLO)','DATA PROTOCOLO','DIAS(FILA)','DATA FILA','DIAS(PROCESSAMENTO)','DATA PROCESSAMENTO','TIPO','IDENTIFICAÇÃO','NOTIFICAÇÕES'];
   const rows = [headers.join(';')];
   dadosFiltrados.forEach(r => {
-    rows.push(cols.map(c => '"' + (r[c]||'').replace(/"/g,'""') + '"').join(';'));
+    const notifResumo = (r.notificacoes||[]).map(n=>`Rec:${n.data_notif||'-'} Prazo:${n.prazo||'-'} ${n.situacao||'-'}`).join(' | ');
+    const row = cols.map(c => c === '_notif_resumo' ? notifResumo : (r[c]||''));
+    rows.push(row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(';'));
   });
   const blob = new Blob(['﻿' + rows.join('\n')], {type:'text/csv;charset=utf-8'});
   const a = document.createElement('a');
@@ -425,9 +474,12 @@ function exportarCSV() {
 
 function exportarXLSX() {
   if(typeof XLSX==='undefined'){alert('SheetJS nao carregado. Verifique sua conexao com a internet.');return}
-  const cols=['emp_nome','req_cnpj','status','dias_protocolo','data_protocolo','dias_fila','data_fila','dias_processamento','data_processamento','tipo','codigo','dias_ultima_notif','data_ultima_notif'];
-  const hdr=['CLIENTE','CNPJ','STATUS','DIAS(PROTOCOLO)','DATA PROTOCOLO','DIAS(FILA)','DATA FILA','DIAS(PROCESSAMENTO)','DATA PROCESSAMENTO','TIPO','IDENTIFICACAO','DIAS(RESP.SOE)','DATA RESP.SOE'];
-  const rows=[hdr,...dadosFiltrados.map(r=>cols.map(c=>r[c]||''))];
+  const cols=['emp_nome','req_cnpj','status','dias_protocolo','data_protocolo','dias_fila','data_fila','dias_processamento','data_processamento','tipo','codigo','_notif_resumo'];
+  const hdr=['CLIENTE','CNPJ','STATUS','DIAS(PROTOCOLO)','DATA PROTOCOLO','DIAS(FILA)','DATA FILA','DIAS(PROCESSAMENTO)','DATA PROCESSAMENTO','TIPO','IDENTIFICACAO','NOTIFICACOES'];
+  const rows=[hdr,...dadosFiltrados.map(r=>{
+    const notifResumo=(r.notificacoes||[]).map(n=>`Rec:${n.data_notif||'-'} Prazo:${n.prazo||'-'} ${n.situacao||'-'}`).join(' | ');
+    return cols.map(c=>c==='_notif_resumo'?notifResumo:(r[c]||''));
+  })];
   const ws=XLSX.utils.aoa_to_sheet(rows);
   ws['!cols']=[{wch:45},{wch:20},{wch:18},{wch:14},{wch:16},{wch:10},{wch:12},{wch:18},{wch:18},{wch:50},{wch:22},{wch:14},{wch:16}];
   const wb=XLSX.utils.book_new();
