@@ -31,12 +31,13 @@
       "data_protocolo": "09/02/2026",
       "data_fila": "19/02/2026",
       "data_processado": "",
-      "dias_protocolo": 176,
-      "dias_fila": 10,
-      "dias_processamento": 41,
+      "dias_protocolo": 10,
+      "dias_fila": 41,
+      "dias_processamento": 125,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 176
     },
     {
       "emp_id": "210649",
@@ -67,12 +68,13 @@
       "data_protocolo": "09/02/2026",
       "data_fila": "19/02/2026",
       "data_processado": "",
-      "dias_protocolo": 176,
-      "dias_fila": 10,
-      "dias_processamento": 41,
+      "dias_protocolo": 10,
+      "dias_fila": 41,
+      "dias_processamento": 125,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 176
     },
     {
       "emp_id": "34235",
@@ -108,7 +110,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "34235",
@@ -139,12 +142,13 @@
       "data_fila": "08/01/2026",
       "data_processamento": "11/03/2026",
       "data_processado": "",
-      "dias_protocolo": 242,
-      "dias_fila": 34,
-      "dias_processamento": 62,
+      "dias_protocolo": 34,
+      "dias_fila": 62,
+      "dias_processamento": 146,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 242
     },
     {
       "emp_id": "35927",
@@ -180,7 +184,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "35927",
@@ -216,7 +221,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "35927",
@@ -252,7 +258,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "35927",
@@ -288,7 +295,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "5980",
@@ -324,7 +332,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "197340",
@@ -355,12 +364,13 @@
       "data_fila": "26/06/2025",
       "data_processamento": "23/07/2025",
       "data_processado": "",
-      "dias_protocolo": 414,
-      "dias_fila": 10,
-      "dias_processamento": 27,
+      "dias_protocolo": 10,
+      "dias_fila": 27,
+      "dias_processamento": 377,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 414
     },
     {
       "emp_id": "197340",
@@ -391,12 +401,13 @@
       "data_fila": "30/07/2025",
       "data_processamento": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 377,
-      "dias_fila": 7,
-      "dias_processamento": 70,
+      "dias_protocolo": 7,
+      "dias_fila": 70,
+      "dias_processamento": 300,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 377
     },
     {
       "emp_id": "14474",
@@ -432,7 +443,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14474",
@@ -468,7 +480,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14474",
@@ -504,7 +517,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14474",
@@ -540,7 +554,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14474",
@@ -576,7 +591,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14474",
@@ -612,7 +628,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14474",
@@ -648,7 +665,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14474",
@@ -684,7 +702,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51195",
@@ -720,7 +739,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51195",
@@ -756,7 +776,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51195",
@@ -792,7 +813,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51195",
@@ -823,12 +845,13 @@
       "data_protocolo": "15/10/2025",
       "data_fila": "29/10/2025",
       "data_processado": "",
-      "dias_protocolo": 293,
-      "dias_fila": 14,
-      "dias_processamento": 49,
+      "dias_protocolo": 14,
+      "dias_fila": 49,
+      "dias_processamento": 230,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 293
     },
     {
       "emp_id": "217040",
@@ -859,12 +882,13 @@
       "data_protocolo": "22/05/2026",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 74,
-      "dias_fila": 26,
+      "dias_protocolo": 26,
+      "dias_fila": 48,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 74
     },
     {
       "emp_id": "217040",
@@ -895,12 +919,13 @@
       "data_protocolo": "22/05/2026",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 74,
-      "dias_fila": 26,
+      "dias_protocolo": 26,
+      "dias_fila": 48,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 74
     },
     {
       "emp_id": "217040",
@@ -931,12 +956,13 @@
       "data_protocolo": "22/05/2026",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 74,
-      "dias_fila": 26,
+      "dias_protocolo": 26,
+      "dias_fila": 48,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 74
     },
     {
       "emp_id": "217040",
@@ -967,12 +993,13 @@
       "data_protocolo": "22/05/2026",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 74,
-      "dias_fila": 26,
+      "dias_protocolo": 26,
+      "dias_fila": 48,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 74
     },
     {
       "emp_id": "193573",
@@ -1003,12 +1030,13 @@
       "data_fila": "30/04/2025",
       "data_processamento": "14/05/2025",
       "data_processado": "",
-      "dias_protocolo": 483,
-      "dias_fila": 22,
-      "dias_processamento": 14,
+      "dias_protocolo": 22,
+      "dias_fila": 14,
+      "dias_processamento": 447,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 483
     },
     {
       "emp_id": "134057",
@@ -1044,7 +1072,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "112",
@@ -1080,7 +1109,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13141",
@@ -1116,7 +1146,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13141",
@@ -1152,7 +1183,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13141",
@@ -1188,7 +1220,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13141",
@@ -1224,7 +1257,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13141",
@@ -1255,12 +1289,13 @@
       "data_protocolo": "23/10/2024",
       "data_fila": "14/05/2026",
       "data_processamento": "14/05/2026",
-      "dias_protocolo": 650,
-      "dias_fila": 568,
-      "dias_processamento": 0,
+      "dias_protocolo": 568,
+      "dias_fila": 0,
+      "dias_processamento": 82,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 650
     },
     {
       "emp_id": "13141",
@@ -1296,7 +1331,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13141",
@@ -1327,12 +1363,13 @@
       "data_protocolo": "09/06/2026",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 56,
-      "dias_fila": 8,
+      "dias_protocolo": 8,
+      "dias_fila": 48,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 56
     },
     {
       "emp_id": "13141",
@@ -1368,7 +1405,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18234",
@@ -1404,7 +1442,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18234",
@@ -1440,7 +1479,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18234",
@@ -1476,7 +1516,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18234",
@@ -1512,7 +1553,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18234",
@@ -1548,7 +1590,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18234",
@@ -1584,7 +1627,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18234",
@@ -1620,7 +1664,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18234",
@@ -1656,7 +1701,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "36887",
@@ -1692,7 +1738,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "36887",
@@ -1728,7 +1775,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "7616",
@@ -1764,7 +1812,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "7616",
@@ -1800,7 +1849,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "7616",
@@ -1836,7 +1886,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "7616",
@@ -1872,7 +1923,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47454",
@@ -1908,7 +1960,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47454",
@@ -1944,7 +1997,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47454",
@@ -1980,7 +2034,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47454",
@@ -2016,7 +2071,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47454",
@@ -2052,7 +2108,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47454",
@@ -2088,7 +2145,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47454",
@@ -2124,7 +2182,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47454",
@@ -2155,12 +2214,13 @@
       "data_protocolo": "08/10/2025",
       "data_fila": "29/10/2025",
       "data_processado": "",
-      "dias_protocolo": 300,
-      "dias_fila": 21,
-      "dias_processamento": 0,
+      "dias_protocolo": 21,
+      "dias_fila": 0,
+      "dias_processamento": 279,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 300
     },
     {
       "emp_id": "47454",
@@ -2191,12 +2251,13 @@
       "data_protocolo": "08/10/2025",
       "data_fila": "29/10/2025",
       "data_processado": "",
-      "dias_protocolo": 300,
-      "dias_fila": 21,
-      "dias_processamento": 8,
+      "dias_protocolo": 21,
+      "dias_fila": 8,
+      "dias_processamento": 271,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 300
     },
     {
       "emp_id": "47454",
@@ -2227,12 +2288,13 @@
       "data_protocolo": "08/10/2025",
       "data_fila": "29/10/2025",
       "data_processado": "",
-      "dias_protocolo": 300,
-      "dias_fila": 21,
-      "dias_processamento": 8,
+      "dias_protocolo": 21,
+      "dias_fila": 8,
+      "dias_processamento": 271,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 300
     },
     {
       "emp_id": "47454",
@@ -2263,12 +2325,13 @@
       "data_protocolo": "08/10/2025",
       "data_fila": "29/10/2025",
       "data_processado": "",
-      "dias_protocolo": 300,
-      "dias_fila": 21,
-      "dias_processamento": 8,
+      "dias_protocolo": 21,
+      "dias_fila": 8,
+      "dias_processamento": 271,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 300
     },
     {
       "emp_id": "51808",
@@ -2304,7 +2367,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51808",
@@ -2342,12 +2406,13 @@
       "data_protocolo": "17/03/2026",
       "data_fila": "01/04/2026",
       "data_processado": "",
-      "dias_protocolo": 140,
-      "dias_fila": 15,
+      "dias_protocolo": 15,
+      "dias_fila": 125,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
-      "dias_ultima_notif": 0
+      "dias_ultima_notif": 0,
+      "dias_total": 140
     },
     {
       "emp_id": "215336",
@@ -2378,12 +2443,13 @@
       "data_protocolo": "23/04/2026",
       "data_fila": "20/05/2026",
       "data_processado": "",
-      "dias_protocolo": 103,
-      "dias_fila": 27,
-      "dias_processamento": 28,
+      "dias_protocolo": 27,
+      "dias_fila": 28,
+      "dias_processamento": 48,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 103
     },
     {
       "emp_id": "215336",
@@ -2414,12 +2480,13 @@
       "data_protocolo": "23/04/2026",
       "data_fila": "20/05/2026",
       "data_processado": "",
-      "dias_protocolo": 103,
-      "dias_fila": 27,
-      "dias_processamento": 28,
+      "dias_protocolo": 27,
+      "dias_fila": 28,
+      "dias_processamento": 48,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 103
     },
     {
       "emp_id": "181477",
@@ -2450,12 +2517,13 @@
       "data_fila": "19/09/2024",
       "data_processamento": "07/02/2024",
       "data_processado": "",
-      "dias_protocolo": 684,
+      "dias_protocolo": 0,
       "dias_fila": 0,
-      "dias_processamento": 0,
+      "dias_processamento": 909,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 684
     },
     {
       "emp_id": "28398",
@@ -2491,7 +2559,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "28398",
@@ -2527,7 +2596,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "28398",
@@ -2563,7 +2633,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "28398",
@@ -2599,7 +2670,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "28398",
@@ -2635,7 +2707,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "28398",
@@ -2666,12 +2739,13 @@
       "data_fila": "07/02/2025",
       "data_processamento": "26/03/2025",
       "data_processado": "",
-      "dias_protocolo": 554,
-      "dias_fila": 11,
-      "dias_processamento": 47,
+      "dias_protocolo": 11,
+      "dias_fila": 47,
+      "dias_processamento": 496,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 554
     },
     {
       "emp_id": "68507",
@@ -2707,7 +2781,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "68507",
@@ -2743,7 +2818,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "68507",
@@ -2779,7 +2855,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -2815,7 +2892,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -2851,7 +2929,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -2887,7 +2966,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -2923,7 +3003,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -2959,7 +3040,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -2995,7 +3077,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3031,7 +3114,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3067,7 +3151,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3103,7 +3188,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3139,7 +3225,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3175,7 +3262,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3211,7 +3299,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3247,7 +3336,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3283,7 +3373,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3319,7 +3410,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3355,7 +3447,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3391,7 +3484,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3427,7 +3521,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3463,7 +3558,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3499,7 +3595,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3535,7 +3632,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3571,7 +3669,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3607,7 +3706,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3643,7 +3743,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3679,7 +3780,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3715,7 +3817,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3751,7 +3854,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3787,7 +3891,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3823,7 +3928,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3859,7 +3965,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3895,7 +4002,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13721",
@@ -3931,7 +4039,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "213773",
@@ -3962,12 +4071,13 @@
       "data_protocolo": "23/03/2026",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 134,
-      "dias_fila": 24,
+      "dias_protocolo": 24,
+      "dias_fila": 110,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 134
     },
     {
       "emp_id": "19962",
@@ -4003,7 +4113,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19962",
@@ -4034,12 +4145,13 @@
       "data_fila": "23/01/2024",
       "data_processamento": "07/02/2025",
       "data_processado": "",
-      "dias_protocolo": 918,
-      "dias_fila": 0,
-      "dias_processamento": 381,
+      "dias_protocolo": 0,
+      "dias_fila": 381,
+      "dias_processamento": 543,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 918
     },
     {
       "emp_id": "19962",
@@ -4075,7 +4187,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19962",
@@ -4106,12 +4219,13 @@
       "data_fila": "23/01/2024",
       "data_processamento": "07/02/2025",
       "data_processado": "",
-      "dias_protocolo": 918,
-      "dias_fila": 0,
-      "dias_processamento": 381,
+      "dias_protocolo": 0,
+      "dias_fila": 381,
+      "dias_processamento": 543,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 918
     },
     {
       "emp_id": "19962",
@@ -4147,7 +4261,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19962",
@@ -4178,12 +4293,13 @@
       "data_fila": "12/02/2025",
       "data_processamento": "09/04/2025",
       "data_processado": "",
-      "dias_protocolo": 557,
-      "dias_fila": 19,
-      "dias_processamento": 56,
+      "dias_protocolo": 19,
+      "dias_fila": 56,
+      "dias_processamento": 482,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 557
     },
     {
       "emp_id": "125620",
@@ -4219,7 +4335,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "107983",
@@ -4255,7 +4372,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "107983",
@@ -4291,7 +4409,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "24079",
@@ -4327,7 +4446,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "24079",
@@ -4363,7 +4483,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "24079",
@@ -4394,12 +4515,13 @@
       "data_fila": "12/02/2025",
       "data_processamento": "16/04/2025",
       "data_processado": "",
-      "dias_protocolo": 552,
-      "dias_fila": 14,
-      "dias_processamento": 63,
+      "dias_protocolo": 14,
+      "dias_fila": 63,
+      "dias_processamento": 475,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 552
     },
     {
       "emp_id": "24079",
@@ -4430,12 +4552,13 @@
       "data_fila": "19/02/2025",
       "data_processamento": "16/04/2025",
       "data_processado": "",
-      "dias_protocolo": 552,
-      "dias_fila": 21,
-      "dias_processamento": 56,
+      "dias_protocolo": 21,
+      "dias_fila": 56,
+      "dias_processamento": 475,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 552
     },
     {
       "emp_id": "63781",
@@ -4471,7 +4594,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "63781",
@@ -4507,7 +4631,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "63781",
@@ -4543,7 +4668,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "63781",
@@ -4579,7 +4705,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "63781",
@@ -4615,7 +4742,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "63781",
@@ -4651,7 +4779,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "63781",
@@ -4687,7 +4816,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "63781",
@@ -4718,12 +4848,13 @@
       "data_protocolo": "14/05/2026",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 82,
-      "dias_fila": 6,
+      "dias_protocolo": 6,
+      "dias_fila": 76,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 82
     },
     {
       "emp_id": "63781",
@@ -4754,12 +4885,13 @@
       "data_protocolo": "14/05/2026",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 82,
-      "dias_fila": 34,
+      "dias_protocolo": 34,
+      "dias_fila": 48,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 82
     },
     {
       "emp_id": "193404",
@@ -4790,12 +4922,13 @@
       "data_fila": "16/04/2025",
       "data_processamento": "23/04/2025",
       "data_processado": "",
-      "dias_protocolo": 490,
-      "dias_fila": 15,
-      "dias_processamento": 7,
+      "dias_protocolo": 15,
+      "dias_fila": 7,
+      "dias_processamento": 468,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 490
     },
     {
       "emp_id": "193404",
@@ -4826,12 +4959,13 @@
       "data_fila": "16/04/2025",
       "data_processamento": "23/04/2025",
       "data_processado": "",
-      "dias_protocolo": 490,
-      "dias_fila": 15,
-      "dias_processamento": 7,
+      "dias_protocolo": 15,
+      "dias_fila": 7,
+      "dias_processamento": 468,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 490
     },
     {
       "emp_id": "193404",
@@ -4862,12 +4996,13 @@
       "data_fila": "16/04/2025",
       "data_processamento": "23/04/2025",
       "data_processado": "",
-      "dias_protocolo": 490,
-      "dias_fila": 15,
-      "dias_processamento": 7,
+      "dias_protocolo": 15,
+      "dias_fila": 7,
+      "dias_processamento": 468,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 490
     },
     {
       "emp_id": "193404",
@@ -4898,12 +5033,13 @@
       "data_fila": "08/10/2025",
       "data_processamento": "17/12/2025",
       "data_processado": "",
-      "dias_protocolo": 350,
-      "dias_fila": 50,
-      "dias_processamento": 70,
+      "dias_protocolo": 50,
+      "dias_fila": 70,
+      "dias_processamento": 230,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 350
     },
     {
       "emp_id": "19858",
@@ -4939,7 +5075,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "22212",
@@ -4975,7 +5112,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "22212",
@@ -5011,7 +5149,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "22212",
@@ -5047,7 +5186,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "22212",
@@ -5083,7 +5223,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "165859",
@@ -5119,7 +5260,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "165859",
@@ -5155,7 +5297,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "165859",
@@ -5191,7 +5334,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "165859",
@@ -5222,12 +5366,13 @@
       "data_fila": "12/02/2025",
       "data_processamento": "02/04/2025",
       "data_processado": "",
-      "dias_protocolo": 554,
-      "dias_fila": 16,
-      "dias_processamento": 49,
+      "dias_protocolo": 16,
+      "dias_fila": 49,
+      "dias_processamento": 489,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 554
     },
     {
       "emp_id": "165859",
@@ -5258,12 +5403,13 @@
       "data_fila": "12/02/2025",
       "data_processamento": "02/04/2025",
       "data_processado": "",
-      "dias_protocolo": 554,
-      "dias_fila": 16,
-      "dias_processamento": 49,
+      "dias_protocolo": 16,
+      "dias_fila": 49,
+      "dias_processamento": 489,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 554
     },
     {
       "emp_id": "14724",
@@ -5299,7 +5445,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14724",
@@ -5335,7 +5482,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19215",
@@ -5371,7 +5519,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19215",
@@ -5407,7 +5556,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19215",
@@ -5443,7 +5593,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19215",
@@ -5474,12 +5625,13 @@
       "data_fila": "07/02/2025",
       "data_processamento": "10/03/2025",
       "data_processado": "",
-      "dias_protocolo": 600,
-      "dias_fila": 57,
-      "dias_processamento": 31,
+      "dias_protocolo": 57,
+      "dias_fila": 31,
+      "dias_processamento": 512,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 600
     },
     {
       "emp_id": "19215",
@@ -5510,12 +5662,13 @@
       "data_protocolo": "07/08/2025",
       "data_fila": "27/08/2025",
       "data_processado": "",
-      "dias_protocolo": 362,
-      "dias_fila": 20,
+      "dias_protocolo": 20,
+      "dias_fila": 342,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 362
     },
     {
       "emp_id": "19215",
@@ -5546,12 +5699,13 @@
       "data_protocolo": "13/08/2025",
       "data_fila": "27/08/2025",
       "data_processado": "",
-      "dias_protocolo": 356,
-      "dias_fila": 14,
+      "dias_protocolo": 14,
+      "dias_fila": 342,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 356
     },
     {
       "emp_id": "19215",
@@ -5582,12 +5736,13 @@
       "data_protocolo": "13/08/2025",
       "data_fila": "27/08/2025",
       "data_processado": "",
-      "dias_protocolo": 356,
-      "dias_fila": 14,
+      "dias_protocolo": 14,
+      "dias_fila": 342,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 356
     },
     {
       "emp_id": "93967",
@@ -5623,7 +5778,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "16373",
@@ -5659,7 +5815,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "16373",
@@ -5695,7 +5852,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "16373",
@@ -5731,7 +5889,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "16373",
@@ -5767,7 +5926,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "16373",
@@ -5803,7 +5963,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "16373",
@@ -5839,7 +6000,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "16373",
@@ -5875,7 +6037,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51124",
@@ -5911,7 +6074,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51124",
@@ -5947,7 +6111,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51124",
@@ -5978,12 +6143,13 @@
       "data_protocolo": "09/01/2026",
       "data_fila": "11/02/2026",
       "data_processado": "",
-      "dias_protocolo": 207,
-      "dias_fila": 33,
-      "dias_processamento": 28,
+      "dias_protocolo": 33,
+      "dias_fila": 28,
+      "dias_processamento": 146,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 207
     },
     {
       "emp_id": "51124",
@@ -6014,12 +6180,13 @@
       "data_protocolo": "09/01/2026",
       "data_fila": "11/02/2026",
       "data_processado": "",
-      "dias_protocolo": 207,
-      "dias_fila": 33,
-      "dias_processamento": 28,
+      "dias_protocolo": 33,
+      "dias_fila": 28,
+      "dias_processamento": 146,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 207
     },
     {
       "emp_id": "7420",
@@ -6055,7 +6222,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "7420",
@@ -6091,7 +6259,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "7420",
@@ -6127,7 +6296,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "7420",
@@ -6163,7 +6333,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "7420",
@@ -6199,7 +6370,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "7420",
@@ -6235,7 +6407,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "7420",
@@ -6266,12 +6439,13 @@
       "data_protocolo": "16/06/2025",
       "data_fila": "03/07/2025",
       "data_processado": "",
-      "dias_protocolo": 414,
-      "dias_fila": 17,
-      "dias_processamento": 112,
+      "dias_protocolo": 17,
+      "dias_fila": 112,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 414
     },
     {
       "emp_id": "7420",
@@ -6302,12 +6476,13 @@
       "data_protocolo": "16/06/2025",
       "data_fila": "03/07/2025",
       "data_processado": "",
-      "dias_protocolo": 414,
-      "dias_fila": 17,
-      "dias_processamento": 112,
+      "dias_protocolo": 17,
+      "dias_fila": 112,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 414
     },
     {
       "emp_id": "46064",
@@ -6343,7 +6518,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "46064",
@@ -6379,7 +6555,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "46064",
@@ -6415,7 +6592,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "37994",
@@ -6451,7 +6629,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "37994",
@@ -6482,12 +6661,13 @@
       "data_protocolo": "24/03/2026",
       "data_fila": "16/04/2026",
       "data_processado": "",
-      "dias_protocolo": 133,
-      "dias_fila": 23,
-      "dias_processamento": 63,
+      "dias_protocolo": 23,
+      "dias_fila": 63,
+      "dias_processamento": 47,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 133
     },
     {
       "emp_id": "37994",
@@ -6518,12 +6698,13 @@
       "data_protocolo": "24/03/2026",
       "data_fila": "16/04/2026",
       "data_processado": "",
-      "dias_protocolo": 133,
-      "dias_fila": 23,
-      "dias_processamento": 63,
+      "dias_protocolo": 23,
+      "dias_fila": 63,
+      "dias_processamento": 47,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 133
     },
     {
       "emp_id": "37994",
@@ -6554,12 +6735,13 @@
       "data_protocolo": "24/03/2026",
       "data_fila": "16/04/2026",
       "data_processado": "",
-      "dias_protocolo": 133,
-      "dias_fila": 23,
-      "dias_processamento": 63,
+      "dias_protocolo": 23,
+      "dias_fila": 63,
+      "dias_processamento": 47,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 133
     },
     {
       "emp_id": "80140",
@@ -6595,7 +6777,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "80140",
@@ -6631,7 +6814,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "80140",
@@ -6667,7 +6851,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "80140",
@@ -6703,7 +6888,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "80140",
@@ -6739,7 +6925,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "80140",
@@ -6775,7 +6962,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "80140",
@@ -6811,7 +6999,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "80140",
@@ -6847,7 +7036,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "80140",
@@ -6883,7 +7073,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "80140",
@@ -6919,7 +7110,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "80140",
@@ -6955,7 +7147,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "80140",
@@ -6986,12 +7179,13 @@
       "data_fila": "05/03/2025",
       "data_processamento": "10/03/2025",
       "data_processado": "",
-      "dias_protocolo": 538,
-      "dias_fila": 21,
-      "dias_processamento": 5,
+      "dias_protocolo": 21,
+      "dias_fila": 5,
+      "dias_processamento": 512,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 538
     },
     {
       "emp_id": "80140",
@@ -7022,12 +7216,13 @@
       "data_fila": "05/03/2025",
       "data_processamento": "10/03/2025",
       "data_processado": "",
-      "dias_protocolo": 538,
-      "dias_fila": 21,
-      "dias_processamento": 5,
+      "dias_protocolo": 21,
+      "dias_fila": 5,
+      "dias_processamento": 512,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 538
     },
     {
       "emp_id": "80140",
@@ -7063,7 +7258,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 33
     },
     {
       "emp_id": "32496",
@@ -7099,7 +7295,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "32496",
@@ -7135,7 +7332,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "32496",
@@ -7171,7 +7369,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "32496",
@@ -7202,12 +7401,13 @@
       "data_fila": "30/07/2025",
       "data_processamento": "13/08/2025",
       "data_processado": "",
-      "dias_protocolo": 377,
-      "dias_fila": 7,
-      "dias_processamento": 14,
+      "dias_protocolo": 7,
+      "dias_fila": 14,
+      "dias_processamento": 356,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 377
     },
     {
       "emp_id": "2142",
@@ -7243,7 +7443,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2142",
@@ -7279,7 +7480,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2142",
@@ -7315,7 +7517,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2142",
@@ -7351,7 +7554,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2142",
@@ -7387,7 +7591,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2142",
@@ -7423,7 +7628,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2142",
@@ -7454,12 +7660,13 @@
       "data_fila": "02/04/2025",
       "data_processamento": "03/07/2025",
       "data_processado": "",
-      "dias_protocolo": 510,
-      "dias_fila": 21,
-      "dias_processamento": 92,
+      "dias_protocolo": 21,
+      "dias_fila": 92,
+      "dias_processamento": 397,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 510
     },
     {
       "emp_id": "569",
@@ -7495,7 +7702,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "569",
@@ -7531,7 +7739,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2143",
@@ -7567,7 +7776,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2143",
@@ -7598,12 +7808,13 @@
       "data_fila": "08/10/2025",
       "data_processamento": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 355,
-      "dias_fila": 55,
-      "dias_processamento": 0,
+      "dias_protocolo": 55,
+      "dias_fila": 0,
+      "dias_processamento": 300,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 355
     },
     {
       "emp_id": "67077",
@@ -7639,7 +7850,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "151614",
@@ -7675,7 +7887,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "151614",
@@ -7711,7 +7924,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "151614",
@@ -7747,7 +7961,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "151614",
@@ -7778,12 +7993,13 @@
       "data_fila": "02/05/2024",
       "data_processamento": "07/02/2024",
       "data_processado": "",
-      "dias_protocolo": 853,
-      "dias_fila": 29,
-      "dias_processamento": 0,
+      "dias_protocolo": 29,
+      "dias_fila": 0,
+      "dias_processamento": 909,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 853
     },
     {
       "emp_id": "151614",
@@ -7819,7 +8035,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "151614",
@@ -7855,7 +8072,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "151614",
@@ -7891,7 +8109,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "151614",
@@ -7927,7 +8146,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "151614",
@@ -7958,12 +8178,13 @@
       "data_fila": "13/08/2025",
       "data_processamento": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 379,
-      "dias_fila": 23,
-      "dias_processamento": 56,
+      "dias_protocolo": 23,
+      "dias_fila": 56,
+      "dias_processamento": 300,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 379
     },
     {
       "emp_id": "4629",
@@ -7999,7 +8220,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "4629",
@@ -8035,7 +8257,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "4629",
@@ -8071,7 +8294,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "9437",
@@ -8107,7 +8331,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "21383",
@@ -8143,7 +8368,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "21383",
@@ -8174,12 +8400,13 @@
       "data_fila": "30/07/2025",
       "data_processamento": "13/08/2025",
       "data_processado": "",
-      "dias_protocolo": 712,
-      "dias_fila": 342,
-      "dias_processamento": 14,
+      "dias_protocolo": 342,
+      "dias_fila": 14,
+      "dias_processamento": 356,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 712
     },
     {
       "emp_id": "9645",
@@ -8215,7 +8442,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "40924",
@@ -8251,7 +8479,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "40924",
@@ -8287,7 +8516,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "40924",
@@ -8323,7 +8553,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "40924",
@@ -8359,7 +8590,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "40924",
@@ -8395,7 +8627,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "40924",
@@ -8426,12 +8659,13 @@
       "data_fila": "03/07/2025",
       "data_processamento": "13/08/2025",
       "data_processado": "",
-      "dias_protocolo": 412,
-      "dias_fila": 15,
-      "dias_processamento": 41,
+      "dias_protocolo": 15,
+      "dias_fila": 41,
+      "dias_processamento": 356,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 412
     },
     {
       "emp_id": "40924",
@@ -8462,12 +8696,13 @@
       "data_fila": "03/07/2025",
       "data_processamento": "13/08/2025",
       "data_processado": "",
-      "dias_protocolo": 412,
-      "dias_fila": 15,
-      "dias_processamento": 41,
+      "dias_protocolo": 15,
+      "dias_fila": 41,
+      "dias_processamento": 356,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 412
     },
     {
       "emp_id": "40924",
@@ -8498,12 +8733,13 @@
       "data_fila": "03/07/2025",
       "data_processamento": "13/08/2025",
       "data_processado": "",
-      "dias_protocolo": 412,
-      "dias_fila": 15,
-      "dias_processamento": 41,
+      "dias_protocolo": 15,
+      "dias_fila": 41,
+      "dias_processamento": 356,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 412
     },
     {
       "emp_id": "40924",
@@ -8534,12 +8770,13 @@
       "data_fila": "03/07/2025",
       "data_processamento": "13/08/2025",
       "data_processado": "",
-      "dias_protocolo": 412,
-      "dias_fila": 15,
-      "dias_processamento": 41,
+      "dias_protocolo": 15,
+      "dias_fila": 41,
+      "dias_processamento": 356,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 412
     },
     {
       "emp_id": "51877",
@@ -8575,7 +8812,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51877",
@@ -8606,12 +8844,13 @@
       "data_protocolo": "06/04/2026",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 120,
-      "dias_fila": 28,
+      "dias_protocolo": 28,
+      "dias_fila": 92,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 120
     },
     {
       "emp_id": "51451",
@@ -8647,7 +8886,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51451",
@@ -8683,7 +8923,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51451",
@@ -8714,12 +8955,13 @@
       "data_fila": "19/02/2026",
       "data_processamento": "11/03/2026",
       "data_processado": "",
-      "dias_protocolo": 189,
-      "dias_fila": 23,
-      "dias_processamento": 20,
+      "dias_protocolo": 23,
+      "dias_fila": 20,
+      "dias_processamento": 146,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 189
     },
     {
       "emp_id": "51451",
@@ -8750,12 +8992,13 @@
       "data_fila": "19/02/2026",
       "data_processamento": "11/03/2026",
       "data_processado": "",
-      "dias_protocolo": 189,
-      "dias_fila": 23,
-      "dias_processamento": 20,
+      "dias_protocolo": 23,
+      "dias_fila": 20,
+      "dias_processamento": 146,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 189
     },
     {
       "emp_id": "35077",
@@ -8791,7 +9034,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "35077",
@@ -8827,7 +9071,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "35077",
@@ -8858,12 +9103,13 @@
       "data_fila": "15/10/2025",
       "data_processamento": "23/10/2025",
       "data_processado": "",
-      "dias_protocolo": 305,
-      "dias_fila": 12,
-      "dias_processamento": 8,
+      "dias_protocolo": 12,
+      "dias_fila": 8,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 305
     },
     {
       "emp_id": "35079",
@@ -8899,7 +9145,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "212078",
@@ -8930,12 +9177,13 @@
       "data_protocolo": "25/02/2026",
       "data_fila": "11/03/2026",
       "data_processamento": "11/03/2026",
-      "dias_protocolo": 160,
-      "dias_fila": 14,
-      "dias_processamento": 0,
+      "dias_protocolo": 14,
+      "dias_fila": 0,
+      "dias_processamento": 146,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 160
     },
     {
       "emp_id": "212803",
@@ -8971,7 +9219,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 151
     },
     {
       "emp_id": "34226",
@@ -9007,7 +9256,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "34226",
@@ -9038,12 +9288,13 @@
       "data_protocolo": "31/01/2025",
       "data_fila": "12/02/2025",
       "data_processado": "",
-      "dias_protocolo": 550,
-      "dias_fila": 12,
-      "dias_processamento": 26,
+      "dias_protocolo": 12,
+      "dias_fila": 26,
+      "dias_processamento": 512,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 550
     },
     {
       "emp_id": "34226",
@@ -9074,12 +9325,13 @@
       "data_fila": "23/07/2025",
       "data_processamento": "13/08/2025",
       "data_processado": "",
-      "dias_protocolo": 390,
-      "dias_fila": 13,
-      "dias_processamento": 21,
+      "dias_protocolo": 13,
+      "dias_fila": 21,
+      "dias_processamento": 356,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 390
     },
     {
       "emp_id": "79735",
@@ -9115,7 +9367,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9151,7 +9404,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9187,7 +9441,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9223,7 +9478,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9259,7 +9515,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9295,7 +9552,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9331,7 +9589,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9367,7 +9626,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9403,7 +9663,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9439,7 +9700,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9475,7 +9737,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9511,7 +9774,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9547,7 +9811,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "79735",
@@ -9585,12 +9850,13 @@
       "data_protocolo": "04/05/2026",
       "data_fila": "20/05/2026",
       "data_processado": "",
-      "dias_protocolo": 92,
-      "dias_fila": 16,
-      "dias_processamento": 49,
+      "dias_protocolo": 16,
+      "dias_fila": 49,
+      "dias_processamento": 27,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
-      "dias_ultima_notif": 0
+      "dias_ultima_notif": 0,
+      "dias_total": 92
     },
     {
       "emp_id": "79735",
@@ -9640,12 +9906,13 @@
       "data_protocolo": "05/05/2026",
       "data_fila": "17/06/2026",
       "data_processado": "",
-      "dias_protocolo": 91,
-      "dias_fila": 43,
-      "dias_processamento": 21,
+      "dias_protocolo": 43,
+      "dias_fila": 21,
+      "dias_processamento": 27,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
-      "dias_ultima_notif": 0
+      "dias_ultima_notif": 0,
+      "dias_total": 91
     },
     {
       "emp_id": "14728",
@@ -9681,7 +9948,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14728",
@@ -9717,7 +9985,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14728",
@@ -9748,12 +10017,13 @@
       "data_protocolo": "28/08/2025",
       "data_fila": "10/09/2025",
       "data_processado": "",
-      "dias_protocolo": 341,
-      "dias_fila": 13,
-      "dias_processamento": 43,
+      "dias_protocolo": 13,
+      "dias_fila": 43,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 341
     },
     {
       "emp_id": "55703",
@@ -9789,7 +10059,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "55703",
@@ -9825,7 +10096,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "109507",
@@ -9861,7 +10133,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "109506",
@@ -9897,7 +10170,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "109506",
@@ -9933,7 +10207,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "107158",
@@ -9969,7 +10244,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "107158",
@@ -10005,7 +10281,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "107158",
@@ -10041,7 +10318,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2178",
@@ -10077,7 +10355,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2178",
@@ -10113,7 +10392,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2178",
@@ -10149,7 +10429,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2178",
@@ -10185,7 +10466,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2178",
@@ -10221,7 +10503,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "2178",
@@ -10252,12 +10535,13 @@
       "data_fila": "30/04/2025",
       "data_processamento": "07/05/2025",
       "data_processado": "",
-      "dias_protocolo": 572,
-      "dias_fila": 111,
-      "dias_processamento": 7,
+      "dias_protocolo": 111,
+      "dias_fila": 7,
+      "dias_processamento": 454,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 572
     },
     {
       "emp_id": "2178",
@@ -10288,12 +10572,13 @@
       "data_fila": "30/04/2025",
       "data_processamento": "07/05/2025",
       "data_processado": "",
-      "dias_protocolo": 572,
-      "dias_fila": 111,
-      "dias_processamento": 7,
+      "dias_protocolo": 111,
+      "dias_fila": 7,
+      "dias_processamento": 454,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 572
     },
     {
       "emp_id": "2178",
@@ -10324,12 +10609,13 @@
       "data_fila": "30/04/2025",
       "data_processamento": "07/05/2025",
       "data_processado": "",
-      "dias_protocolo": 572,
-      "dias_fila": 111,
-      "dias_processamento": 7,
+      "dias_protocolo": 111,
+      "dias_fila": 7,
+      "dias_processamento": 454,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 572
     },
     {
       "emp_id": "2178",
@@ -10360,12 +10646,13 @@
       "data_fila": "30/04/2025",
       "data_processamento": "07/05/2025",
       "data_processado": "",
-      "dias_protocolo": 572,
-      "dias_fila": 111,
-      "dias_processamento": 7,
+      "dias_protocolo": 111,
+      "dias_fila": 7,
+      "dias_processamento": 454,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 572
     },
     {
       "emp_id": "2178",
@@ -10396,12 +10683,13 @@
       "data_fila": "30/04/2025",
       "data_processamento": "07/05/2025",
       "data_processado": "",
-      "dias_protocolo": 572,
-      "dias_fila": 111,
-      "dias_processamento": 7,
+      "dias_protocolo": 111,
+      "dias_fila": 7,
+      "dias_processamento": 454,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 572
     },
     {
       "emp_id": "198740",
@@ -10432,12 +10720,13 @@
       "data_fila": "23/07/2025",
       "data_processamento": "30/07/2025",
       "data_processado": "",
-      "dias_protocolo": 392,
-      "dias_fila": 15,
-      "dias_processamento": 7,
+      "dias_protocolo": 15,
+      "dias_fila": 7,
+      "dias_processamento": 370,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 392
     },
     {
       "emp_id": "198740",
@@ -10468,12 +10757,13 @@
       "data_fila": "23/07/2025",
       "data_processamento": "30/07/2025",
       "data_processado": "",
-      "dias_protocolo": 392,
-      "dias_fila": 15,
-      "dias_processamento": 7,
+      "dias_protocolo": 15,
+      "dias_fila": 7,
+      "dias_processamento": 370,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 392
     },
     {
       "emp_id": "92753",
@@ -10509,7 +10799,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "92753",
@@ -10545,7 +10836,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "92753",
@@ -10581,7 +10873,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "92753",
@@ -10612,12 +10905,13 @@
       "data_protocolo": "25/09/2025",
       "data_fila": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 313,
-      "dias_fila": 13,
-      "dias_processamento": 140,
+      "dias_protocolo": 13,
+      "dias_fila": 140,
+      "dias_processamento": 160,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 313
     },
     {
       "emp_id": "6222",
@@ -10653,7 +10947,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6222",
@@ -10689,7 +10984,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6222",
@@ -10725,7 +11021,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6222",
@@ -10761,7 +11058,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6222",
@@ -10797,7 +11095,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6222",
@@ -10833,7 +11132,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3066",
@@ -10869,7 +11169,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3066",
@@ -10905,7 +11206,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3066",
@@ -10941,7 +11243,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3066",
@@ -10977,7 +11280,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3066",
@@ -11013,7 +11317,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3066",
@@ -11049,7 +11354,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3066",
@@ -11085,7 +11391,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3066",
@@ -11116,12 +11423,13 @@
       "data_protocolo": "04/02/2025",
       "data_fila": "10/03/2025",
       "data_processado": "",
-      "dias_protocolo": 546,
-      "dias_fila": 34,
-      "dias_processamento": 9,
+      "dias_protocolo": 34,
+      "dias_fila": 9,
+      "dias_processamento": 503,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 546
     },
     {
       "emp_id": "3066",
@@ -11152,12 +11460,13 @@
       "data_protocolo": "17/02/2025",
       "data_fila": "26/02/2025",
       "data_processado": "",
-      "dias_protocolo": 533,
-      "dias_fila": 9,
-      "dias_processamento": 21,
+      "dias_protocolo": 9,
+      "dias_fila": 21,
+      "dias_processamento": 503,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 533
     },
     {
       "emp_id": "1821",
@@ -11193,7 +11502,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "1821",
@@ -11229,7 +11539,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19963",
@@ -11265,7 +11576,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19963",
@@ -11301,7 +11613,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "89776",
@@ -11337,7 +11650,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "210015",
@@ -11368,12 +11682,13 @@
       "data_fila": "25/02/2026",
       "data_processamento": "01/04/2026",
       "data_processado": "",
-      "dias_protocolo": 190,
-      "dias_fila": 30,
-      "dias_processamento": 35,
+      "dias_protocolo": 30,
+      "dias_fila": 35,
+      "dias_processamento": 125,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 190
     },
     {
       "emp_id": "210015",
@@ -11404,12 +11719,13 @@
       "data_fila": "25/02/2026",
       "data_processamento": "01/04/2026",
       "data_processado": "",
-      "dias_protocolo": 190,
-      "dias_fila": 30,
-      "dias_processamento": 35,
+      "dias_protocolo": 30,
+      "dias_fila": 35,
+      "dias_processamento": 125,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 190
     },
     {
       "emp_id": "3874",
@@ -11445,7 +11761,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3874",
@@ -11481,7 +11798,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "194020",
@@ -11512,12 +11830,13 @@
       "data_fila": "07/05/2025",
       "data_processamento": "14/05/2025",
       "data_processado": "",
-      "dias_protocolo": 474,
-      "dias_fila": 20,
-      "dias_processamento": 7,
+      "dias_protocolo": 20,
+      "dias_fila": 7,
+      "dias_processamento": 447,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 474
     },
     {
       "emp_id": "194020",
@@ -11553,7 +11872,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "194020",
@@ -11589,7 +11909,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "36668",
@@ -11625,7 +11946,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "36668",
@@ -11661,7 +11983,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "220361",
@@ -11697,7 +12020,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "220361",
@@ -11733,7 +12057,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "220361",
@@ -11769,7 +12094,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "184780",
@@ -11800,12 +12126,13 @@
       "data_fila": "26/03/2025",
       "data_processamento": "02/04/2025",
       "data_processado": "",
-      "dias_protocolo": 649,
-      "dias_fila": 153,
-      "dias_processamento": 7,
+      "dias_protocolo": 153,
+      "dias_fila": 7,
+      "dias_processamento": 489,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 649
     },
     {
       "emp_id": "167286",
@@ -11841,7 +12168,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "49996",
@@ -11877,7 +12205,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "213589",
@@ -11908,12 +12237,13 @@
       "data_protocolo": "27/03/2026",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 130,
-      "dias_fila": 38,
+      "dias_protocolo": 38,
+      "dias_fila": 92,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 130
     },
     {
       "emp_id": "14509",
@@ -11949,7 +12279,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14509",
@@ -11985,7 +12316,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14506",
@@ -12021,7 +12353,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14506",
@@ -12057,7 +12390,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14506",
@@ -12093,7 +12427,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14506",
@@ -12129,7 +12464,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14506",
@@ -12165,7 +12501,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14506",
@@ -12201,7 +12538,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14506",
@@ -12237,7 +12575,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14507",
@@ -12273,7 +12612,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14507",
@@ -12309,7 +12649,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14507",
@@ -12345,7 +12686,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14507",
@@ -12381,7 +12723,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14507",
@@ -12417,7 +12760,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14507",
@@ -12453,7 +12797,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14507",
@@ -12489,7 +12834,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "14507",
@@ -12520,12 +12866,13 @@
       "data_fila": "26/11/2024",
       "data_processamento": "07/02/2025",
       "data_processado": "",
-      "dias_protocolo": 585,
-      "dias_fila": 0,
-      "dias_processamento": 73,
+      "dias_protocolo": 0,
+      "dias_fila": 73,
+      "dias_processamento": 543,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 585
     },
     {
       "emp_id": "14507",
@@ -12556,12 +12903,13 @@
       "data_fila": "02/04/2025",
       "data_processamento": "09/04/2025",
       "data_processado": "",
-      "dias_protocolo": 505,
-      "dias_fila": 16,
-      "dias_processamento": 7,
+      "dias_protocolo": 16,
+      "dias_fila": 7,
+      "dias_processamento": 482,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 505
     },
     {
       "emp_id": "220364",
@@ -12597,7 +12945,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "220364",
@@ -12633,7 +12982,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "220369",
@@ -12669,7 +13019,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "220369",
@@ -12705,7 +13056,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "220367",
@@ -12741,7 +13093,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "220367",
@@ -12777,7 +13130,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "220367",
@@ -12813,7 +13167,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "193842",
@@ -12844,12 +13199,13 @@
       "data_fila": "07/05/2025",
       "data_processamento": "14/05/2025",
       "data_processado": "",
-      "dias_protocolo": 481,
-      "dias_fila": 27,
-      "dias_processamento": 7,
+      "dias_protocolo": 27,
+      "dias_fila": 7,
+      "dias_processamento": 447,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 481
     },
     {
       "emp_id": "57710",
@@ -12885,7 +13241,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "57710",
@@ -12921,7 +13278,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "57710",
@@ -12957,7 +13315,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "57710",
@@ -12993,7 +13352,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "57710",
@@ -13029,7 +13389,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "57710",
@@ -13067,12 +13428,13 @@
       "data_protocolo": "23/12/2025",
       "data_fila": "15/01/2026",
       "data_processado": "",
-      "dias_protocolo": 224,
-      "dias_fila": 23,
+      "dias_protocolo": 23,
+      "dias_fila": 201,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
-      "dias_ultima_notif": 0
+      "dias_ultima_notif": 0,
+      "dias_total": 224
     },
     {
       "emp_id": "57710",
@@ -13110,12 +13472,13 @@
       "data_protocolo": "23/12/2025",
       "data_fila": "15/01/2026",
       "data_processado": "",
-      "dias_protocolo": 224,
-      "dias_fila": 23,
+      "dias_protocolo": 23,
+      "dias_fila": 201,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
-      "dias_ultima_notif": 0
+      "dias_ultima_notif": 0,
+      "dias_total": 224
     },
     {
       "emp_id": "57714",
@@ -13151,7 +13514,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "57714",
@@ -13189,12 +13553,13 @@
       "data_protocolo": "23/12/2025",
       "data_fila": "15/01/2026",
       "data_processado": "",
-      "dias_protocolo": 224,
-      "dias_fila": 23,
+      "dias_protocolo": 23,
+      "dias_fila": 201,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
-      "dias_ultima_notif": 0
+      "dias_ultima_notif": 0,
+      "dias_total": 224
     },
     {
       "emp_id": "6321",
@@ -13230,7 +13595,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6321",
@@ -13266,7 +13632,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6321",
@@ -13302,7 +13669,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6321",
@@ -13338,7 +13706,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6321",
@@ -13374,7 +13743,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6321",
@@ -13410,7 +13780,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6321",
@@ -13446,7 +13817,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6321",
@@ -13482,7 +13854,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6321",
@@ -13518,7 +13891,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6321",
@@ -13554,7 +13928,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "6321",
@@ -13590,7 +13965,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "70470",
@@ -13626,7 +14002,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "70470",
@@ -13662,7 +14039,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "70470",
@@ -13698,7 +14076,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "70470",
@@ -13734,7 +14113,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "22201",
@@ -13770,7 +14150,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "22201",
@@ -13806,7 +14187,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "22201",
@@ -13837,12 +14219,13 @@
       "data_protocolo": "16/09/2025",
       "data_fila": "08/10/2025",
       "data_processamento": "14/05/2026",
-      "dias_protocolo": 322,
-      "dias_fila": 22,
-      "dias_processamento": 218,
+      "dias_protocolo": 22,
+      "dias_fila": 218,
+      "dias_processamento": 82,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 322
     },
     {
       "emp_id": "22201",
@@ -13873,12 +14256,13 @@
       "data_protocolo": "04/11/2025",
       "data_fila": "13/11/2025",
       "data_processado": "",
-      "dias_protocolo": 273,
-      "dias_fila": 9,
-      "dias_processamento": 77,
+      "dias_protocolo": 9,
+      "dias_fila": 77,
+      "dias_processamento": 187,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 273
     },
     {
       "emp_id": "126493",
@@ -13914,7 +14298,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "126493",
@@ -13945,12 +14330,13 @@
       "data_fila": "17/09/2024",
       "data_processamento": "12/02/2025",
       "data_processado": "",
-      "dias_protocolo": 686,
-      "dias_fila": 0,
-      "dias_processamento": 148,
+      "dias_protocolo": 0,
+      "dias_fila": 148,
+      "dias_processamento": 538,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 686
     },
     {
       "emp_id": "126493",
@@ -13981,12 +14367,13 @@
       "data_protocolo": "17/09/2024",
       "data_fila": "17/09/2024",
       "data_processamento": "03/01/1900",
-      "dias_protocolo": 686,
+      "dias_protocolo": 0,
       "dias_fila": 0,
-      "dias_processamento": 0,
+      "dias_processamento": 46234,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 686
     },
     {
       "emp_id": "52396",
@@ -14022,7 +14409,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52396",
@@ -14053,12 +14441,13 @@
       "data_fila": "08/01/2026",
       "data_processamento": "11/02/2026",
       "data_processado": "",
-      "dias_protocolo": 238,
-      "dias_fila": 30,
-      "dias_processamento": 34,
+      "dias_protocolo": 30,
+      "dias_fila": 34,
+      "dias_processamento": 174,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 238
     },
     {
       "emp_id": "3096",
@@ -14094,7 +14483,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14130,7 +14520,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14166,7 +14557,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14202,7 +14594,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14238,7 +14631,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14274,7 +14668,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14310,7 +14705,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14346,7 +14742,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14382,7 +14779,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14418,7 +14816,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14454,7 +14853,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14490,7 +14890,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14526,7 +14927,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14562,7 +14964,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14598,7 +15001,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14634,7 +15038,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14670,7 +15075,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14706,7 +15112,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3096",
@@ -14742,7 +15149,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "213347",
@@ -14780,12 +15188,13 @@
       "data_protocolo": "19/03/2026",
       "data_fila": "16/04/2026",
       "data_processado": "",
-      "dias_protocolo": 138,
-      "dias_fila": 28,
+      "dias_protocolo": 28,
+      "dias_fila": 110,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
-      "dias_ultima_notif": 0
+      "dias_ultima_notif": 0,
+      "dias_total": 138
     },
     {
       "emp_id": "213347",
@@ -14823,12 +15232,13 @@
       "data_protocolo": "23/03/2026",
       "data_fila": "16/04/2026",
       "data_processado": "",
-      "dias_protocolo": 134,
-      "dias_fila": 24,
+      "dias_protocolo": 24,
+      "dias_fila": 110,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
-      "dias_ultima_notif": 0
+      "dias_ultima_notif": 0,
+      "dias_total": 134
     },
     {
       "emp_id": "213347",
@@ -14866,12 +15276,13 @@
       "data_protocolo": "23/03/2026",
       "data_fila": "16/04/2026",
       "data_processado": "",
-      "dias_protocolo": 134,
-      "dias_fila": 24,
+      "dias_protocolo": 24,
+      "dias_fila": 110,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
-      "dias_ultima_notif": 0
+      "dias_ultima_notif": 0,
+      "dias_total": 134
     },
     {
       "emp_id": "3518",
@@ -14907,7 +15318,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3518",
@@ -14943,7 +15355,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3518",
@@ -14979,7 +15392,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3518",
@@ -15015,7 +15429,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3518",
@@ -15051,7 +15466,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "69396",
@@ -15087,7 +15503,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "69396",
@@ -15123,7 +15540,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "69396",
@@ -15159,7 +15577,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "69396",
@@ -15195,7 +15614,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "76038",
@@ -15231,7 +15651,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "76038",
@@ -15267,7 +15688,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "76038",
@@ -15303,7 +15725,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "76038",
@@ -15339,7 +15762,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "60721",
@@ -15375,7 +15799,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "60721",
@@ -15411,7 +15836,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "60721",
@@ -15447,7 +15873,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "60721",
@@ -15483,7 +15910,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "60721",
@@ -15519,7 +15947,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "60721",
@@ -15555,7 +15984,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "50444",
@@ -15591,7 +16021,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3256",
@@ -15627,7 +16058,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3256",
@@ -15663,7 +16095,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -15699,7 +16132,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -15735,7 +16169,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -15771,7 +16206,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -15807,7 +16243,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -15843,7 +16280,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -15879,7 +16317,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -15915,7 +16354,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -15951,7 +16391,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -15987,7 +16428,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16023,7 +16465,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16059,7 +16502,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16095,7 +16539,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16131,7 +16576,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16167,7 +16613,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16203,7 +16650,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16239,7 +16687,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16275,7 +16724,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16311,7 +16761,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16347,7 +16798,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16383,7 +16835,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16419,7 +16872,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16455,7 +16909,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16491,7 +16946,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16527,7 +16983,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16563,7 +17020,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16599,7 +17057,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16635,7 +17094,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16671,7 +17131,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16707,7 +17168,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16743,7 +17205,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16779,7 +17242,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16815,7 +17279,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "52823",
@@ -16851,7 +17316,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "105017",
@@ -16887,7 +17353,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "65737",
@@ -16923,7 +17390,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3959",
@@ -16959,7 +17427,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3959",
@@ -16995,7 +17464,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3959",
@@ -17031,7 +17501,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3959",
@@ -17067,7 +17538,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3959",
@@ -17098,12 +17570,13 @@
       "data_fila": "22/02/2024",
       "data_processamento": "07/02/2025",
       "data_processado": "",
-      "dias_protocolo": 894,
-      "dias_fila": 0,
-      "dias_processamento": 351,
+      "dias_protocolo": 0,
+      "dias_fila": 351,
+      "dias_processamento": 543,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 894
     },
     {
       "emp_id": "3959",
@@ -17134,12 +17607,13 @@
       "data_fila": "22/02/2024",
       "data_processamento": "07/02/2025",
       "data_processado": "",
-      "dias_protocolo": 894,
-      "dias_fila": 0,
-      "dias_processamento": 351,
+      "dias_protocolo": 0,
+      "dias_fila": 351,
+      "dias_processamento": 543,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 894
     },
     {
       "emp_id": "5680",
@@ -17175,7 +17649,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "5680",
@@ -17211,7 +17686,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "23318",
@@ -17247,7 +17723,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "23318",
@@ -17283,7 +17760,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "23318",
@@ -17319,7 +17797,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "23318",
@@ -17355,7 +17834,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "23318",
@@ -17391,7 +17871,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "23318",
@@ -17427,7 +17908,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "23563",
@@ -17463,7 +17945,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "23563",
@@ -17499,7 +17982,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "40115",
@@ -17535,7 +18019,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "40115",
@@ -17571,7 +18056,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "40115",
@@ -17607,7 +18093,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "40115",
@@ -17643,7 +18130,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "40115",
@@ -17679,7 +18167,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "187804",
@@ -17715,7 +18204,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "187804",
@@ -17746,12 +18236,13 @@
       "data_protocolo": "31/01/2025",
       "data_fila": "07/02/2025",
       "data_processado": "",
-      "dias_protocolo": 550,
-      "dias_fila": 7,
-      "dias_processamento": 19,
+      "dias_protocolo": 7,
+      "dias_fila": 19,
+      "dias_processamento": 524,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 550
     },
     {
       "emp_id": "187804",
@@ -17782,12 +18273,13 @@
       "data_protocolo": "31/01/2025",
       "data_fila": "07/02/2025",
       "data_processado": "",
-      "dias_protocolo": 550,
-      "dias_fila": 7,
-      "dias_processamento": 19,
+      "dias_protocolo": 7,
+      "dias_fila": 19,
+      "dias_processamento": 524,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 550
     },
     {
       "emp_id": "511",
@@ -17823,7 +18315,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "511",
@@ -17859,7 +18352,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "511",
@@ -17890,12 +18384,13 @@
       "data_fila": "17/12/2025",
       "data_processamento": "11/02/2026",
       "data_processado": "",
-      "dias_protocolo": 259,
-      "dias_fila": 29,
-      "dias_processamento": 56,
+      "dias_protocolo": 29,
+      "dias_fila": 56,
+      "dias_processamento": 174,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 259
     },
     {
       "emp_id": "511",
@@ -17926,12 +18421,13 @@
       "data_fila": "17/12/2025",
       "data_processamento": "11/02/2026",
       "data_processado": "",
-      "dias_protocolo": 259,
-      "dias_fila": 29,
-      "dias_processamento": 56,
+      "dias_protocolo": 29,
+      "dias_fila": 56,
+      "dias_processamento": 174,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 259
     },
     {
       "emp_id": "13840",
@@ -17967,7 +18463,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18003,7 +18500,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18039,7 +18537,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18075,7 +18574,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18111,7 +18611,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18147,7 +18648,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18183,7 +18685,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18219,7 +18722,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18255,7 +18759,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18291,7 +18796,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18327,7 +18833,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18363,7 +18870,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18399,7 +18907,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18435,7 +18944,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18471,7 +18981,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13840",
@@ -18502,12 +19013,13 @@
       "data_fila": "09/04/2025",
       "data_processamento": "30/04/2025",
       "data_processado": "",
-      "dias_protocolo": 602,
-      "dias_fila": 120,
-      "dias_processamento": 21,
+      "dias_protocolo": 120,
+      "dias_fila": 21,
+      "dias_processamento": 461,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 602
     },
     {
       "emp_id": "121490",
@@ -18543,7 +19055,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "121490",
@@ -18579,7 +19092,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "121490",
@@ -18615,7 +19129,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "121490",
@@ -18646,12 +19161,13 @@
       "data_fila": "09/04/2025",
       "data_processamento": "30/04/2025",
       "data_processado": "",
-      "dias_protocolo": 517,
-      "dias_fila": 35,
-      "dias_processamento": 21,
+      "dias_protocolo": 35,
+      "dias_fila": 21,
+      "dias_processamento": 461,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 517
     },
     {
       "emp_id": "121490",
@@ -18682,12 +19198,13 @@
       "data_fila": "09/04/2025",
       "data_processamento": "23/04/2025",
       "data_processado": "",
-      "dias_protocolo": 517,
-      "dias_fila": 35,
-      "dias_processamento": 14,
+      "dias_protocolo": 35,
+      "dias_fila": 14,
+      "dias_processamento": 468,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 517
     },
     {
       "emp_id": "121490",
@@ -18718,12 +19235,13 @@
       "data_fila": "03/07/2025",
       "data_processamento": "16/07/2025",
       "data_processado": "",
-      "dias_protocolo": 420,
-      "dias_fila": 23,
-      "dias_processamento": 13,
+      "dias_protocolo": 23,
+      "dias_fila": 13,
+      "dias_processamento": 384,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 420
     },
     {
       "emp_id": "121490",
@@ -18754,12 +19272,13 @@
       "data_protocolo": "08/04/2026",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 118,
-      "dias_fila": 26,
+      "dias_protocolo": 26,
+      "dias_fila": 92,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 118
     },
     {
       "emp_id": "51147",
@@ -18795,7 +19314,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51147",
@@ -18831,7 +19351,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51147",
@@ -18867,7 +19388,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51147",
@@ -18903,7 +19425,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "51147",
@@ -18934,12 +19457,13 @@
       "data_protocolo": "06/01/2026",
       "data_fila": "11/02/2026",
       "data_processado": "",
-      "dias_protocolo": 210,
-      "dias_fila": 36,
-      "dias_processamento": 92,
+      "dias_protocolo": 36,
+      "dias_fila": 92,
+      "dias_processamento": 82,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 210
     },
     {
       "emp_id": "51147",
@@ -18970,12 +19494,13 @@
       "data_protocolo": "06/01/2026",
       "data_fila": "11/02/2026",
       "data_processado": "",
-      "dias_protocolo": 210,
-      "dias_fila": 36,
-      "dias_processamento": 92,
+      "dias_protocolo": 36,
+      "dias_fila": 92,
+      "dias_processamento": 82,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 210
     },
     {
       "emp_id": "51147",
@@ -19006,12 +19531,13 @@
       "data_protocolo": "06/01/2026",
       "data_fila": "11/02/2026",
       "data_processado": "",
-      "dias_protocolo": 210,
-      "dias_fila": 36,
-      "dias_processamento": 92,
+      "dias_protocolo": 36,
+      "dias_fila": 92,
+      "dias_processamento": 82,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 210
     },
     {
       "emp_id": "51147",
@@ -19042,12 +19568,13 @@
       "data_protocolo": "06/01/2026",
       "data_fila": "11/02/2026",
       "data_processado": "",
-      "dias_protocolo": 210,
-      "dias_fila": 36,
-      "dias_processamento": 92,
+      "dias_protocolo": 36,
+      "dias_fila": 92,
+      "dias_processamento": 82,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 210
     },
     {
       "emp_id": "51147",
@@ -19078,12 +19605,13 @@
       "data_protocolo": "06/01/2026",
       "data_fila": "11/02/2026",
       "data_processado": "",
-      "dias_protocolo": 210,
-      "dias_fila": 36,
-      "dias_processamento": 92,
+      "dias_protocolo": 36,
+      "dias_fila": 92,
+      "dias_processamento": 82,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 210
     },
     {
       "emp_id": "51147",
@@ -19114,12 +19642,13 @@
       "data_protocolo": "06/01/2026",
       "data_fila": "11/02/2026",
       "data_processado": "",
-      "dias_protocolo": 210,
-      "dias_fila": 36,
-      "dias_processamento": 92,
+      "dias_protocolo": 36,
+      "dias_fila": 92,
+      "dias_processamento": 82,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 210
     },
     {
       "emp_id": "22503",
@@ -19155,7 +19684,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "22503",
@@ -19191,7 +19721,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "66559",
@@ -19227,7 +19758,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19263,7 +19795,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19299,7 +19832,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19335,7 +19869,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19371,7 +19906,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19407,7 +19943,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19443,7 +19980,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19479,7 +20017,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19515,7 +20054,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19551,7 +20091,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19587,7 +20128,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19623,7 +20165,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19659,7 +20202,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19695,7 +20239,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19731,7 +20276,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19767,7 +20313,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19803,7 +20350,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19839,7 +20387,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19875,7 +20424,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19911,7 +20461,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19947,7 +20498,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -19983,7 +20535,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -20019,7 +20572,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -20055,7 +20609,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "29872",
@@ -20091,7 +20646,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "203947",
@@ -20122,12 +20678,13 @@
       "data_protocolo": "30/09/2025",
       "data_fila": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 308,
-      "dias_fila": 8,
-      "dias_processamento": 15,
+      "dias_protocolo": 8,
+      "dias_fila": 15,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 308
     },
     {
       "emp_id": "203947",
@@ -20158,12 +20715,13 @@
       "data_protocolo": "30/09/2025",
       "data_fila": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 308,
-      "dias_fila": 8,
-      "dias_processamento": 15,
+      "dias_protocolo": 8,
+      "dias_fila": 15,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 308
     },
     {
       "emp_id": "203947",
@@ -20194,12 +20752,13 @@
       "data_protocolo": "30/09/2025",
       "data_fila": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 308,
-      "dias_fila": 8,
-      "dias_processamento": 15,
+      "dias_protocolo": 8,
+      "dias_fila": 15,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 308
     },
     {
       "emp_id": "203947",
@@ -20230,12 +20789,13 @@
       "data_protocolo": "30/09/2025",
       "data_fila": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 308,
-      "dias_fila": 8,
-      "dias_processamento": 15,
+      "dias_protocolo": 8,
+      "dias_fila": 15,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 308
     },
     {
       "emp_id": "13718",
@@ -20271,7 +20831,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "13718",
@@ -20307,7 +20868,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47373",
@@ -20343,7 +20905,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47373",
@@ -20379,7 +20942,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47373",
@@ -20415,7 +20979,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47373",
@@ -20451,7 +21016,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47373",
@@ -20487,7 +21053,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47373",
@@ -20523,7 +21090,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47373",
@@ -20559,7 +21127,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "47373",
@@ -20595,7 +21164,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "37726",
@@ -20631,7 +21201,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "37726",
@@ -20667,7 +21238,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "37726",
@@ -20698,12 +21270,13 @@
       "data_protocolo": "09/04/2025",
       "data_fila": "23/04/2025",
       "data_processado": "",
-      "dias_protocolo": 482,
-      "dias_fila": 14,
-      "dias_processamento": 0,
+      "dias_protocolo": 14,
+      "dias_fila": 0,
+      "dias_processamento": 468,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 482
     },
     {
       "emp_id": "37726",
@@ -20734,12 +21307,13 @@
       "data_protocolo": "09/04/2025",
       "data_fila": "23/04/2025",
       "data_processado": "",
-      "dias_protocolo": 482,
-      "dias_fila": 14,
-      "dias_processamento": 0,
+      "dias_protocolo": 14,
+      "dias_fila": 0,
+      "dias_processamento": 468,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 482
     },
     {
       "emp_id": "56748",
@@ -20775,7 +21349,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "56748",
@@ -20811,7 +21386,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "56748",
@@ -20847,7 +21423,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "56748",
@@ -20878,12 +21455,13 @@
       "data_protocolo": "10/02/2026",
       "data_fila": "11/03/2026",
       "data_processado": "",
-      "dias_protocolo": 175,
-      "dias_fila": 29,
-      "dias_processamento": 36,
+      "dias_protocolo": 29,
+      "dias_fila": 36,
+      "dias_processamento": 110,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 175
     },
     {
       "emp_id": "56748",
@@ -20914,12 +21492,13 @@
       "data_protocolo": "10/02/2026",
       "data_fila": "11/03/2026",
       "data_processado": "",
-      "dias_protocolo": 175,
-      "dias_fila": 29,
-      "dias_processamento": 36,
+      "dias_protocolo": 29,
+      "dias_fila": 36,
+      "dias_processamento": 110,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 175
     },
     {
       "emp_id": "19552",
@@ -20955,7 +21534,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19552",
@@ -20991,7 +21571,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19552",
@@ -21027,7 +21608,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "19552",
@@ -21063,7 +21645,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "22207",
@@ -21099,7 +21682,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "22207",
@@ -21135,7 +21719,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "21906",
@@ -21171,7 +21756,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "21906",
@@ -21207,7 +21793,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "21906",
@@ -21243,7 +21830,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "66101",
@@ -21279,7 +21867,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21315,7 +21904,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21351,7 +21941,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21387,7 +21978,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21423,7 +22015,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21459,7 +22052,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21495,7 +22089,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21531,7 +22126,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21567,7 +22163,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21603,7 +22200,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21639,7 +22237,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21675,7 +22274,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21711,7 +22311,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21747,7 +22348,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3142",
@@ -21778,12 +22380,13 @@
       "data_fila": "13/08/2025",
       "data_processamento": "17/12/2025",
       "data_processado": "",
-      "dias_protocolo": 371,
-      "dias_fila": 15,
-      "dias_processamento": 126,
+      "dias_protocolo": 15,
+      "dias_fila": 126,
+      "dias_processamento": 230,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 371
     },
     {
       "emp_id": "3142",
@@ -21814,12 +22417,13 @@
       "data_fila": "13/08/2025",
       "data_processamento": "17/12/2025",
       "data_processado": "",
-      "dias_protocolo": 371,
-      "dias_fila": 15,
-      "dias_processamento": 126,
+      "dias_protocolo": 15,
+      "dias_fila": 126,
+      "dias_processamento": 230,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 371
     },
     {
       "emp_id": "3142",
@@ -21850,12 +22454,13 @@
       "data_fila": "13/08/2025",
       "data_processamento": "17/12/2025",
       "data_processado": "",
-      "dias_protocolo": 371,
-      "dias_fila": 15,
-      "dias_processamento": 126,
+      "dias_protocolo": 15,
+      "dias_fila": 126,
+      "dias_processamento": 230,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 371
     },
     {
       "emp_id": "3142",
@@ -21886,12 +22491,13 @@
       "data_fila": "13/08/2025",
       "data_processamento": "17/12/2025",
       "data_processado": "",
-      "dias_protocolo": 371,
-      "dias_fila": 15,
-      "dias_processamento": 126,
+      "dias_protocolo": 15,
+      "dias_fila": 126,
+      "dias_processamento": 230,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 371
     },
     {
       "emp_id": "3142",
@@ -21940,7 +22546,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
-      "dias_ultima_notif": 0
+      "dias_ultima_notif": 0,
+      "dias_total": null
     },
     {
       "emp_id": "18263",
@@ -21976,7 +22583,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18263",
@@ -22012,7 +22620,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18263",
@@ -22048,7 +22657,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18263",
@@ -22084,7 +22694,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18263",
@@ -22120,7 +22731,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18263",
@@ -22156,7 +22768,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18263",
@@ -22192,7 +22805,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18263",
@@ -22228,7 +22842,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18263",
@@ -22264,7 +22879,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "18263",
@@ -22295,12 +22911,13 @@
       "data_fila": "23/07/2025",
       "data_processamento": "13/11/2025",
       "data_processado": "",
-      "dias_protocolo": 392,
-      "dias_fila": 15,
-      "dias_processamento": 113,
+      "dias_protocolo": 15,
+      "dias_fila": 113,
+      "dias_processamento": 264,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 392
     },
     {
       "emp_id": "18263",
@@ -22331,12 +22948,13 @@
       "data_protocolo": "04/09/2025",
       "data_fila": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 334,
-      "dias_fila": 34,
-      "dias_processamento": 15,
+      "dias_protocolo": 34,
+      "dias_fila": 15,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 334
     },
     {
       "emp_id": "18263",
@@ -22367,12 +22985,13 @@
       "data_protocolo": "04/09/2025",
       "data_fila": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 334,
-      "dias_fila": 34,
-      "dias_processamento": 15,
+      "dias_protocolo": 34,
+      "dias_fila": 15,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 334
     },
     {
       "emp_id": "18263",
@@ -22403,12 +23022,13 @@
       "data_protocolo": "04/09/2025",
       "data_fila": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 334,
-      "dias_fila": 34,
-      "dias_processamento": 15,
+      "dias_protocolo": 34,
+      "dias_fila": 15,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 334
     },
     {
       "emp_id": "18263",
@@ -22439,12 +23059,13 @@
       "data_protocolo": "04/09/2025",
       "data_fila": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 334,
-      "dias_fila": 34,
-      "dias_processamento": 15,
+      "dias_protocolo": 34,
+      "dias_fila": 15,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 334
     },
     {
       "emp_id": "18263",
@@ -22475,12 +23096,13 @@
       "data_protocolo": "04/09/2025",
       "data_fila": "08/10/2025",
       "data_processado": "",
-      "dias_protocolo": 334,
-      "dias_fila": 34,
-      "dias_processamento": 15,
+      "dias_protocolo": 34,
+      "dias_fila": 15,
+      "dias_processamento": 285,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": 334
     },
     {
       "emp_id": "3567",
@@ -22516,7 +23138,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3567",
@@ -22552,7 +23175,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3567",
@@ -22588,7 +23212,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3567",
@@ -22624,7 +23249,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3567",
@@ -22660,7 +23286,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3567",
@@ -22696,7 +23323,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3567",
@@ -22732,7 +23360,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3567",
@@ -22768,7 +23397,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     },
     {
       "emp_id": "3567",
@@ -22804,7 +23434,8 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "dias_total": null
     }
   ]
 }
