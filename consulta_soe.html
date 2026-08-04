@@ -123,12 +123,6 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
       <div class="stat stat-total" onclick="filtrarStatus('')" id="stat-all">
         <strong id="cnt-total">635</strong><span>Total</span>
       </div>
-      <div class="stat stat-preenche" onclick="filtrarStatus('Preenchimento')" id="stat-preenche">
-        <strong id="cnt-preenche">0</strong><span>Preenchimento</span>
-      </div>
-      <div class="stat stat-aguard" onclick="filtrarStatus('Aguardando envio')" id="stat-aguard">
-        <strong id="cnt-aguard">0</strong><span>Aguardando Envio</span>
-      </div>
       <div class="stat stat-prot" onclick="filtrarStatus('Protocolo')" id="stat-prot">
         <strong id="cnt-prot">18</strong><span>Protocolo</span>
       </div>
@@ -171,8 +165,6 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
         <label>Status</label>
         <select id="filtroStatus" onchange="aplicarFiltros()">
           <option value="">Todos os status</option>
-          <option value="Preenchimento">Preenchimento</option>
-          <option value="Aguardando envio">Aguardando Envio</option>
           <option value="Protocolo">Protocolo</option>
           <option value="Na fila">Na Fila</option>
           <option value="Em processamento">Em Processamento</option>
@@ -248,8 +240,6 @@ function badgeStatus(s) {
     'Em processamento': 'b-emprocessamento',
     'Na fila': 'b-nafila',
     'Protocolo': 'b-protocolo',
-    'Preenchimento': 'b-preenchimento',
-    'Aguardando envio': 'b-aguardandoenvio',
   };
   if (s && (s.includes('Resultado') || s.includes('Deferida') || s.includes('Indeferida'))) {
     return `<span class="badge b-resultado">🚩 ${s}</span>`;
@@ -320,8 +310,6 @@ function filtrarStatus(s) {
   // Highlight stat card
   document.querySelectorAll('.stat').forEach(el => el.classList.remove('ativo'));
   if (s === '') document.getElementById('stat-all').classList.add('ativo');
-  else if (s === 'Preenchimento') document.getElementById('stat-preenche').classList.add('ativo');
-  else if (s === 'Aguardando envio') document.getElementById('stat-aguard').classList.add('ativo');
   else if (s === 'Protocolo') document.getElementById('stat-prot').classList.add('ativo');
   else if (s === 'Na fila') document.getElementById('stat-fila').classList.add('ativo');
   else if (s === 'Em processamento') document.getElementById('stat-emproc').classList.add('ativo');
