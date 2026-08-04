@@ -115,8 +115,8 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 14:04
-      <span style="display:block;font-size:9px;color:rgba(255,255,255,.45);margin-top:3px">Próximas: <span id="proximas-txt">...</span></span>
+      04/08/2026 14:08
+      <span style="display:block;font-size:9px;color:rgba(255,255,255,.5);margin-top:2px">Próxima: <span id="proximas-txt">...</span></span>
     </div>
     <div class="hd-pill">Uso Interno</div>
   </div>
@@ -681,7 +681,7 @@ function exportarXLSX() {
   function atualizar() {
     const prox = proximasExecucoes(3);
     const el = document.getElementById('proximas-txt');
-    if (el) el.innerHTML = prox.map(p => `<strong>${fmt(p)}</strong>`).join(' &nbsp;|&nbsp; ');
+    if (el && prox.length) el.textContent = fmt(prox[0]);
   }
   atualizar();
   setInterval(atualizar, 60000); // atualiza a cada minuto
