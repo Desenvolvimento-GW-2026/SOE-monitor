@@ -61,10 +61,12 @@ input[type=text]:focus,select:focus{outline:none;border-color:var(--gw-teal);box
 .btn-export:hover{background:var(--gw-teal-dark);box-shadow:0 3px 8px rgba(71,165,174,.35)}
 .btn-xlsx{background:#1d6f42;color:#fff}
 .btn-xlsx:hover{background:#155235;box-shadow:0 3px 8px rgba(29,111,66,.35)}
-.table-wrap{overflow-x:auto;border-radius:8px;border:1px solid var(--border)}
+.scroll-top-bar{overflow-x:auto;overflow-y:hidden;height:12px;border-radius:8px 8px 0 0;border:1px solid var(--border);border-bottom:none;background:#f8f9fc}
+.scroll-top-bar div{height:1px}
+.table-wrap{overflow-x:auto;border-radius:0 0 8px 8px;border:1px solid var(--border);border-top:none}
 table{width:100%;border-collapse:collapse;font-size:13px}
 thead tr{background:var(--gw-purple)}
-thead th{color:#fff;padding:11px 13px;text-align:left;font-weight:700;white-space:nowrap;font-size:11px;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;user-select:none}
+thead th{color:#fff;padding:11px 13px;text-align:left;font-weight:700;white-space:nowrap;font-size:11px;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;user-select:none;position:sticky;top:70px;z-index:10;background:var(--gw-purple)}
 thead th:hover{background:#4a4590}
 thead th .sort-icon{margin-left:4px;opacity:.5;font-size:10px}
 thead th.sorted .sort-icon{opacity:1}
@@ -109,7 +111,7 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 12:52
+      04/08/2026 12:54
     </div>
     <div class="hd-pill">Uso Interno</div>
   </div>
@@ -218,7 +220,8 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
 
     <div class="results-info" id="resultsInfo"></div>
 
-    <div class="table-wrap">
+    <div class="scroll-top-bar" id="scrollTop"><div id="scrollTopInner"></div></div>
+    <div class="table-wrap" id="tableWrap">
       <table id="tabela">
         <thead>
           <tr>
@@ -535,6 +538,20 @@ function exportarXLSX() {
   XLSX.utils.book_append_sheet(wb,ws,'SOE');
   XLSX.writeFile(wb,'consulta_soe_'+new Date().toISOString().slice(0,10)+'.xlsx');
 }
+
+// Scroll bar espelhada no topo da tabela
+(function() {
+  const top = document.getElementById('scrollTop');
+  const wrap = document.getElementById('tableWrap');
+  const inner = document.getElementById('scrollTopInner');
+  function syncWidth() {
+    inner.style.width = wrap.scrollWidth + 'px';
+  }
+  syncWidth();
+  new ResizeObserver(syncWidth).observe(wrap);
+  top.addEventListener('scroll', () => { if (!wrap._scrolling) { wrap._scrolling = true; wrap.scrollLeft = top.scrollLeft; wrap._scrolling = false; } });
+  wrap.addEventListener('scroll', () => { if (!top._scrolling) { top._scrolling = true; top.scrollLeft = wrap.scrollLeft; top._scrolling = false; } });
+})();
 
 // Init
 aplicarFiltros();
