@@ -115,7 +115,7 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 14:11
+      04/08/2026 14:17
       <span style="display:block;font-size:9px;color:rgba(255,255,255,.5);margin-top:2px">Próxima: <span id="proximas-txt">...</span></span>
     </div>
     <div class="hd-pill">Uso Interno</div>
@@ -297,8 +297,17 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
 </main>
 
 <footer>
-  General Water &mdash; Consulta SOE &mdash; SP Águas &nbsp;|&nbsp;
-  Desenvolvido pelo <strong style="color:#47A5AE">Setor de Desenvolvimento</strong>
+  <div style="font-size:12px;color:#888;margin-bottom:6px">
+    🔄 Atualiza automaticamente todos os dias úteis às <strong style="color:#555">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong>
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    Última atualização: <strong style="color:#555">04/08/2026 14:17</strong>
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    Próxima: <strong style="color:#555" id="footer-proxima">...</strong>
+  </div>
+  <div style="font-size:11px;color:#bbb">
+    General Water &mdash; Consulta SOE &mdash; SP Águas &nbsp;|&nbsp;
+    Desenvolvido pelo <strong style="color:#47A5AE">Setor de Desenvolvimento</strong>
+  </div>
 </footer>
 
 <script>
@@ -682,6 +691,8 @@ function exportarXLSX() {
     const prox = proximasExecucoes(3);
     const el = document.getElementById('proximas-txt');
     if (el && prox.length) el.textContent = fmt(prox[0]);
+    const elF = document.getElementById('footer-proxima');
+    if (elF && prox.length) elF.textContent = fmt(prox[0]);
   }
   atualizar();
   setInterval(atualizar, 60000); // atualiza a cada minuto
