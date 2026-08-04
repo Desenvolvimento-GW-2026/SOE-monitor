@@ -115,7 +115,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 16:52
+      04/08/2026 16:56
       <span style="display:block;font-size:9px;color:rgba(255,255,255,.5);margin-top:2px">Próxima: <span id="proximas-txt">...</span></span>
     </div>
     <div class="hd-pill">Uso Interno</div>
@@ -152,52 +152,60 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
     <!-- Divisor -->
     <div style="border-top:1px solid #eaedf5;margin:18px 0 14px"></div>
 
-    <!-- Cabeçalho médias + filtro de data -->
-    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px">
-      <span style="font-size:11px;font-weight:600;color:#6b7280;letter-spacing:.05em;text-transform:uppercase">Média de dias por etapa</span>
-      <div style="display:flex;align-items:center;gap:6px;margin-left:auto;flex-wrap:wrap">
-        <input type="date" id="media-data-de" title="Data inicial do protocolo" onchange="atualizarMedias()"
-          style="border:1.5px solid #e2e5ec;border-radius:6px;padding:3px 8px;font-size:11px;color:#333;background:#fff;cursor:pointer">
-        <span style="font-size:11px;color:#9ca3af">até</span>
-        <input type="date" id="media-data-ate" title="Data final do protocolo" onchange="atualizarMedias()"
-          style="border:1.5px solid #e2e5ec;border-radius:6px;padding:3px 8px;font-size:11px;color:#333;background:#fff;cursor:pointer">
-        <button onclick="limparDatasMedia()" title="Ver todos os requerimentos"
-          style="border:1.5px solid #e2e5ec;background:#f9fafb;color:#6b7280;border-radius:6px;padding:3px 10px;font-size:11px;cursor:pointer;font-family:inherit">Todos</button>
-        <span id="media-periodo-info" style="font-size:10px;color:#9ca3af;min-width:60px"></span>
-      </div>
-    </div>
+    <!-- Cabeçalho médias -->
+    <div style="font-size:11px;font-weight:600;color:#6b7280;letter-spacing:.05em;text-transform:uppercase;margin-bottom:12px">Média de dias por etapa</div>
 
-    <!-- Boxes de médias -->
-    <div style="display:flex;gap:16px;flex-wrap:wrap">
-      <div style="flex:1;min-width:160px;background:#eff6ff;border-radius:8px;padding:12px 16px;border-left:4px solid #3b82f6">
-        <div style="font-size:11px;color:#1e40af;font-weight:600;margin-bottom:4px">PROTOCOLO</div>
-        <div style="font-size:26px;font-weight:700;color:#1e40af" id="media-prot">—</div>
+    <!-- Boxes de médias (clicáveis, com contagem) -->
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <div onclick="filtrarStatus('Protocolo')" id="stat-prot-m"
+        style="flex:1;min-width:160px;background:#f3e5f5;border-radius:8px;padding:12px 16px;border-left:4px solid #9c27b0;cursor:pointer;transition:box-shadow .15s"
+        onmouseover="this.style.boxShadow='0 3px 10px rgba(0,0,0,.12)'" onmouseout="this.style.boxShadow=''">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
+          <span style="font-size:11px;color:#6a1b9a;font-weight:700">PROTOCOLO</span>
+          <span style="font-size:20px;font-weight:700;color:#6a1b9a">18</span>
+        </div>
+        <div style="font-size:24px;font-weight:700;color:#6a1b9a" id="media-prot">—</div>
         <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-prot-mediana"></div>
-        <div style="font-size:11px;color:#6b7280;margin-bottom:6px" id="media-prot-n"></div>
+        <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-prot-n"></div>
         <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-prot-min"></div>
         <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-prot-max"></div>
       </div>
-      <div style="flex:1;min-width:160px;background:#fefce8;border-radius:8px;padding:12px 16px;border-left:4px solid #eab308">
-        <div style="font-size:11px;color:#854d0e;font-weight:600;margin-bottom:4px">NA FILA</div>
-        <div style="font-size:26px;font-weight:700;color:#854d0e" id="media-fila">—</div>
+      <div onclick="filtrarStatus('Na fila')" id="stat-fila-m"
+        style="flex:1;min-width:160px;background:#fefce8;border-radius:8px;padding:12px 16px;border-left:4px solid #eab308;cursor:pointer;transition:box-shadow .15s"
+        onmouseover="this.style.boxShadow='0 3px 10px rgba(0,0,0,.12)'" onmouseout="this.style.boxShadow=''">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
+          <span style="font-size:11px;color:#854d0e;font-weight:700">NA FILA</span>
+          <span style="font-size:20px;font-weight:700;color:#854d0e">26</span>
+        </div>
+        <div style="font-size:24px;font-weight:700;color:#854d0e" id="media-fila">—</div>
         <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-fila-mediana"></div>
-        <div style="font-size:11px;color:#6b7280;margin-bottom:6px" id="media-fila-n"></div>
+        <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-fila-n"></div>
         <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-fila-min"></div>
         <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-fila-max"></div>
       </div>
-      <div style="flex:1;min-width:160px;background:#fff7ed;border-radius:8px;padding:12px 16px;border-left:4px solid #f97316">
-        <div style="font-size:11px;color:#9a3412;font-weight:600;margin-bottom:4px">EM PROCESSAMENTO</div>
-        <div style="font-size:26px;font-weight:700;color:#9a3412" id="media-proc">—</div>
+      <div onclick="filtrarStatus('Em processamento')" id="stat-emproc-m"
+        style="flex:1;min-width:160px;background:#fff7ed;border-radius:8px;padding:12px 16px;border-left:4px solid #f97316;cursor:pointer;transition:box-shadow .15s"
+        onmouseover="this.style.boxShadow='0 3px 10px rgba(0,0,0,.12)'" onmouseout="this.style.boxShadow=''">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
+          <span style="font-size:11px;color:#9a3412;font-weight:700">EM PROCESSAMENTO</span>
+          <span style="font-size:20px;font-weight:700;color:#9a3412">66</span>
+        </div>
+        <div style="font-size:24px;font-weight:700;color:#9a3412" id="media-proc">—</div>
         <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-proc-mediana"></div>
-        <div style="font-size:11px;color:#6b7280;margin-bottom:6px" id="media-proc-n"></div>
+        <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-proc-n"></div>
         <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-proc-min"></div>
         <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-proc-max"></div>
       </div>
-      <div style="flex:1;min-width:160px;background:#f0fdf4;border-radius:8px;padding:12px 16px;border-left:4px solid #16a34a">
-        <div style="font-size:11px;color:#15803d;font-weight:600;margin-bottom:4px">TOTAL (FINALIZADOS)</div>
-        <div style="font-size:26px;font-weight:700;color:#15803d" id="media-total">—</div>
+      <div onclick="filtrarStatus('Processado')" id="stat-proc-m"
+        style="flex:1;min-width:160px;background:#e8f7f9;border-radius:8px;padding:12px 16px;border-left:4px solid #47A5AE;cursor:pointer;transition:box-shadow .15s"
+        onmouseover="this.style.boxShadow='0 3px 10px rgba(0,0,0,.12)'" onmouseout="this.style.boxShadow=''">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
+          <span style="font-size:11px;color:#378d96;font-weight:700">PROCESSADO</span>
+          <span style="font-size:20px;font-weight:700;color:#378d96">17</span>
+        </div>
+        <div style="font-size:24px;font-weight:700;color:#378d96" id="media-total">—</div>
         <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-total-mediana"></div>
-        <div style="font-size:11px;color:#6b7280;margin-bottom:6px" id="media-total-n"></div>
+        <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-total-n"></div>
         <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-total-min"></div>
         <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-total-max"></div>
       </div>
@@ -270,7 +278,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div style="font-size:11px;color:#888;padding:6px 4px;display:flex;align-items:center;gap:6px;flex-wrap:wrap">
     <span>🔄 Atualiza todos os dias úteis às <strong style="color:#555">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong></span>
     <span style="color:#ccc">|</span>
-    <span>Última atualização: <strong style="color:#555">04/08/2026 16:52</strong></span>
+    <span>Última atualização: <strong style="color:#555">04/08/2026 16:56</strong></span>
     <span style="color:#ccc">|</span>
     <span>Próxima: <strong style="color:#555" id="info-proxima">...</strong></span>
   </div>
@@ -458,7 +466,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div style="font-size:12px;color:#888;margin-bottom:6px">
     🔄 Atualiza automaticamente todos os dias úteis às <strong style="color:#555">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong>
     &nbsp;&nbsp;|&nbsp;&nbsp;
-    Última atualização: <strong style="color:#555">04/08/2026 16:52</strong>
+    Última atualização: <strong style="color:#555">04/08/2026 16:56</strong>
     &nbsp;&nbsp;|&nbsp;&nbsp;
     Próxima: <strong style="color:#555" id="footer-proxima">...</strong>
   </div>
@@ -609,31 +617,8 @@ function parseDMY(s) {
   return new Date(+p[2], +p[1] - 1, +p[0]);
 }
 
-function limparDatasMedia() {
-  document.getElementById('media-data-de').value = '';
-  document.getElementById('media-data-ate').value = '';
-  atualizarMedias();
-}
-
 function atualizarMedias() {
-  const deVal  = document.getElementById('media-data-de').value;
-  const ateVal = document.getElementById('media-data-ate').value;
-  const deDate  = deVal  ? new Date(deVal  + 'T00:00:00') : null;
-  const ateDate = ateVal ? new Date(ateVal + 'T23:59:59') : null;
-
-  let src = DADOS;
-  if (deDate || ateDate) {
-    src = DADOS.filter(r => {
-      const dt = parseDMY(r.data_protocolo);
-      if (!dt) return false;
-      if (deDate && dt < deDate) return false;
-      if (ateDate && dt > ateDate) return false;
-      return true;
-    });
-    document.getElementById('media-periodo-info').textContent = src.length + ' reqs';
-  } else {
-    document.getElementById('media-periodo-info').textContent = '';
-  }
+  const src = DADOS;
 
   function stats(campo, subset) {
     const data = subset || src;
