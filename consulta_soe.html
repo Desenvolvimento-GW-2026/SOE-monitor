@@ -109,7 +109,7 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 12:01
+      04/08/2026 12:10
     </div>
     <div class="hd-pill">Uso Interno</div>
   </div>
@@ -187,23 +187,20 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
       <table id="tabela">
         <thead>
           <tr>
-            <th onclick="ordenar('emp_nome')">Empreendimento<span class="sort-icon" id="si-emp_nome">↕</span></th>
-            <th onclick="ordenar('codigo')">Código<span class="sort-icon" id="si-codigo">↕</span></th>
-            <th onclick="ordenar('tipo')">Tipo de Requerimento<span class="sort-icon" id="si-tipo">↕</span></th>
-            <th onclick="ordenar('codigo_spaguas')">Cód. SP ÁGUAS<span class="sort-icon" id="si-codigo_spaguas">↕</span></th>
-            <th onclick="ordenar('solicitacao')">Solicitação<span class="sort-icon" id="si-solicitacao">↕</span></th>
-            <th onclick="ordenar('status')">Status<span class="sort-icon" id="si-status">↕</span></th>
-            <th onclick="ordenar('dias_protocolo')" title="Dias desde o Protocolo">Dias<br>(Prot.)<span class="sort-icon" id="si-dias_protocolo">↕</span></th>
-            <th onclick="ordenar('data_protocolo')">Data Protocolo<span class="sort-icon" id="si-data_protocolo">↕</span></th>
-            <th onclick="ordenar('dias_fila')" title="Dias desde entrada na Fila">Dias<br>(Fila)<span class="sort-icon" id="si-dias_fila">↕</span></th>
-            <th onclick="ordenar('data_fila')">Data Fila<span class="sort-icon" id="si-data_fila">↕</span></th>
-            <th onclick="ordenar('dias_processamento')" title="Dias desde início do Processamento">Dias<br>(Proc.)<span class="sort-icon" id="si-dias_processamento">↕</span></th>
-            <th onclick="ordenar('data_processamento')">Data Processamento<span class="sort-icon" id="si-data_processamento">↕</span></th>
-            <th onclick="ordenar('dias_ultima_notif')" title="Dias desde última notificação recebida">Dias<br>(Ult. Notif.)<span class="sort-icon" id="si-dias_ultima_notif">↕</span></th>
-            <th onclick="ordenar('data_ultima_notif')">Data Ult. Notificação<span class="sort-icon" id="si-data_ultima_notif">↕</span></th>
-            <th>Data da Notificação</th>
-            <th onclick="ordenar('prazo_notif')">Prazo de Resposta<span class="sort-icon" id="si-prazo_notif">↕</span></th>
-            <th onclick="ordenar('situacao_notif')">Status da Notificação<span class="sort-icon" id="si-situacao_notif">↕</span></th>
+            <th onclick="ordenar('emp_nome')">CLIENTE<span class="sort-icon" id="si-emp_nome">↕</span></th>
+            <th onclick="ordenar('req_cnpj')">CNPJ<span class="sort-icon" id="si-req_cnpj">↕</span></th>
+            <th onclick="ordenar('status')">STATUS<span class="sort-icon" id="si-status">↕</span></th>
+            <th onclick="ordenar('dias_protocolo')">DIAS<br>(PROTOCOLO)<span class="sort-icon" id="si-dias_protocolo">↕</span></th>
+            <th onclick="ordenar('data_protocolo')">DATA DO<br>PROTOCOLO<span class="sort-icon" id="si-data_protocolo">↕</span></th>
+            <th onclick="ordenar('dias_fila')">DIAS<br>(FILA)<span class="sort-icon" id="si-dias_fila">↕</span></th>
+            <th onclick="ordenar('data_fila')">DATA<br>FILA<span class="sort-icon" id="si-data_fila">↕</span></th>
+            <th onclick="ordenar('dias_processamento')">DIAS<br>(PROCESSAMENTO)<span class="sort-icon" id="si-dias_processamento">↕</span></th>
+            <th onclick="ordenar('data_processamento')">DATA<br>PROCESSAMENTO<span class="sort-icon" id="si-data_processamento">↕</span></th>
+            <th onclick="ordenar('tipo')">TIPO<span class="sort-icon" id="si-tipo">↕</span></th>
+            <th onclick="ordenar('codigo')">IDENTIFICAÇÃO<span class="sort-icon" id="si-codigo">↕</span></th>
+            <th>OBS</th>
+            <th onclick="ordenar('dias_ultima_notif')">DIAS<br>(RESP. AO SOE)<span class="sort-icon" id="si-dias_ultima_notif">↕</span></th>
+            <th onclick="ordenar('data_ultima_notif')">DATA<br>RESPOSTA SOE<span class="sort-icon" id="si-data_ultima_notif">↕</span></th>
           </tr>
         </thead>
         <tbody id="tbody"></tbody>
@@ -250,6 +247,22 @@ function renderDateCell(dt) {
   return `<td style="white-space:nowrap;font-size:12px">${esc(dt)}</td>`;
 }
 
+function diasCell(dias, hasDate) {
+  if (!hasDate || dias === null || dias === undefined || dias === '') {
+    return '<td style="color:#aaa;text-align:center;font-size:11px">-</td>';
+  }
+  const n = Number(dias);
+  if (n > 120) {
+    return '<td style="text-align:center;font-weight:bold;background:#FFC7CE;color:#9C0006">' + n + '</td>';
+  }
+  return '<td style="text-align:center;font-weight:bold;color:#1E40AF">' + n + '</td>';
+}
+
+function dateCell(dt) {
+  if (!dt) return '<td style="color:#aaa;font-size:11px;text-align:center">-</td>';
+  return '<td style="white-space:nowrap;font-size:12px">' + esc(dt) + '</td>';
+}
+
 function badgeSituacaoNotif(s) {
   if (!s) return '<span style="color:#ccc;font-size:11px">—</span>';
   if (s === 'Pendente') return '<span class="badge b-pendente">⚠️ Pendente</span>';
@@ -286,7 +299,7 @@ function badgeStatus(s) {
 function renderTabela(dados) {
   const tbody = document.getElementById('tbody');
   if (!dados.length) {
-    tbody.innerHTML = '<tr><td colspan="18" class="vazio">Nenhum requerimento encontrado com esses filtros.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="14" class="vazio">Nenhum requerimento encontrado com esses filtros.</td></tr>';
     document.getElementById('resultsInfo').innerHTML = '';
     return;
   }
@@ -297,22 +310,22 @@ function renderTabela(dados) {
   tbody.innerHTML = dados.map(r => {
     const empNome = r.emp_nome || r.req_nome || '—';
     const url = `https://outorga.spaguas.sp.gov.br/Portal/MeusRequerimentos/RequerimentosSubmetidos/${r.emp_id}`;
+    const portalUrl = `https://outorga.spaguas.sp.gov.br/Portal/MeusRequerimentos/RequerimentosSubmetidos/${r.emp_id}`;
     return `<tr>
       <td class="td-emp"><a href="${url}" target="_blank" class="link-soe">${esc(empNome)}</a></td>
-      <td class="td-codigo">${esc(r.codigo)}</td>
-      <td class="td-tipo">${esc(r.tipo || '—')}</td>
-      <td class="td-spaguas">${esc(r.codigo_spaguas || '—')}</td>
-      <td style="white-space:nowrap;font-size:12px">${esc(r.solicitacao || '—')}</td>
+      <td style="font-size:11px;white-space:nowrap">${esc(r.req_cnpj || '—')}</td>
       <td>${badgeStatus(r.status)}</td>
-      ${renderDiasCell(r.dias_protocolo)}
-      ${renderDateCell(r.data_protocolo)}
-      ${renderDiasCell(r.dias_fila)}
-      ${renderDateCell(r.data_fila)}
-      ${renderDiasCell(r.dias_processamento)}
-      ${renderDateCell(r.data_processamento)}
-      ${renderDiasCell(r.dias_ultima_notif)}
-      ${renderDateCell(r.data_ultima_notif)}
-      ${renderNotifCells(r)}
+      ${diasCell(r.dias_protocolo, !!r.data_protocolo)}
+      ${dateCell(r.data_protocolo)}
+      ${diasCell(r.dias_fila, !!r.data_fila)}
+      ${dateCell(r.data_fila)}
+      ${diasCell(r.dias_processamento, !!r.data_processamento)}
+      ${dateCell(r.data_processamento)}
+      <td class="td-tipo">${esc(r.tipo || '—')}</td>
+      <td style="font-size:11px;white-space:nowrap"><a href="${portalUrl}" target="_blank" class="link-soe">${esc(r.codigo)}</a></td>
+      <td style="color:#aaa;font-size:11px">-</td>
+      ${diasCell(r.dias_ultima_notif, !!r.data_ultima_notif)}
+      ${dateCell(r.data_ultima_notif)}
     </tr>`;
   }).join('');
 }
@@ -399,8 +412,8 @@ function ordenarERendar() {
 }
 
 function exportarCSV() {
-  const cols = ['emp_nome','req_cnpj','codigo','tipo','codigo_spaguas','solicitacao','status','prazo_notif','situacao_notif','emp_end','emp_cep_cidade'];
-  const headers = ['Empreendimento','CNPJ','Código','Tipo de Requerimento','Cód. SP ÁGUAS','Solicitação','Status','Prazo de Resposta','Status da Notificação','Endereço','CEP/Cidade'];
+  const cols = ['emp_nome','req_cnpj','status','dias_protocolo','data_protocolo','dias_fila','data_fila','dias_processamento','data_processamento','tipo','codigo','dias_ultima_notif','data_ultima_notif'];
+  const headers = ['CLIENTE','CNPJ','STATUS','DIAS(PROTOCOLO)','DATA PROTOCOLO','DIAS(FILA)','DATA FILA','DIAS(PROCESSAMENTO)','DATA PROCESSAMENTO','TIPO','IDENTIFICAÇÃO','DIAS(RESP.SOE)','DATA RESP.SOE'];
   const rows = [headers.join(';')];
   dadosFiltrados.forEach(r => {
     rows.push(cols.map(c => '"' + (r[c]||'').replace(/"/g,'""') + '"').join(';'));
@@ -414,11 +427,11 @@ function exportarCSV() {
 
 function exportarXLSX() {
   if(typeof XLSX==='undefined'){alert('SheetJS nao carregado. Verifique sua conexao com a internet.');return}
-  const cols=['emp_nome','req_cnpj','tipo','codigo','codigo_spaguas','solicitacao','status','prazo_notif','situacao_notif','emp_end','req_tel','req_email'];
-  const hdr=['Empreendimento','CNPJ Requerente','Tipo de Requerimento','Codigo SOE','Codigo SP AGUAS','Solicitacao','Status','Prazo de Resposta','Status da Notificacao','Endereco','Telefone','E-mail'];
+  const cols=['emp_nome','req_cnpj','status','dias_protocolo','data_protocolo','dias_fila','data_fila','dias_processamento','data_processamento','tipo','codigo','dias_ultima_notif','data_ultima_notif'];
+  const hdr=['CLIENTE','CNPJ','STATUS','DIAS(PROTOCOLO)','DATA PROTOCOLO','DIAS(FILA)','DATA FILA','DIAS(PROCESSAMENTO)','DATA PROCESSAMENTO','TIPO','IDENTIFICACAO','DIAS(RESP.SOE)','DATA RESP.SOE'];
   const rows=[hdr,...dadosFiltrados.map(r=>cols.map(c=>r[c]||''))];
   const ws=XLSX.utils.aoa_to_sheet(rows);
-  ws['!cols']=[{wch:45},{wch:20},{wch:50},{wch:22},{wch:18},{wch:16},{wch:22},{wch:14},{wch:16},{wch:50},{wch:16},{wch:32}];
+  ws['!cols']=[{wch:45},{wch:20},{wch:18},{wch:14},{wch:16},{wch:10},{wch:12},{wch:18},{wch:18},{wch:50},{wch:22},{wch:14},{wch:16}];
   const wb=XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb,ws,'SOE');
   XLSX.writeFile(wb,'consulta_soe_'+new Date().toISOString().slice(0,10)+'.xlsx');
