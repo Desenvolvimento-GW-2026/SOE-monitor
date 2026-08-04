@@ -423,13 +423,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processado": "",
       "dias_protocolo": null,
       "dias_fila": null,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -1251,14 +1251,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "23/10/2024",
       "data_fila": "14/05/2026",
       "data_processamento": "14/05/2026",
       "dias_protocolo": 650,
       "dias_fila": 82,
       "dias_processamento": 82,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -1287,12 +1287,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -1359,12 +1359,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -1503,13 +1503,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processado": "",
       "dias_protocolo": null,
       "dias_fila": null,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -1827,13 +1827,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processado": "",
       "dias_protocolo": null,
       "dias_fila": null,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -2338,13 +2338,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "17/03/2026",
       "data_fila": "01/04/2026",
       "data_processado": "",
       "dias_protocolo": 140,
       "dias_fila": 125,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
       "dias_ultima_notif": 0
@@ -2770,13 +2770,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processado": "",
       "dias_protocolo": null,
       "dias_fila": null,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -3598,14 +3598,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -4066,14 +4066,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -5506,13 +5506,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "07/08/2025",
       "data_fila": "27/08/2025",
       "data_processado": "",
       "dias_protocolo": 362,
       "dias_fila": 342,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -5542,13 +5542,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "13/08/2025",
       "data_fila": "27/08/2025",
       "data_processado": "",
       "dias_protocolo": 356,
       "dias_fila": 342,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -5578,13 +5578,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "13/08/2025",
       "data_fila": "27/08/2025",
       "data_processado": "",
       "dias_protocolo": 356,
       "dias_fila": 342,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -5650,11 +5650,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -6586,11 +6586,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -6622,11 +6622,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -6658,11 +6658,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -7054,12 +7054,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "02/07/2026",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": 33,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -7234,11 +7234,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -7270,11 +7270,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -7558,11 +7558,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -7810,14 +7810,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -7882,14 +7882,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -8098,12 +8098,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -8206,12 +8206,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -8926,14 +8926,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "25/02/2026",
       "data_fila": "11/03/2026",
       "data_processamento": "11/03/2026",
       "dias_protocolo": 160,
       "dias_fila": 146,
       "dias_processamento": 146,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -9322,11 +9322,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -9358,11 +9358,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -9394,11 +9394,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -9924,14 +9924,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -11544,12 +11544,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -11580,12 +11580,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -11688,11 +11688,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -11724,11 +11724,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -11760,11 +11760,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -12588,11 +12588,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -12624,11 +12624,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -12660,11 +12660,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -12696,11 +12696,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -12732,13 +12732,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processado": "",
       "dias_protocolo": null,
       "dias_fila": null,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -12768,13 +12768,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processado": "",
       "dias_protocolo": null,
       "dias_fila": null,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -12804,13 +12804,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processado": "",
       "dias_protocolo": null,
       "dias_fila": null,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -13063,13 +13063,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "23/12/2025",
       "data_fila": "15/01/2026",
       "data_processado": "",
       "dias_protocolo": 224,
       "dias_fila": 201,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
       "dias_ultima_notif": 0
@@ -13106,13 +13106,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "23/12/2025",
       "data_fila": "15/01/2026",
       "data_processado": "",
       "dias_protocolo": 224,
       "dias_fila": 201,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
       "dias_ultima_notif": 0
@@ -13185,13 +13185,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "23/12/2025",
       "data_fila": "15/01/2026",
       "data_processado": "",
       "dias_protocolo": 224,
       "dias_fila": 201,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
       "dias_ultima_notif": 0
@@ -13401,14 +13401,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -13833,14 +13833,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "16/09/2025",
       "data_fila": "08/10/2025",
       "data_processamento": "14/05/2026",
       "dias_protocolo": 322,
       "dias_fila": 300,
       "dias_processamento": 82,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -13977,14 +13977,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "17/09/2024",
       "data_fila": "17/09/2024",
       "data_processamento": "03/01/1900",
       "dias_protocolo": 686,
       "dias_fila": 686,
       "dias_processamento": 46234,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -14193,11 +14193,11 @@
           "data": "04/08/2026"
         }
       ],
-      "data_protocolo": "04/08/2026",
+      "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "data_processado": "",
-      "dias_protocolo": 0,
+      "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
@@ -14776,13 +14776,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "19/03/2026",
       "data_fila": "16/04/2026",
       "data_processado": "",
       "dias_protocolo": 138,
       "dias_fila": 110,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
       "dias_ultima_notif": 0
@@ -14819,13 +14819,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "23/03/2026",
       "data_fila": "16/04/2026",
       "data_processado": "",
       "dias_protocolo": 134,
       "dias_fila": 110,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
       "dias_ultima_notif": 0
@@ -14862,13 +14862,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "23/03/2026",
       "data_fila": "16/04/2026",
       "data_processado": "",
       "dias_protocolo": 134,
       "dias_fila": 110,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
       "dias_ultima_notif": 0
@@ -14898,14 +14898,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -15438,12 +15438,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -15474,12 +15474,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -17022,14 +17022,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -17058,14 +17058,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -17490,13 +17490,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processado": "",
       "dias_protocolo": null,
       "dias_fila": null,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -17670,12 +17670,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -18318,14 +18318,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -18354,14 +18354,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -18390,14 +18390,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -18426,14 +18426,14 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processado": "04/08/2026",
+      "data_processado": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processamento": "",
       "dias_protocolo": null,
       "dias_fila": null,
       "dias_processamento": null,
-      "dias_processado": 0,
+      "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
     },
@@ -19614,12 +19614,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -19650,12 +19650,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -19686,12 +19686,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -19722,12 +19722,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -20082,13 +20082,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processado": "",
       "dias_protocolo": null,
       "dias_fila": null,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
@@ -21054,12 +21054,12 @@
           "data": "04/08/2026"
         }
       ],
-      "data_fila": "04/08/2026",
+      "data_fila": "",
       "data_protocolo": "",
       "data_processamento": "",
       "data_processado": "",
       "dias_protocolo": null,
-      "dias_fila": 0,
+      "dias_fila": null,
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
@@ -21931,13 +21931,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processado": "",
       "dias_protocolo": null,
       "dias_fila": null,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "04/08/2026",
       "dias_ultima_notif": 0
@@ -22615,13 +22615,13 @@
           "data": "04/08/2026"
         }
       ],
-      "data_processamento": "04/08/2026",
+      "data_processamento": "",
       "data_protocolo": "",
       "data_fila": "",
       "data_processado": "",
       "dias_protocolo": null,
       "dias_fila": null,
-      "dias_processamento": 0,
+      "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null
