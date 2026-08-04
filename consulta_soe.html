@@ -61,9 +61,13 @@ input[type=text]:focus,select:focus{outline:none;border-color:var(--gw-teal);box
 .btn-export:hover{background:var(--gw-teal-dark);box-shadow:0 3px 8px rgba(71,165,174,.35)}
 .btn-xlsx{background:#1d6f42;color:#fff}
 .btn-xlsx:hover{background:#155235;box-shadow:0 3px 8px rgba(29,111,66,.35)}
-.scroll-top-bar{overflow-x:auto;overflow-y:hidden;height:12px;border-radius:8px 8px 0 0;border:1px solid var(--border);border-bottom:none;background:#f8f9fc}
+.scroll-container{display:flex;align-items:stretch}
+.scroll-left-bar{overflow-y:auto;overflow-x:hidden;width:14px;flex-shrink:0;border:1px solid var(--border);border-right:none;background:#f8f9fc;border-radius:8px 0 0 8px}
+.scroll-left-bar div{width:1px}
+.scroll-main{flex:1;min-width:0;display:flex;flex-direction:column}
+.scroll-top-bar{overflow-x:auto;overflow-y:hidden;height:12px;border-radius:0 8px 0 0;border:1px solid var(--border);border-bottom:none;border-left:none;background:#f8f9fc}
 .scroll-top-bar div{height:1px}
-.table-wrap{overflow:auto;max-height:calc(100vh - 260px);border-radius:0 0 8px 8px;border:1px solid var(--border);border-top:none}
+.table-wrap{overflow:auto;max-height:calc(100vh - 260px);border-radius:0 0 8px 0;border:1px solid var(--border);border-top:none;border-left:none}
 table{width:100%;border-collapse:collapse;font-size:13px}
 thead tr{background:var(--gw-purple)}
 thead th{color:#fff;padding:11px 13px;text-align:left;font-weight:700;white-space:nowrap;font-size:11px;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;user-select:none;position:sticky;top:0;z-index:5;background:var(--gw-purple)}
@@ -111,7 +115,7 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 13:01
+      04/08/2026 13:07
     </div>
     <div class="hd-pill">Uso Interno</div>
   </div>
@@ -215,13 +219,25 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
           <option value="">Todos os tipos</option>
         </select>
       </div>
+      <div class="field">
+        <label>Notificação</label>
+        <select id="filtroNotif" onchange="aplicarFiltros()">
+          <option value="">Todas</option>
+          <option value="pendente">⚠️ Com pendentes</option>
+          <option value="com">Com notificações</option>
+          <option value="sem">Sem notificações</option>
+        </select>
+      </div>
       <button class="btn btn-clear" onclick="limparFiltros()">Limpar</button>
     </div>
 
     <div class="results-info" id="resultsInfo"></div>
 
-    <div class="scroll-top-bar" id="scrollTop"><div id="scrollTopInner"></div></div>
-    <div class="table-wrap" id="tableWrap">
+    <div class="scroll-container">
+      <div class="scroll-left-bar" id="scrollLeft"><div id="scrollLeftInner"></div></div>
+      <div class="scroll-main">
+        <div class="scroll-top-bar" id="scrollTop"><div id="scrollTopInner"></div></div>
+        <div class="table-wrap" id="tableWrap">
       <table id="tabela">
         <thead>
           <tr>
@@ -242,6 +258,8 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
         </thead>
         <tbody id="tbody"></tbody>
       </table>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -417,12 +435,22 @@ function atualizarMedias(dados) {
 
 function renderNotifs(notifs) {
   if (!notifs || !notifs.length) return '<td style="color:#ccc;font-size:11px;text-align:center;vertical-align:middle">—</td>';
-  const html = notifs.map(n => `<div style="font-size:11px;border-bottom:1px solid #eee;padding:3px 0;line-height:1.5">
-    <span style="color:#888">Recebida: </span><strong>${esc(n.data_notif||'—')}</strong><br>
-    <span style="color:#888">Prazo: </span><strong>${esc(n.prazo||'—')}</strong><br>
-    <span style="font-weight:bold;color:${n.situacao==='Pendente'?'#f97316':'#16a34a'}">${esc(n.situacao||'—')}</span>
-  </div>`).join('');
+  const html = notifs.map(n => {
+    const isPend = n.situacao === 'Pendente';
+    const cor = isPend ? '#f97316' : '#16a34a';
+    const situBadge = `<span onclick="filtrarNotif('pendente')" style="font-weight:bold;color:${cor};cursor:pointer;text-decoration:underline dotted" title="Filtrar por pendentes">${esc(n.situacao||'—')}</span>`;
+    return `<div style="font-size:11px;border-bottom:1px solid #eee;padding:3px 0;line-height:1.5">
+      <span style="color:#888">Recebida: </span><strong>${esc(n.data_notif||'—')}</strong><br>
+      <span style="color:#888">Prazo: </span><strong>${esc(n.prazo||'—')}</strong><br>
+      ${situBadge}
+    </div>`;
+  }).join('');
   return `<td style="min-width:160px;vertical-align:top;padding:4px">${html}</td>`;
+}
+
+function filtrarNotif(val) {
+  document.getElementById('filtroNotif').value = val;
+  aplicarFiltros();
 }
 
 function esc(s) {
@@ -434,6 +462,7 @@ function aplicarFiltros() {
   const busca = document.getElementById('busca').value.toLowerCase();
   const status = document.getElementById('filtroStatus').value || filtroStatusAtivo;
   const tipo = document.getElementById('filtroTipo').value;
+  const notif = document.getElementById('filtroNotif').value;
 
   dadosFiltrados = DADOS.filter(r => {
     if (status) {
@@ -442,6 +471,12 @@ function aplicarFiltros() {
       } else if (r.status !== status) return false;
     }
     if (tipo && r.tipo !== tipo) return false;
+    if (notif) {
+      const ns = r.notificacoes || [];
+      if (notif === 'com' && !ns.length) return false;
+      if (notif === 'sem' && ns.length) return false;
+      if (notif === 'pendente' && !ns.some(n => n.situacao === 'Pendente')) return false;
+    }
     if (busca) {
       const haystack = [r.emp_nome, r.req_nome, r.codigo, r.tipo, r.codigo_spaguas, r.solicitacao, r.req_cnpj]
         .join(' ').toLowerCase();
@@ -474,6 +509,7 @@ function limparFiltros() {
   document.getElementById('busca').value = '';
   document.getElementById('filtroStatus').value = '';
   document.getElementById('filtroTipo').value = '';
+  document.getElementById('filtroNotif').value = '';
   document.querySelectorAll('.stat').forEach(el => el.classList.remove('ativo'));
   aplicarFiltros();
 }
@@ -557,18 +593,27 @@ function exportarXLSX() {
   XLSX.writeFile(wb,'consulta_soe_'+new Date().toISOString().slice(0,10)+'.xlsx');
 }
 
-// Scroll bar espelhada no topo da tabela
+// Scroll bars espelhadas: horizontal (topo) + vertical (esquerda)
 (function() {
   const top = document.getElementById('scrollTop');
+  const left = document.getElementById('scrollLeft');
   const wrap = document.getElementById('tableWrap');
   const inner = document.getElementById('scrollTopInner');
-  function syncWidth() {
-    inner.style.width = wrap.scrollWidth + 'px';
-  }
-  syncWidth();
-  new ResizeObserver(syncWidth).observe(wrap);
-  top.addEventListener('scroll', () => { if (!wrap._scrolling) { wrap._scrolling = true; wrap.scrollLeft = top.scrollLeft; wrap._scrolling = false; } });
-  wrap.addEventListener('scroll', () => { if (!top._scrolling) { top._scrolling = true; top.scrollLeft = wrap.scrollLeft; top._scrolling = false; } });
+  const leftInner = document.getElementById('scrollLeftInner');
+
+  function syncWidth() { inner.style.width = wrap.scrollWidth + 'px'; }
+  function syncHeight() { leftInner.style.height = wrap.scrollHeight + 'px'; }
+
+  syncWidth(); syncHeight();
+  const ro = new ResizeObserver(() => { syncWidth(); syncHeight(); });
+  ro.observe(wrap);
+
+  top.addEventListener('scroll', () => { if (!wrap._hscrolling) { wrap._hscrolling = true; wrap.scrollLeft = top.scrollLeft; wrap._hscrolling = false; } });
+  wrap.addEventListener('scroll', () => {
+    if (!top._hscrolling) { top._hscrolling = true; top.scrollLeft = wrap.scrollLeft; top._hscrolling = false; }
+    if (!left._vscrolling) { left._vscrolling = true; left.scrollTop = wrap.scrollTop; left._vscrolling = false; }
+  });
+  left.addEventListener('scroll', () => { if (!wrap._vscrolling) { wrap._vscrolling = true; wrap.scrollTop = left.scrollTop; wrap._vscrolling = false; } });
 })();
 
 // Init
