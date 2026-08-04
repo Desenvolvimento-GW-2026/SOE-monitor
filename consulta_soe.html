@@ -115,8 +115,8 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 14:02
-      <span style="display:block;font-size:9px;color:rgba(255,255,255,.45);margin-top:3px">Próximas: <strong>04/08 15:00</strong> &nbsp;|&nbsp; <strong>04/08 17:00</strong> &nbsp;|&nbsp; <strong>05/08 08:00</strong></span>
+      04/08/2026 14:04
+      <span style="display:block;font-size:9px;color:rgba(255,255,255,.45);margin-top:3px">Próximas: <span id="proximas-txt">...</span></span>
     </div>
     <div class="hd-pill">Uso Interno</div>
   </div>
@@ -645,6 +645,46 @@ function exportarXLSX() {
     if (!left._vscrolling) { left._vscrolling = true; left.scrollTop = wrap.scrollTop; left._vscrolling = false; }
   });
   left.addEventListener('scroll', () => { if (!wrap._vscrolling) { wrap._vscrolling = true; wrap.scrollTop = left.scrollTop; wrap._vscrolling = false; } });
+})();
+
+// Próximas execuções agendadas (calculado no cliente — sempre atualizado)
+(function() {
+  const HORARIOS = [8, 11, 15, 17];
+  function proximasExecucoes(n) {
+    const agora = new Date();
+    const res = [];
+    const cursor = new Date(agora);
+    cursor.setSeconds(0); cursor.setMilliseconds(0);
+    while (res.length < n) {
+      const dow = cursor.getDay(); // 0=dom, 6=sab
+      if (dow >= 1 && dow <= 5) {
+        for (const h of HORARIOS) {
+          const alvo = new Date(cursor);
+          alvo.setHours(h, 0, 0, 0);
+          if (alvo > agora) {
+            res.push(alvo);
+            if (res.length === n) break;
+          }
+        }
+      }
+      cursor.setDate(cursor.getDate() + 1);
+      cursor.setHours(0, 0, 0, 0);
+    }
+    return res;
+  }
+  function fmt(d) {
+    const dd = String(d.getDate()).padStart(2,'0');
+    const mm = String(d.getMonth()+1).padStart(2,'0');
+    const hh = String(d.getHours()).padStart(2,'0');
+    return `${dd}/${mm} ${hh}h`;
+  }
+  function atualizar() {
+    const prox = proximasExecucoes(3);
+    const el = document.getElementById('proximas-txt');
+    if (el) el.innerHTML = prox.map(p => `<strong>${fmt(p)}</strong>`).join(' &nbsp;|&nbsp; ');
+  }
+  atualizar();
+  setInterval(atualizar, 60000); // atualiza a cada minuto
 })();
 
 // Init
