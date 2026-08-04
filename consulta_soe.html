@@ -109,7 +109,7 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 12:43
+      04/08/2026 12:44
     </div>
     <div class="hd-pill">Uso Interno</div>
   </div>
@@ -159,6 +159,11 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
         <div style="font-size:11px;color:#9a3412;font-weight:600;margin-bottom:4px">EM PROCESSAMENTO</div>
         <div style="font-size:28px;font-weight:700;color:#9a3412" id="media-proc">—</div>
         <div style="font-size:11px;color:#6b7280" id="media-proc-n"></div>
+      </div>
+      <div style="flex:1;min-width:160px;background:#f0fdf4;border-radius:8px;padding:14px 18px;border-left:4px solid #16a34a">
+        <div style="font-size:11px;color:#15803d;font-weight:600;margin-bottom:4px">TOTAL (FINALIZADOS)</div>
+        <div style="font-size:28px;font-weight:700;color:#15803d" id="media-total">—</div>
+        <div style="font-size:11px;color:#6b7280" id="media-total-n"></div>
       </div>
     </div>
   </div>
@@ -353,18 +358,22 @@ function renderTabela(dados) {
 }
 
 function atualizarMedias(dados) {
-  function media(campo) {
-    const vals = dados.map(r => r[campo]).filter(v => v !== null && v !== undefined && v !== '');
+  function media(campo, subset) {
+    const src = subset || dados;
+    const vals = src.map(r => r[campo]).filter(v => v !== null && v !== undefined && v !== '');
     if (!vals.length) return {media: null, n: 0};
     return {media: Math.round(vals.reduce((a,b) => a + Number(b), 0) / vals.length), n: vals.length};
   }
   function set(id, nId, res) {
     document.getElementById(id).textContent = res.media !== null ? res.media + ' dias' : '—';
-    document.getElementById(nId).textContent = res.n ? res.n + ' requerimentos' : '';
+    document.getElementById(nId).textContent = res.n ? res.n + ' reqs' : '';
   }
+  // Finalizados = status contém "Resultado" ou "Processado" (concluídos)
+  const finalizados = dados.filter(r => r.status && (r.status.includes('Resultado') || r.status === 'Processado'));
   set('media-prot',  'media-prot-n',  media('dias_protocolo'));
   set('media-fila',  'media-fila-n',  media('dias_fila'));
   set('media-proc',  'media-proc-n',  media('dias_processamento'));
+  set('media-total', 'media-total-n', media('dias_protocolo', finalizados));
 }
 
 function renderNotifs(notifs) {
