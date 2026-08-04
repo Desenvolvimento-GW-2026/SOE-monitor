@@ -115,7 +115,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 16:56
+      04/08/2026 16:59
       <span style="display:block;font-size:9px;color:rgba(255,255,255,.5);margin-top:2px">Próxima: <span id="proximas-txt">...</span></span>
     </div>
     <div class="hd-pill">Uso Interno</div>
@@ -278,7 +278,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div style="font-size:11px;color:#888;padding:6px 4px;display:flex;align-items:center;gap:6px;flex-wrap:wrap">
     <span>🔄 Atualiza todos os dias úteis às <strong style="color:#555">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong></span>
     <span style="color:#ccc">|</span>
-    <span>Última atualização: <strong style="color:#555">04/08/2026 16:56</strong></span>
+    <span>Última atualização: <strong style="color:#555">04/08/2026 16:59</strong></span>
     <span style="color:#ccc">|</span>
     <span>Próxima: <strong style="color:#555" id="info-proxima">...</strong></span>
   </div>
@@ -355,7 +355,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
             <th onclick="ordenar('tipo')">TIPO<span class="sort-icon" id="si-tipo">↕</span></th>
             <th onclick="ordenar('codigo')">IDENTIFICAÇÃO<span class="sort-icon" id="si-codigo">↕</span></th>
             <th>NOTIFICAÇÕES</th>
-            <th style="width:60px;text-align:center">AÇÕES</th>
           </tr>
         </thead>
         <tbody id="tbody"></tbody>
@@ -367,106 +366,12 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
 
 </main>
 
-<!-- MODAL EDIÇÃO DE LINHA COMPLETA -->
-<div id="modal-linha" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:9999;align-items:flex-start;justify-content:center;overflow-y:auto;padding:32px 16px">
-  <div style="background:#fff;border-radius:14px;padding:28px 32px;width:100%;max-width:560px;box-shadow:0 8px 40px rgba(0,0,0,.25)">
-    <div style="font-size:14px;font-weight:700;color:#3D397E;margin-bottom:2px">Editar requerimento</div>
-    <div style="font-size:11px;color:#888;margin-bottom:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" id="modal-linha-titulo"></div>
-    <input type="hidden" id="el-codigo">
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-      <div style="grid-column:1/-1">
-        <label style="font-size:11px;font-weight:600;color:#555;display:block;margin-bottom:3px">Empreendimento</label>
-        <input id="el-emp_nome" type="text" style="width:100%;border:1.5px solid #e2e5ec;border-radius:7px;padding:7px 10px;font-size:13px;box-sizing:border-box">
-      </div>
-      <div>
-        <label style="font-size:11px;font-weight:600;color:#555;display:block;margin-bottom:3px">CNPJ</label>
-        <input id="el-req_cnpj" type="text" style="width:100%;border:1.5px solid #e2e5ec;border-radius:7px;padding:7px 10px;font-size:13px;box-sizing:border-box">
-      </div>
-      <div>
-        <label style="font-size:11px;font-weight:600;color:#555;display:block;margin-bottom:3px">Status</label>
-        <select id="el-status" style="width:100%;border:1.5px solid #e2e5ec;border-radius:7px;padding:7px 10px;font-size:13px;box-sizing:border-box;background:#fff">
-          <option value="Protocolo">Protocolo</option>
-          <option value="Na fila">Na fila</option>
-          <option value="Em processamento">Em processamento</option>
-          <option value="Processado">Processado</option>
-          <option value="Finalizado">Finalizado</option>
-          <option value="Resultado Emitido">Resultado Emitido</option>
-          <option value="Resultado Deferido">Resultado Deferido</option>
-          <option value="Resultado Indeferido">Resultado Indeferido</option>
-        </select>
-      </div>
-      <div style="grid-column:1/-1">
-        <label style="font-size:11px;font-weight:600;color:#555;display:block;margin-bottom:3px">Tipo de requerimento</label>
-        <input id="el-tipo" type="text" style="width:100%;border:1.5px solid #e2e5ec;border-radius:7px;padding:7px 10px;font-size:13px;box-sizing:border-box">
-      </div>
-      <div>
-        <label style="font-size:11px;font-weight:600;color:#555;display:block;margin-bottom:3px">Código SP Águas</label>
-        <input id="el-cod_spaguas" type="text" style="width:100%;border:1.5px solid #e2e5ec;border-radius:7px;padding:7px 10px;font-size:13px;box-sizing:border-box">
-      </div>
-      <div>
-        <label style="font-size:11px;font-weight:600;color:#555;display:block;margin-bottom:3px">Identificação SOE</label>
-        <input id="el-codigo_soe" type="text" disabled style="width:100%;border:1.5px solid #e2e5ec;border-radius:7px;padding:7px 10px;font-size:13px;box-sizing:border-box;background:#f9fafb;color:#888">
-      </div>
-      <div>
-        <label style="font-size:11px;font-weight:600;color:#3b82f6;display:block;margin-bottom:3px">Data Protocolo</label>
-        <input id="el-d_prot" type="date" style="width:100%;border:1.5px solid #bfdbfe;border-radius:7px;padding:7px 10px;font-size:13px;box-sizing:border-box">
-      </div>
-      <div>
-        <label style="font-size:11px;font-weight:600;color:#eab308;display:block;margin-bottom:3px">Data Fila</label>
-        <input id="el-d_fila" type="date" style="width:100%;border:1.5px solid #fde68a;border-radius:7px;padding:7px 10px;font-size:13px;box-sizing:border-box">
-      </div>
-      <div>
-        <label style="font-size:11px;font-weight:600;color:#f97316;display:block;margin-bottom:3px">Data Processamento</label>
-        <input id="el-d_proc" type="date" style="width:100%;border:1.5px solid #fed7aa;border-radius:7px;padding:7px 10px;font-size:13px;box-sizing:border-box">
-      </div>
-      <div>
-        <label style="font-size:11px;font-weight:600;color:#6b7280;display:block;margin-bottom:3px">Data Última Notif.</label>
-        <input id="el-d_notif" type="date" style="width:100%;border:1.5px solid #e2e5ec;border-radius:7px;padding:7px 10px;font-size:13px;box-sizing:border-box">
-      </div>
-    </div>
-    <div style="margin-top:14px" id="modal-linha-senha-label">
-      <label style="font-size:11px;font-weight:600;color:#555;display:block;margin-bottom:3px">Senha</label>
-    </div>
-    <input id="modal-linha-senha" type="password" placeholder="senha de desenvolvimento"
-      style="width:100%;border:1.5px solid #e2e5ec;border-radius:7px;padding:7px 10px;font-size:13px;box-sizing:border-box;margin-bottom:6px">
-    <div id="modal-linha-erro" style="font-size:11px;color:#dc2626;min-height:16px;margin-bottom:10px"></div>
-    <div style="display:flex;gap:10px">
-      <button id="modal-linha-btn" onclick="salvarLinha()"
-        style="flex:1;background:#3D397E;color:#fff;border:none;border-radius:8px;padding:10px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit">Salvar</button>
-      <button onclick="fecharEditorLinha()"
-        style="background:#f3f4f6;color:#555;border:none;border-radius:8px;padding:10px 20px;font-size:13px;cursor:pointer;font-family:inherit">Cancelar</button>
-    </div>
-  </div>
-</div>
-
-<!-- MODAL EDIÇÃO DE DATA -->
-<div id="modal-data" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:9999;align-items:center;justify-content:center">
-  <div style="background:#fff;border-radius:14px;padding:28px 32px;min-width:320px;box-shadow:0 8px 40px rgba(0,0,0,.25);position:relative">
-    <div style="font-size:13px;font-weight:700;color:#3D397E;margin-bottom:4px" id="modal-titulo">Editar data</div>
-    <div style="font-size:11px;color:#888;margin-bottom:18px" id="modal-subtitulo"></div>
-    <label style="font-size:11px;font-weight:600;color:#555;display:block;margin-bottom:4px">Nova data</label>
-    <input type="date" id="modal-data-input"
-      style="width:100%;border:1.5px solid #e2e5ec;border-radius:8px;padding:8px 12px;font-size:14px;color:#333;margin-bottom:14px;box-sizing:border-box">
-    <label style="font-size:11px;font-weight:600;color:#555;display:block;margin-bottom:4px" id="modal-senha-label">Senha</label>
-    <input type="password" id="modal-senha-input" placeholder="senha de desenvolvimento"
-      style="width:100%;border:1.5px solid #e2e5ec;border-radius:8px;padding:8px 12px;font-size:14px;color:#333;margin-bottom:6px;box-sizing:border-box"
-      onkeydown="if(event.key==='Enter')salvarDataModal()">
-    <div id="modal-erro" style="font-size:11px;color:#dc2626;min-height:16px;margin-bottom:10px"></div>
-    <div style="display:flex;gap:10px">
-      <button onclick="salvarDataModal()"
-        style="flex:1;background:#3D397E;color:#fff;border:none;border-radius:8px;padding:10px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit"
-        id="modal-btn-salvar">Salvar</button>
-      <button onclick="fecharModalData()"
-        style="flex:1;background:#f3f4f6;color:#555;border:none;border-radius:8px;padding:10px;font-size:13px;cursor:pointer;font-family:inherit">Cancelar</button>
-    </div>
-  </div>
-</div>
 
 <footer>
   <div style="font-size:12px;color:#888;margin-bottom:6px">
     🔄 Atualiza automaticamente todos os dias úteis às <strong style="color:#555">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong>
     &nbsp;&nbsp;|&nbsp;&nbsp;
-    Última atualização: <strong style="color:#555">04/08/2026 16:56</strong>
+    Última atualização: <strong style="color:#555">04/08/2026 16:59</strong>
     &nbsp;&nbsp;|&nbsp;&nbsp;
     Próxima: <strong style="color:#555" id="footer-proxima">...</strong>
   </div>
@@ -526,14 +431,9 @@ function diasCell(dias, hasDate, campo) {
   return `<td style="text-align:center;font-weight:bold;${bg?'background:'+bg+';':''}color:${color}">${n}</td>`;
 }
 
-function dateCell(dt, codigo, campo) {
-  const val   = dt || '';
-  const txt   = dt || '—';
-  const attrs = codigo
-    ? ` class="td-data-edit" data-codigo="${esc(codigo)}" data-campo="${campo}" data-val="${esc(val)}" ondblclick="abrirEditorData(this)" title="Duplo clique para editar"`
-    : '';
-  if (!dt) return `<td style="color:#aaa;font-size:11px;text-align:center;cursor:pointer"${attrs}>${txt}</td>`;
-  return `<td style="white-space:nowrap;font-size:12px;cursor:pointer"${attrs}>${esc(dt)}</td>`;
+function dateCell(dt) {
+  if (!dt) return '<td style="color:#aaa;font-size:11px;text-align:center">—</td>';
+  return `<td style="white-space:nowrap;font-size:12px">${esc(dt)}</td>`;
 }
 
 function badgeSituacaoNotif(s) {
@@ -592,20 +492,14 @@ function renderTabela(dados) {
       ${diasCell(r.dias_total, !!r.data_protocolo, 'dias_total')}
       <td>${badgeStatus(r.status)}</td>
       ${diasCell(r.dias_protocolo, !!r.data_protocolo, 'dias_protocolo')}
-      ${dateCell(r.data_protocolo, r.codigo, 'data_protocolo')}
+      ${dateCell(r.data_protocolo)}
       ${diasCell(r.dias_fila, !!r.data_fila, 'dias_fila')}
-      ${dateCell(r.data_fila, r.codigo, 'data_fila')}
+      ${dateCell(r.data_fila)}
       ${diasCell(r.dias_processamento, !!r.data_processamento, 'dias_processamento')}
-      ${dateCell(r.data_processamento, r.codigo, 'data_processamento')}
+      ${dateCell(r.data_processamento)}
       <td class="td-tipo">${esc(r.tipo || '—')}</td>
       <td style="font-size:11px;white-space:nowrap"><a href="${portalUrl}" target="_blank" class="link-soe">${esc(r.codigo)}</a></td>
       ${renderNotifs(r.notificacoes)}
-      <td style="text-align:center;white-space:nowrap">
-        <button onclick="abrirEditorLinha('${esc(r.codigo)}')" title="Editar linha"
-          style="border:none;background:none;cursor:pointer;padding:3px 5px;border-radius:4px;font-size:14px" onmouseover="this.style.background='#eff6ff'" onmouseout="this.style.background='none'">✏️</button>
-        <button onclick="deletarLinha('${esc(r.codigo)}','${esc(empNome)}')" title="Excluir linha"
-          style="border:none;background:none;cursor:pointer;padding:3px 5px;border-radius:4px;font-size:14px" onmouseover="this.style.background='#fef2f2'" onmouseout="this.style.background='none'">🗑️</button>
-      </td>
     </tr>`;
   }).join('');
 }
@@ -896,219 +790,6 @@ function exportarXLSX() {
 aplicarFiltros();
 document.getElementById('stat-all').classList.add('ativo');
 
-// ── Editor de datas (requer servidor Flask rodando) ──────────────────────────
-const NOMES_CAMPO = {
-  data_protocolo:     'Data Protocolo',
-  data_fila:          'Data Fila',
-  data_processamento: 'Data Processamento',
-  data_ultima_notif:  'Data Ultima Notif',
-};
-
-let _editCell  = null;
-let _editSenha = sessionStorage.getItem('soe_edit_senha') || '';
-
-function dmy2iso(s) {
-  if (!s) return '';
-  const [d, m, y] = s.split('/');
-  return y && m && d ? `${y}-${m.padStart(2,'0')}-${d.padStart(2,'0')}` : '';
-}
-
-function iso2dmy(s) {
-  if (!s) return '';
-  const [y, m, d] = s.split('-');
-  return y && m && d ? `${d}/${m}/${y}` : '';
-}
-
-function abrirEditorData(cell) {
-  _editCell = cell;
-  const campo  = cell.dataset.campo;
-  const codigo = cell.dataset.codigo;
-  const valAtual = cell.dataset.val || '';
-
-  document.getElementById('modal-titulo').textContent    = NOMES_CAMPO[campo] || campo;
-  document.getElementById('modal-subtitulo').textContent = codigo;
-  document.getElementById('modal-data-input').value      = dmy2iso(valAtual);
-  document.getElementById('modal-erro').textContent      = '';
-
-  const senhaInput = document.getElementById('modal-senha-input');
-  const senhaLabel = document.getElementById('modal-senha-label');
-  if (_editSenha) {
-    senhaInput.style.display = 'none';
-    senhaLabel.style.display = 'none';
-  } else {
-    senhaInput.style.display = '';
-    senhaLabel.style.display = '';
-    senhaInput.value = '';
-  }
-
-  const modal = document.getElementById('modal-data');
-  modal.style.display = 'flex';
-  setTimeout(() => document.getElementById('modal-data-input').focus(), 50);
-}
-
-function fecharModalData() {
-  document.getElementById('modal-data').style.display = 'none';
-  _editCell = null;
-}
-
-async function salvarDataModal() {
-  if (!_editCell) return;
-
-  const senhaInput = document.getElementById('modal-senha-input');
-  const senha = _editSenha || senhaInput.value.trim();
-  if (!senha) { document.getElementById('modal-erro').textContent = 'Informe a senha.'; return; }
-
-  const valorISO = document.getElementById('modal-data-input').value;
-  const valorDMY = iso2dmy(valorISO);
-
-  const btn = document.getElementById('modal-btn-salvar');
-  btn.textContent = 'Salvando...';
-  btn.disabled = true;
-  document.getElementById('modal-erro').textContent = '';
-
-  try {
-    const resp = await fetch('/api/salvar-data', {
-      method:  'POST',
-      headers: {'Content-Type': 'application/json'},
-      body:    JSON.stringify({
-        codigo: _editCell.dataset.codigo,
-        campo:  _editCell.dataset.campo,
-        valor:  valorDMY,
-        senha:  senha,
-      }),
-    });
-    const json = await resp.json();
-
-    if (!json.ok) {
-      document.getElementById('modal-erro').textContent = json.erro || 'Erro desconhecido';
-      if (resp.status === 403) { _editSenha = ''; sessionStorage.removeItem('soe_edit_senha'); }
-    } else {
-      _editSenha = senha;
-      sessionStorage.setItem('soe_edit_senha', senha);
-      // Atualiza célula na tela
-      _editCell.textContent   = valorDMY || '—';
-      _editCell.dataset.val   = valorDMY;
-      _editCell.style.color   = valorDMY ? '' : '#aaa';
-      fecharModalData();
-      // Avisa que HTML foi regenerado
-      setTimeout(() => {
-        if (confirm('Data salva! Recarregar pagina para ver dias recalculados?')) location.reload();
-      }, 100);
-    }
-  } catch(e) {
-    document.getElementById('modal-erro').textContent = 'Servidor indisponivel. Rode SERVIDOR.bat primeiro.';
-  }
-
-  btn.textContent = 'Salvar';
-  btn.disabled = false;
-}
-
-// Fechar modal clicando fora
-document.getElementById('modal-data').addEventListener('click', function(e) {
-  if (e.target === this) fecharModalData();
-});
-
-// ── Editor de linha completo ─────────────────────────────────────────────────
-const STATUS_OPTS = ['Protocolo','Na fila','Em processamento','Processado','Finalizado',
-                     'Resultado Emitido','Resultado Deferido','Resultado Indeferido'];
-
-function abrirEditorLinha(codigo) {
-  const r = DADOS.find(x => x.codigo === codigo);
-  if (!r) return;
-
-  const f = document.getElementById;
-  f.call(document, 'el-codigo').value      = r.codigo || '';
-  f.call(document, 'el-emp_nome').value    = r.emp_nome || r.req_nome || '';
-  f.call(document, 'el-req_cnpj').value    = r.req_cnpj || '';
-  f.call(document, 'el-tipo').value        = r.tipo || '';
-  f.call(document, 'el-status').value      = r.status || '';
-  f.call(document, 'el-codigo_soe').value  = r.codigo || '';
-  f.call(document, 'el-cod_spaguas').value = r.codigo_spaguas || '';
-  f.call(document, 'el-d_prot').value      = dmy2iso(r.data_protocolo);
-  f.call(document, 'el-d_fila').value      = dmy2iso(r.data_fila);
-  f.call(document, 'el-d_proc').value      = dmy2iso(r.data_processamento);
-  f.call(document, 'el-d_notif').value     = dmy2iso(r.data_ultima_notif);
-  f.call(document, 'modal-linha-titulo').textContent = r.emp_nome || r.req_nome || codigo;
-  f.call(document, 'modal-linha-erro').textContent   = '';
-
-  const senhaInput = document.getElementById('modal-linha-senha');
-  const senhaLabel = document.getElementById('modal-linha-senha-label');
-  senhaInput.style.display = _editSenha ? 'none' : '';
-  senhaLabel.style.display = _editSenha ? 'none' : '';
-  if (!_editSenha) senhaInput.value = '';
-
-  document.getElementById('modal-linha').style.display = 'flex';
-}
-
-function fecharEditorLinha() {
-  document.getElementById('modal-linha').style.display = 'none';
-}
-
-async function salvarLinha() {
-  const get = id => document.getElementById(id).value.trim();
-  const senha = _editSenha || get('modal-linha-senha');
-  if (!senha) { document.getElementById('modal-linha-erro').textContent = 'Informe a senha.'; return; }
-
-  const codigo = get('el-codigo');
-  const campos = {
-    emp_nome:           get('el-emp_nome'),
-    req_cnpj:           get('el-req_cnpj'),
-    tipo:               get('el-tipo'),
-    status:             get('el-status'),
-    codigo_spaguas:     get('el-cod_spaguas'),
-    data_protocolo:     iso2dmy(get('el-d_prot')),
-    data_fila:          iso2dmy(get('el-d_fila')),
-    data_processamento: iso2dmy(get('el-d_proc')),
-    data_ultima_notif:  iso2dmy(get('el-d_notif')),
-  };
-
-  const btn = document.getElementById('modal-linha-btn');
-  btn.textContent = 'Salvando...'; btn.disabled = true;
-  document.getElementById('modal-linha-erro').textContent = '';
-
-  try {
-    const resp = await fetch('/api/editar-req', {
-      method:  'POST',
-      headers: {'Content-Type': 'application/json'},
-      body:    JSON.stringify({ codigo, campos, senha }),
-    });
-    const json = await resp.json();
-    if (!json.ok) {
-      document.getElementById('modal-linha-erro').textContent = json.erro || 'Erro';
-      if (resp.status === 403) { _editSenha = ''; sessionStorage.removeItem('soe_edit_senha'); }
-    } else {
-      _editSenha = senha; sessionStorage.setItem('soe_edit_senha', senha);
-      fecharEditorLinha();
-      if (confirm('Salvo! Recarregar pagina para ver alteracoes?')) location.reload();
-    }
-  } catch(e) {
-    document.getElementById('modal-linha-erro').textContent = 'Servidor indisponivel. Rode SERVIDOR.bat.';
-  }
-  btn.textContent = 'Salvar'; btn.disabled = false;
-}
-
-async function deletarLinha(codigo, nome) {
-  if (!confirm(`Excluir "${nome}" (${codigo})?\n\nEsta acao nao pode ser desfeita.`)) return;
-  const senha = _editSenha || prompt('Senha de desenvolvimento:');
-  if (!senha) return;
-  try {
-    const resp = await fetch('/api/deletar-req', {
-      method:  'POST',
-      headers: {'Content-Type': 'application/json'},
-      body:    JSON.stringify({ codigo, senha }),
-    });
-    const json = await resp.json();
-    if (!json.ok) { alert('Erro: ' + (json.erro || 'desconhecido')); return; }
-    _editSenha = senha; sessionStorage.setItem('soe_edit_senha', senha);
-    if (confirm('Excluido! Recarregar pagina?')) location.reload();
-  } catch(e) {
-    alert('Servidor indisponivel. Rode SERVIDOR.bat.');
-  }
-}
-
-document.getElementById('modal-linha').addEventListener('click', function(e) {
-  if (e.target === this) fecharEditorLinha();
-});
 </script>
 </body>
 </html>
