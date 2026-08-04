@@ -115,7 +115,7 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 14:17
+      04/08/2026 14:18
       <span style="display:block;font-size:9px;color:rgba(255,255,255,.5);margin-top:2px">Próxima: <span id="proximas-txt">...</span></span>
     </div>
     <div class="hd-pill">Uso Interno</div>
@@ -213,6 +213,15 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
     </div>
   </div>
 
+  <!-- INFO ATUALIZAÇÃO -->
+  <div style="font-size:11px;color:#888;padding:6px 4px;display:flex;align-items:center;gap:6px;flex-wrap:wrap">
+    <span>🔄 Atualiza todos os dias úteis às <strong style="color:#555">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong></span>
+    <span style="color:#ccc">|</span>
+    <span>Última atualização: <strong style="color:#555">04/08/2026 14:18</strong></span>
+    <span style="color:#ccc">|</span>
+    <span>Próxima: <strong style="color:#555" id="info-proxima">...</strong></span>
+  </div>
+
   <!-- TABELA -->
   <div class="card">
     <div class="card-hd">
@@ -300,7 +309,7 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div style="font-size:12px;color:#888;margin-bottom:6px">
     🔄 Atualiza automaticamente todos os dias úteis às <strong style="color:#555">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong>
     &nbsp;&nbsp;|&nbsp;&nbsp;
-    Última atualização: <strong style="color:#555">04/08/2026 14:17</strong>
+    Última atualização: <strong style="color:#555">04/08/2026 14:18</strong>
     &nbsp;&nbsp;|&nbsp;&nbsp;
     Próxima: <strong style="color:#555" id="footer-proxima">...</strong>
   </div>
@@ -690,9 +699,10 @@ function exportarXLSX() {
   function atualizar() {
     const prox = proximasExecucoes(3);
     const el = document.getElementById('proximas-txt');
-    if (el && prox.length) el.textContent = fmt(prox[0]);
-    const elF = document.getElementById('footer-proxima');
-    if (elF && prox.length) elF.textContent = fmt(prox[0]);
+    ['proximas-txt','footer-proxima','info-proxima'].forEach(id => {
+      const e = document.getElementById(id);
+      if (e && prox.length) e.textContent = fmt(prox[0]);
+    });
   }
   atualizar();
   setInterval(atualizar, 60000); // atualiza a cada minuto
