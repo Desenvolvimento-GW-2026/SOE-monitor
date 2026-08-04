@@ -63,10 +63,10 @@ input[type=text]:focus,select:focus{outline:none;border-color:var(--gw-teal);box
 .btn-xlsx:hover{background:#155235;box-shadow:0 3px 8px rgba(29,111,66,.35)}
 .scroll-top-bar{overflow-x:auto;overflow-y:hidden;height:12px;border-radius:8px 8px 0 0;border:1px solid var(--border);border-bottom:none;background:#f8f9fc}
 .scroll-top-bar div{height:1px}
-.table-wrap{overflow-x:auto;border-radius:0 0 8px 8px;border:1px solid var(--border);border-top:none}
+.table-wrap{overflow:auto;max-height:calc(100vh - 260px);border-radius:0 0 8px 8px;border:1px solid var(--border);border-top:none}
 table{width:100%;border-collapse:collapse;font-size:13px}
 thead tr{background:var(--gw-purple)}
-thead th{color:#fff;padding:11px 13px;text-align:left;font-weight:700;white-space:nowrap;font-size:11px;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;user-select:none}
+thead th{color:#fff;padding:11px 13px;text-align:left;font-weight:700;white-space:nowrap;font-size:11px;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;user-select:none;position:sticky;top:0;z-index:5;background:var(--gw-purple)}
 thead th:hover{background:#4a4590}
 thead th .sort-icon{margin-left:4px;opacity:.5;font-size:10px}
 thead th.sorted .sort-icon{opacity:1}
@@ -111,7 +111,7 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 12:56
+      04/08/2026 13:01
     </div>
     <div class="hd-pill">Uso Interno</div>
   </div>
@@ -259,6 +259,7 @@ let filtroStatusAtivo = '';
 let sortCol = 'status';
 let sortAsc = true;
 let dadosFiltrados = [...DADOS];
+let _medias = {};
 
 // Popular select de tipos
 const tipos = [...new Set(DADOS.map(r => r.tipo).filter(Boolean))].sort();
@@ -284,15 +285,21 @@ function renderDateCell(dt) {
   return `<td style="white-space:nowrap;font-size:12px">${esc(dt)}</td>`;
 }
 
-function diasCell(dias, hasDate) {
+function diasCell(dias, hasDate, campo) {
   if (!hasDate || dias === null || dias === undefined || dias === '') {
     return '<td style="color:#aaa;text-align:center;font-size:11px">-</td>';
   }
   const n = Number(dias);
-  if (n > 120) {
-    return '<td style="text-align:center;font-weight:bold;background:#FFC7CE;color:#9C0006">' + n + '</td>';
+  const avg = (campo && _medias[campo] != null) ? _medias[campo] : null;
+  let bg = '', color = '#1E40AF';
+  if (avg !== null && avg > 0) {
+    const ratio = (n - avg) / avg;
+    if (ratio <= -0.3)      { bg = '#bbf7d0'; color = '#166534'; }
+    else if (ratio < 0)     { bg = '#dcfce7'; color = '#15803d'; }
+    else if (ratio < 0.3)   { bg = '#fee2e2'; color = '#dc2626'; }
+    else                    { bg = '#fca5a5'; color = '#991b1b'; }
   }
-  return '<td style="text-align:center;font-weight:bold;color:#1E40AF">' + n + '</td>';
+  return `<td style="text-align:center;font-weight:bold;${bg?'background:'+bg+';':''}color:${color}">${n}</td>`;
 }
 
 function dateCell(dt) {
@@ -353,13 +360,13 @@ function renderTabela(dados) {
     return `<tr>
       <td class="td-emp"><a href="${url}" target="_blank" class="link-soe">${esc(empNome)}</a></td>
       <td style="font-size:11px;white-space:nowrap">${esc(r.req_cnpj || '—')}</td>
-      ${diasCell(r.dias_total, !!r.data_protocolo)}
+      ${diasCell(r.dias_total, !!r.data_protocolo, 'dias_total')}
       <td>${badgeStatus(r.status)}</td>
-      ${diasCell(r.dias_protocolo, !!r.data_protocolo)}
+      ${diasCell(r.dias_protocolo, !!r.data_protocolo, 'dias_protocolo')}
       ${dateCell(r.data_protocolo)}
-      ${diasCell(r.dias_fila, !!r.data_fila)}
+      ${diasCell(r.dias_fila, !!r.data_fila, 'dias_fila')}
       ${dateCell(r.data_fila)}
-      ${diasCell(r.dias_processamento, !!r.data_processamento)}
+      ${diasCell(r.dias_processamento, !!r.data_processamento, 'dias_processamento')}
       ${dateCell(r.data_processamento)}
       <td class="td-tipo">${esc(r.tipo || '—')}</td>
       <td style="font-size:11px;white-space:nowrap"><a href="${portalUrl}" target="_blank" class="link-soe">${esc(r.codigo)}</a></td>
@@ -391,10 +398,21 @@ function atualizarMedias(dados) {
     document.getElementById(prefix+'-max').textContent = res.max ? '▲ ' + res.max.dias + ' d — ' + nome(res.max.nome) : '';
   }
   const finalizados = dados.filter(r => r.status && (r.status.includes('Resultado') || r.status === 'Processado'));
-  set('media-prot',  stats('dias_protocolo'));
-  set('media-fila',  stats('dias_fila'));
-  set('media-proc',  stats('dias_processamento'));
-  set('media-total', stats('dias_total', finalizados));
+  const sProt  = stats('dias_protocolo');
+  const sFila  = stats('dias_fila');
+  const sProc  = stats('dias_processamento');
+  const sTotal = stats('dias_total', finalizados);
+  const sTotalAll = stats('dias_total');
+  set('media-prot',  sProt);
+  set('media-fila',  sFila);
+  set('media-proc',  sProc);
+  set('media-total', sTotal);
+  _medias = {
+    dias_protocolo:     sProt.media,
+    dias_fila:          sFila.media,
+    dias_processamento: sProc.media,
+    dias_total:         sTotalAll.media,
+  };
 }
 
 function renderNotifs(notifs) {
