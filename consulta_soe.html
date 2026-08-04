@@ -109,7 +109,7 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      04/08/2026 12:50
+      04/08/2026 12:52
     </div>
     <div class="hd-pill">Uso Interno</div>
   </div>
@@ -145,25 +145,33 @@ footer{text-align:center;padding:28px 20px 36px;color:#aaa;font-size:11px;letter
   <div class="card" style="padding:16px 24px">
     <div style="font-size:11px;font-weight:600;color:#6b7280;letter-spacing:.05em;text-transform:uppercase;margin-bottom:12px">Média de dias por etapa (requerimentos com data registrada)</div>
     <div style="display:flex;gap:16px;flex-wrap:wrap">
-      <div style="flex:1;min-width:160px;background:#eff6ff;border-radius:8px;padding:14px 18px;border-left:4px solid #3b82f6">
+      <div style="flex:1;min-width:180px;background:#eff6ff;border-radius:8px;padding:14px 18px;border-left:4px solid #3b82f6">
         <div style="font-size:11px;color:#1e40af;font-weight:600;margin-bottom:4px">PROTOCOLO</div>
         <div style="font-size:28px;font-weight:700;color:#1e40af" id="media-prot">—</div>
-        <div style="font-size:11px;color:#6b7280" id="media-prot-n"></div>
+        <div style="font-size:11px;color:#6b7280;margin-bottom:8px" id="media-prot-n"></div>
+        <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-prot-min"></div>
+        <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-prot-max"></div>
       </div>
-      <div style="flex:1;min-width:160px;background:#fefce8;border-radius:8px;padding:14px 18px;border-left:4px solid #eab308">
+      <div style="flex:1;min-width:180px;background:#fefce8;border-radius:8px;padding:14px 18px;border-left:4px solid #eab308">
         <div style="font-size:11px;color:#854d0e;font-weight:600;margin-bottom:4px">NA FILA</div>
         <div style="font-size:28px;font-weight:700;color:#854d0e" id="media-fila">—</div>
-        <div style="font-size:11px;color:#6b7280" id="media-fila-n"></div>
+        <div style="font-size:11px;color:#6b7280;margin-bottom:8px" id="media-fila-n"></div>
+        <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-fila-min"></div>
+        <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-fila-max"></div>
       </div>
-      <div style="flex:1;min-width:160px;background:#fff7ed;border-radius:8px;padding:14px 18px;border-left:4px solid #f97316">
+      <div style="flex:1;min-width:180px;background:#fff7ed;border-radius:8px;padding:14px 18px;border-left:4px solid #f97316">
         <div style="font-size:11px;color:#9a3412;font-weight:600;margin-bottom:4px">EM PROCESSAMENTO</div>
         <div style="font-size:28px;font-weight:700;color:#9a3412" id="media-proc">—</div>
-        <div style="font-size:11px;color:#6b7280" id="media-proc-n"></div>
+        <div style="font-size:11px;color:#6b7280;margin-bottom:8px" id="media-proc-n"></div>
+        <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-proc-min"></div>
+        <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-proc-max"></div>
       </div>
-      <div style="flex:1;min-width:160px;background:#f0fdf4;border-radius:8px;padding:14px 18px;border-left:4px solid #16a34a">
+      <div style="flex:1;min-width:180px;background:#f0fdf4;border-radius:8px;padding:14px 18px;border-left:4px solid #16a34a">
         <div style="font-size:11px;color:#15803d;font-weight:600;margin-bottom:4px">TOTAL (FINALIZADOS)</div>
         <div style="font-size:28px;font-weight:700;color:#15803d" id="media-total">—</div>
-        <div style="font-size:11px;color:#6b7280" id="media-total-n"></div>
+        <div style="font-size:11px;color:#6b7280;margin-bottom:8px" id="media-total-n"></div>
+        <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-total-min"></div>
+        <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-total-max"></div>
       </div>
     </div>
   </div>
@@ -358,22 +366,32 @@ function renderTabela(dados) {
 }
 
 function atualizarMedias(dados) {
-  function media(campo, subset) {
+  function stats(campo, subset) {
     const src = subset || dados;
-    const vals = src.map(r => r[campo]).filter(v => v !== null && v !== undefined && v !== '');
-    if (!vals.length) return {media: null, n: 0};
-    return {media: Math.round(vals.reduce((a,b) => a + Number(b), 0) / vals.length), n: vals.length};
+    const pairs = src.map(r => ({v: r[campo], nome: r.emp_nome || r.req_nome || ''})
+    ).filter(p => p.v !== null && p.v !== undefined && p.v !== '');
+    if (!pairs.length) return {media: null, n: 0, min: null, max: null};
+    pairs.sort((a,b) => Number(a.v) - Number(b.v));
+    const vals = pairs.map(p => Number(p.v));
+    return {
+      media: Math.round(vals.reduce((a,b) => a+b, 0) / vals.length),
+      n: vals.length,
+      min: {dias: vals[0], nome: pairs[0].nome},
+      max: {dias: vals[vals.length-1], nome: pairs[vals.length-1].nome}
+    };
   }
-  function set(id, nId, res) {
-    document.getElementById(id).textContent = res.media !== null ? res.media + ' dias' : '—';
-    document.getElementById(nId).textContent = res.n ? res.n + ' reqs' : '';
+  function nome(s) { return s.length > 28 ? s.slice(0,26)+'…' : s; }
+  function set(prefix, res) {
+    document.getElementById(prefix).textContent = res.media !== null ? res.media + ' dias' : '—';
+    document.getElementById(prefix+'-n').textContent = res.n ? res.n + ' reqs' : '';
+    document.getElementById(prefix+'-min').textContent = res.min ? '▼ ' + res.min.dias + ' d — ' + nome(res.min.nome) : '';
+    document.getElementById(prefix+'-max').textContent = res.max ? '▲ ' + res.max.dias + ' d — ' + nome(res.max.nome) : '';
   }
-  // Finalizados = status contém "Resultado" ou "Processado" (concluídos)
   const finalizados = dados.filter(r => r.status && (r.status.includes('Resultado') || r.status === 'Processado'));
-  set('media-prot',  'media-prot-n',  media('dias_protocolo'));
-  set('media-fila',  'media-fila-n',  media('dias_fila'));
-  set('media-proc',  'media-proc-n',  media('dias_processamento'));
-  set('media-total', 'media-total-n', media('dias_total', finalizados));
+  set('media-prot',  stats('dias_protocolo'));
+  set('media-fila',  stats('dias_fila'));
+  set('media-proc',  stats('dias_processamento'));
+  set('media-total', stats('dias_total', finalizados));
 }
 
 function renderNotifs(notifs) {
