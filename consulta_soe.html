@@ -115,7 +115,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      05/08/2026 10:32
+      05/08/2026 10:41
       <span style="display:block;font-size:9px;color:rgba(255,255,255,.5);margin-top:2px">Próxima: <span id="proximas-txt">...</span></span>
     </div>
     <div class="hd-pill">Uso Interno</div>
@@ -128,7 +128,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div style="font-size:11px;color:#888;padding:4px 2px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;border-bottom:1px solid #e8eaf0;margin-bottom:4px">
     <span>🔄 Atualiza automaticamente todos os dias úteis às <strong style="color:#555">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong></span>
     <span style="color:#ccc">|</span>
-    <span>Última atualização: <strong style="color:#555">05/08/2026 10:32</strong></span>
+    <span>Última atualização: <strong style="color:#555">05/08/2026 10:41</strong></span>
     <span style="color:#ccc">|</span>
     <span>Próxima: <strong style="color:#555" id="info-proxima">...</strong></span>
     <span style="color:#ccc">|</span>
@@ -156,8 +156,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:24px;font-weight:700;color:#c2410c" id="media-prot">—</div>
         <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-prot-mediana"></div>
         <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-prot-n"></div>
-        <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-prot-min"></div>
-        <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-prot-max"></div>
       </div>
       <div onclick="filtrarStatus('Na fila')" id="stat-fila-m"
         style="flex:1;min-width:160px;background:#fffbeb;border-radius:8px;padding:12px 16px;border-left:4px solid #f59e0b;cursor:pointer;transition:box-shadow .15s"
@@ -169,8 +167,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:24px;font-weight:700;color:#b45309" id="media-fila">—</div>
         <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-fila-mediana"></div>
         <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-fila-n"></div>
-        <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-fila-min"></div>
-        <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-fila-max"></div>
       </div>
       <div onclick="filtrarStatus('Em processamento')" id="stat-emproc-m"
         style="flex:1;min-width:160px;background:#ecfccb;border-radius:8px;padding:12px 16px;border-left:4px solid #84cc16;cursor:pointer;transition:box-shadow .15s"
@@ -182,8 +178,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:24px;font-weight:700;color:#3f6212" id="media-proc">—</div>
         <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-proc-mediana"></div>
         <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-proc-n"></div>
-        <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-proc-min"></div>
-        <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-proc-max"></div>
       </div>
       <div onclick="filtrarStatus('Processado')" id="stat-proc-m"
         style="flex:1;min-width:160px;background:#d1fae5;border-radius:8px;padding:12px 16px;border-left:4px solid #10b981;cursor:pointer;transition:box-shadow .15s"
@@ -195,8 +189,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:24px;font-weight:700;color:#065f46" id="media-total">—</div>
         <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-total-mediana"></div>
         <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-total-n"></div>
-        <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-total-min"></div>
-        <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-total-max"></div>
       </div>
       <div onclick="filtrarStatus('__resultado__')" id="stat-result-m"
         style="flex:1;min-width:160px;background:#bbf7d0;border-radius:8px;padding:12px 16px;border-left:4px solid #16a34a;cursor:pointer;transition:box-shadow .15s"
@@ -208,8 +200,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:24px;font-weight:700;color:#14532d" id="media-resultado">—</div>
         <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-resultado-mediana"></div>
         <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-resultado-n"></div>
-        <div style="font-size:10px;color:#16a34a;font-weight:600" id="media-resultado-min"></div>
-        <div style="font-size:10px;color:#dc2626;font-weight:600" id="media-resultado-max"></div>
       </div>
     </div>
 
@@ -501,9 +491,7 @@ function atualizarMedias() {
     document.getElementById(prefix).textContent = res.media !== null ? res.media + ' d' : '—';
     const elMed = document.getElementById(prefix+'-mediana');
     if (elMed) elMed.textContent = res.mediana !== null ? 'mediana ' + res.mediana + ' d' : '';
-    document.getElementById(prefix+'-n').textContent = res.n ? res.n + ' reqs' : '';
-    document.getElementById(prefix+'-min').textContent = res.min ? '▼ ' + res.min.dias + ' d — ' + nome(res.min.nome) : '';
-    document.getElementById(prefix+'-max').textContent = res.max ? '▲ ' + res.max.dias + ' d — ' + nome(res.max.nome) : '';
+    document.getElementById(prefix+'-n').textContent = res.n ? res.n + ' processos' : '';
   }
   const finalizados = src.filter(r => r.status && (r.status.includes('Resultado') || r.status === 'Processado'));
   const resultado   = src.filter(r => r.status && (r.status.includes('Resultado') || r.status.includes('Deferida') || r.status.includes('Indeferida')));
