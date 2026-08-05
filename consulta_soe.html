@@ -118,7 +118,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      05/08/2026 10:47
+      05/08/2026 10:50
       <span style="display:block;font-size:9px;color:rgba(255,255,255,.5);margin-top:2px">Próxima: <span id="proximas-txt">...</span></span>
     </div>
     <div class="hd-pill">Uso Interno</div>
@@ -131,7 +131,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div style="font-size:11px;color:#888;padding:4px 2px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;border-bottom:1px solid #e8eaf0;margin-bottom:4px">
     <span>🔄 Atualiza automaticamente todos os dias úteis às <strong style="color:#555">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong></span>
     <span style="color:#ccc">|</span>
-    <span>Última atualização: <strong style="color:#555">05/08/2026 10:47</strong></span>
+    <span>Última atualização: <strong style="color:#555">05/08/2026 10:50</strong></span>
     <span style="color:#ccc">|</span>
     <span>Próxima: <strong style="color:#555" id="info-proxima">...</strong></span>
     <span style="color:#ccc">|</span>
@@ -306,18 +306,14 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
           <tr>
             <th style="width:36px;text-align:center;cursor:default">#</th>
             <th onclick="ordenar('emp_nome')">CLIENTE<span class="sort-icon" id="si-emp_nome">↕</span></th>
-            <th onclick="ordenar('req_cnpj')">CNPJ<span class="sort-icon" id="si-req_cnpj">↕</span></th>
-            <th onclick="ordenar('dias_total')" title="Total de dias desde o protocolo até hoje">DIAS<br>TOTAIS<span class="sort-icon" id="si-dias_totais">↕</span></th>
-            <th onclick="ordenar('status')">STATUS<span class="sort-icon" id="si-status">↕</span></th>
-            <th onclick="ordenar('dias_protocolo')">DIAS<br>(PROTOCOLO)<span class="sort-icon" id="si-dias_protocolo">↕</span></th>
-            <th onclick="ordenar('data_protocolo')">DATA DO<br>PROTOCOLO<span class="sort-icon" id="si-data_protocolo">↕</span></th>
-            <th onclick="ordenar('dias_fila')">DIAS<br>(FILA)<span class="sort-icon" id="si-dias_fila">↕</span></th>
-            <th onclick="ordenar('data_fila')">DATA<br>FILA<span class="sort-icon" id="si-data_fila">↕</span></th>
-            <th onclick="ordenar('dias_processamento')">DIAS<br>(PROCESSAMENTO)<span class="sort-icon" id="si-dias_processamento">↕</span></th>
-            <th onclick="ordenar('data_processamento')">DATA<br>PROCESSAMENTO<span class="sort-icon" id="si-data_processamento">↕</span></th>
             <th onclick="ordenar('tipo')">TIPO<span class="sort-icon" id="si-tipo">↕</span></th>
+            <th onclick="ordenar('status')">STATUS<span class="sort-icon" id="si-status">↕</span></th>
+            <th onclick="ordenar('dias_total')" title="Total de dias desde o protocolo até hoje" style="text-align:center">DIAS<br>TOTAIS<span class="sort-icon" id="si-dias_totais">↕</span></th>
+            <th onclick="ordenar('dias_protocolo')" style="text-align:center">PROTOCOLO<br><span style="font-size:9px;font-weight:400;opacity:.7">dias / data</span><span class="sort-icon" id="si-dias_protocolo">↕</span></th>
+            <th onclick="ordenar('dias_fila')" style="text-align:center">FILA<br><span style="font-size:9px;font-weight:400;opacity:.7">dias / data</span><span class="sort-icon" id="si-dias_fila">↕</span></th>
+            <th onclick="ordenar('dias_processamento')" style="text-align:center">PROCESSAMENTO<br><span style="font-size:9px;font-weight:400;opacity:.7">dias / data</span><span class="sort-icon" id="si-dias_processamento">↕</span></th>
             <th onclick="ordenar('codigo')">IDENTIFICAÇÃO<span class="sort-icon" id="si-codigo">↕</span></th>
-            <th>NOTIFICAÇÕES</th>
+            <th colspan="3">NOTIFICAÇÕES</th>
           </tr>
         </thead>
         <tbody id="tbody"></tbody>
@@ -364,26 +360,33 @@ function renderDateCell(dt) {
   return `<td style="white-space:nowrap;font-size:12px">${esc(dt)}</td>`;
 }
 
+function _heatColor(n, campo) {
+  const avg = (campo && _medias[campo] != null) ? _medias[campo] : null;
+  if (avg === null || avg <= 0) return '#1E40AF';
+  const ratio = (n - avg) / avg;
+  if (ratio <= -0.3) return '#166534';
+  if (ratio < 0)     return '#15803d';
+  if (ratio < 0.3)   return '#dc2626';
+  return '#991b1b';
+}
+
 function diasCell(dias, hasDate, campo) {
   if (!hasDate || dias === null || dias === undefined || dias === '') {
     return '<td style="color:#aaa;text-align:center;font-size:11px">-</td>';
   }
   const n = Number(dias);
-  const avg = (campo && _medias[campo] != null) ? _medias[campo] : null;
-  let bg = '', color = '#1E40AF';
-  if (avg !== null && avg > 0) {
-    const ratio = (n - avg) / avg;
-    if (ratio <= -0.3)      { bg = '#bbf7d0'; color = '#166534'; }
-    else if (ratio < 0)     { bg = '#dcfce7'; color = '#15803d'; }
-    else if (ratio < 0.3)   { bg = '#fee2e2'; color = '#dc2626'; }
-    else                    { bg = '#fca5a5'; color = '#991b1b'; }
-  }
-  return `<td style="text-align:center;font-weight:bold;${bg?'background:'+bg+';':''}color:${color}">${n}</td>`;
+  const color = _heatColor(n, campo);
+  return `<td style="text-align:center;font-weight:700;font-size:14px;color:${color}">${n}</td>`;
 }
 
-function dateCell(dt) {
-  if (!dt) return '<td style="color:#aaa;font-size:11px;text-align:center">—</td>';
-  return `<td style="white-space:nowrap;font-size:12px">${esc(dt)}</td>`;
+function diasDataCell(dias, dt, campo) {
+  if (!dt) return '<td style="color:#aaa;text-align:center;font-size:11px;vertical-align:middle">—</td>';
+  const n = Number(dias);
+  const color = _heatColor(n, campo);
+  return `<td style="text-align:center;vertical-align:middle;padding:7px 10px;white-space:nowrap">
+    <span style="font-weight:700;font-size:14px;color:${color}">${n}</span><br>
+    <span style="font-size:10px;color:#333;font-weight:400">${esc(dt)}</span>
+  </td>`;
 }
 
 function badgeSituacaoNotif(s) {
@@ -422,7 +425,7 @@ function badgeStatus(s) {
 function renderTabela(dados) {
   const tbody = document.getElementById('tbody');
   if (!dados.length) {
-    tbody.innerHTML = '<tr><td colspan="14" class="vazio">Nenhum requerimento encontrado com esses filtros.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="12" class="vazio">Nenhum requerimento encontrado com esses filtros.</td></tr>';
     document.getElementById('resultsInfo').innerHTML = '';
     return;
   }
@@ -436,19 +439,16 @@ function renderTabela(dados) {
     const empNome = r.emp_nome || r.req_nome || '—';
     const url = `https://outorga.spaguas.sp.gov.br/Portal/MeusRequerimentos/RequerimentosSubmetidos/${r.emp_id}`;
     const portalUrl = `https://outorga.spaguas.sp.gov.br/Portal/MeusRequerimentos/RequerimentosSubmetidos/${r.emp_id}`;
+    const cnpjHtml = r.req_cnpj ? `<br><span style="font-size:10px;color:#333;font-weight:400">${esc(r.req_cnpj)}</span>` : '';
     return `<tr>
       <td style="text-align:center;font-size:11px;color:#aaa;font-weight:600;white-space:nowrap">${i+1}</td>
-      <td class="td-emp"><a href="${url}" target="_blank" class="link-soe">${esc(empNome)}</a></td>
-      <td style="font-size:11px;white-space:nowrap">${esc(r.req_cnpj || '—')}</td>
-      ${diasCell(r.dias_total, !!r.data_protocolo, 'dias_total')}
-      <td>${badgeStatus(r.status)}</td>
-      ${diasCell(r.dias_protocolo, !!r.data_protocolo, 'dias_protocolo')}
-      ${dateCell(r.data_protocolo)}
-      ${diasCell(r.dias_fila, !!r.data_fila, 'dias_fila')}
-      ${dateCell(r.data_fila)}
-      ${diasCell(r.dias_processamento, !!r.data_processamento, 'dias_processamento')}
-      ${dateCell(r.data_processamento)}
+      <td class="td-emp"><a href="${url}" target="_blank" class="link-soe">${esc(empNome)}</a>${cnpjHtml}</td>
       <td class="td-tipo">${esc(r.tipo || '—')}</td>
+      <td>${badgeStatus(r.status)}</td>
+      ${diasCell(r.dias_total, !!r.data_protocolo, 'dias_total')}
+      ${diasDataCell(r.dias_protocolo, r.data_protocolo, 'dias_protocolo')}
+      ${diasDataCell(r.dias_fila, r.data_fila, 'dias_fila')}
+      ${diasDataCell(r.dias_processamento, r.data_processamento, 'dias_processamento')}
       <td style="font-size:11px;white-space:nowrap"><a href="${portalUrl}" target="_blank" class="link-soe">${esc(r.codigo)}</a></td>
       ${renderNotifs(r.notificacoes)}
     </tr>`;
