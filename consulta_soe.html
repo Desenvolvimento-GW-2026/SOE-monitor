@@ -125,7 +125,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div class="hd-info">
     <span>🔄 Atualiza dias úteis às <strong style="color:rgba(255,255,255,.9)">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong></span>
     <span style="opacity:.35">&nbsp;|&nbsp;</span>
-    <span>Última atualização: <strong style="color:rgba(255,255,255,.9)">05/08/2026 11:11</strong></span>
+    <span>Última atualização: <strong style="color:rgba(255,255,255,.9)">05/08/2026 11:13</strong></span>
     <span style="opacity:.35">&nbsp;|&nbsp;</span>
     <span>Próxima: <strong style="color:rgba(255,255,255,.9)" id="info-proxima">...</strong></span>
     <span style="opacity:.35">&nbsp;|&nbsp;</span>
@@ -139,13 +139,11 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div style="display:grid;grid-template-columns:1fr 280px;gap:20px;align-items:start">
 
   <!-- MÉDIAS -->
-  <div style="margin-bottom:8px;padding:0 2px">
-    <span style="font-size:13px;font-weight:700;color:#475569;letter-spacing:.04em;text-transform:uppercase">Média de dias por etapa</span>
-  </div>
-  <div class="card" style="padding:16px 20px">
+  <div class="card" style="padding:20px 24px">
+    <div class="card-hd" style="margin-bottom:16px"><div class="card-hd-bar"></div><span class="card-hd-title">Média de dias por etapa</span></div>
 
     <!-- Boxes de médias (clicáveis, com contagem) -->
-    <div style="display:flex;gap:10px;flex-wrap:wrap">
+    <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:10px">
       <div onclick="filtrarStatus('Protocolo')" id="stat-prot-m"
         class="media-box" style="flex:1;min-width:160px;background:#fff5f0;border-radius:8px;padding:12px 16px;border-left:4px solid #ea580c;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
