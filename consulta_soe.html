@@ -35,6 +35,9 @@ main{max-width:1300px;margin:28px auto;padding:0 24px;display:flex;flex-directio
 .stat{border-radius:10px;padding:16px 18px;text-align:center;position:relative;overflow:hidden;border:1px solid var(--border);cursor:pointer;transition:transform .1s,box-shadow .1s}
 .stat:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.12)}
 .stat.ativo{outline:3px solid var(--gw-teal);outline-offset:2px}
+.media-box{transition:box-shadow .2s,transform .2s,border-left-width .15s,filter .2s}
+.media-box:hover{box-shadow:0 4px 14px rgba(0,0,0,.14);transform:translateY(-2px)}
+.media-box.ativo{box-shadow:0 6px 24px rgba(0,0,0,.22)!important;transform:translateY(-4px)!important;border-left-width:7px!important;filter:brightness(.94)}
 .stat::after{content:'';position:absolute;top:0;left:0;right:0;height:4px}
 .stat-total{background:#f5f4ff}.stat-total::after{background:var(--gw-purple)}.stat-total strong{color:var(--gw-purple)}
 .stat-preenche{background:#fef2f2}.stat-preenche::after{background:#7f1d1d}.stat-preenche strong{color:#7f1d1d}
@@ -115,7 +118,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div class="hd-right">
     <div class="hd-update">
       <strong>Última atualização</strong>
-      05/08/2026 10:41
+      05/08/2026 10:47
       <span style="display:block;font-size:9px;color:rgba(255,255,255,.5);margin-top:2px">Próxima: <span id="proximas-txt">...</span></span>
     </div>
     <div class="hd-pill">Uso Interno</div>
@@ -128,7 +131,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div style="font-size:11px;color:#888;padding:4px 2px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;border-bottom:1px solid #e8eaf0;margin-bottom:4px">
     <span>🔄 Atualiza automaticamente todos os dias úteis às <strong style="color:#555">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong></span>
     <span style="color:#ccc">|</span>
-    <span>Última atualização: <strong style="color:#555">05/08/2026 10:41</strong></span>
+    <span>Última atualização: <strong style="color:#555">05/08/2026 10:47</strong></span>
     <span style="color:#ccc">|</span>
     <span>Próxima: <strong style="color:#555" id="info-proxima">...</strong></span>
     <span style="color:#ccc">|</span>
@@ -142,13 +145,12 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div class="card" style="padding:20px 24px">
 
     <!-- Cabeçalho médias -->
-    <div style="font-size:11px;font-weight:600;color:#6b7280;letter-spacing:.05em;text-transform:uppercase;margin-bottom:12px">Média de dias por etapa</div>
+    <div class="card-hd" style="margin-bottom:16px"><div class="card-hd-bar"></div><span class="card-hd-title">Média de dias por etapa</span></div>
 
     <!-- Boxes de médias (clicáveis, com contagem) -->
     <div style="display:flex;gap:12px;flex-wrap:wrap">
       <div onclick="filtrarStatus('Protocolo')" id="stat-prot-m"
-        style="flex:1;min-width:160px;background:#fff5f0;border-radius:8px;padding:12px 16px;border-left:4px solid #ea580c;cursor:pointer;transition:box-shadow .15s"
-        onmouseover="this.style.boxShadow='0 3px 10px rgba(0,0,0,.12)'" onmouseout="this.style.boxShadow=''">
+        class="media-box" style="flex:1;min-width:160px;background:#fff5f0;border-radius:8px;padding:12px 16px;border-left:4px solid #ea580c;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
           <span style="font-size:11px;color:#c2410c;font-weight:700">PROTOCOLO</span>
           <span style="font-size:20px;font-weight:700;color:#c2410c">18</span>
@@ -158,8 +160,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-prot-n"></div>
       </div>
       <div onclick="filtrarStatus('Na fila')" id="stat-fila-m"
-        style="flex:1;min-width:160px;background:#fffbeb;border-radius:8px;padding:12px 16px;border-left:4px solid #f59e0b;cursor:pointer;transition:box-shadow .15s"
-        onmouseover="this.style.boxShadow='0 3px 10px rgba(0,0,0,.12)'" onmouseout="this.style.boxShadow=''">
+        class="media-box" style="flex:1;min-width:160px;background:#fffbeb;border-radius:8px;padding:12px 16px;border-left:4px solid #f59e0b;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
           <span style="font-size:11px;color:#b45309;font-weight:700">NA FILA</span>
           <span style="font-size:20px;font-weight:700;color:#b45309">26</span>
@@ -169,8 +170,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-fila-n"></div>
       </div>
       <div onclick="filtrarStatus('Em processamento')" id="stat-emproc-m"
-        style="flex:1;min-width:160px;background:#ecfccb;border-radius:8px;padding:12px 16px;border-left:4px solid #84cc16;cursor:pointer;transition:box-shadow .15s"
-        onmouseover="this.style.boxShadow='0 3px 10px rgba(0,0,0,.12)'" onmouseout="this.style.boxShadow=''">
+        class="media-box" style="flex:1;min-width:160px;background:#ecfccb;border-radius:8px;padding:12px 16px;border-left:4px solid #84cc16;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
           <span style="font-size:11px;color:#3f6212;font-weight:700">EM PROCESSAMENTO</span>
           <span style="font-size:20px;font-weight:700;color:#3f6212">66</span>
@@ -180,8 +180,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-proc-n"></div>
       </div>
       <div onclick="filtrarStatus('Processado')" id="stat-proc-m"
-        style="flex:1;min-width:160px;background:#d1fae5;border-radius:8px;padding:12px 16px;border-left:4px solid #10b981;cursor:pointer;transition:box-shadow .15s"
-        onmouseover="this.style.boxShadow='0 3px 10px rgba(0,0,0,.12)'" onmouseout="this.style.boxShadow=''">
+        class="media-box" style="flex:1;min-width:160px;background:#d1fae5;border-radius:8px;padding:12px 16px;border-left:4px solid #10b981;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
           <span style="font-size:11px;color:#065f46;font-weight:700">PROCESSADO</span>
           <span style="font-size:20px;font-weight:700;color:#065f46">17</span>
@@ -191,8 +190,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-total-n"></div>
       </div>
       <div onclick="filtrarStatus('__resultado__')" id="stat-result-m"
-        style="flex:1;min-width:160px;background:#bbf7d0;border-radius:8px;padding:12px 16px;border-left:4px solid #16a34a;cursor:pointer;transition:box-shadow .15s"
-        onmouseover="this.style.boxShadow='0 3px 10px rgba(0,0,0,.12)'" onmouseout="this.style.boxShadow=''">
+        class="media-box" style="flex:1;min-width:160px;background:#bbf7d0;border-radius:8px;padding:12px 16px;border-left:4px solid #16a34a;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
           <span style="font-size:11px;color:#14532d;font-weight:700">🚩 OUTORGA PUBLICADA</span>
           <span style="font-size:20px;font-weight:700;color:#14532d">504</span>
@@ -219,21 +217,21 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
           <span style="width:8px;height:8px;border-radius:50%;background:#84cc16;flex-shrink:0;margin-top:3px"></span>
           <div style="flex:1;min-width:0">
             <div style="font-size:11px;color:#333;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="HOSPITAL SAO LUIZ CAMPINAS">HOSPITAL SAO LUIZ CAMPINAS</div>
-            <div style="font-size:10px;color:#84cc16;margin-top:1px">Em processamento</div>
+            <div style="font-size:10px;color:#84cc16;margin-top:1px">Entrou em processamento</div>
           </div>
         </div><div style="display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid #f0f0f0">
           <span style="font-size:10px;color:#aaa;white-space:nowrap;min-width:40px;padding-top:1px">04/08</span>
           <span style="width:8px;height:8px;border-radius:50%;background:#eab308;flex-shrink:0;margin-top:3px"></span>
           <div style="flex:1;min-width:0">
             <div style="font-size:11px;color:#333;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="HOSPITAL SAO LUIZ CAMPINAS">HOSPITAL SAO LUIZ CAMPINAS</div>
-            <div style="font-size:10px;color:#eab308;margin-top:1px">Na fila</div>
+            <div style="font-size:10px;color:#eab308;margin-top:1px">Entrou na fila</div>
           </div>
         </div><div style="display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid #f0f0f0">
           <span style="font-size:10px;color:#aaa;white-space:nowrap;min-width:40px;padding-top:1px">28/07</span>
           <span style="width:8px;height:8px;border-radius:50%;background:#84cc16;flex-shrink:0;margin-top:3px"></span>
           <div style="flex:1;min-width:0">
             <div style="font-size:11px;color:#333;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="CITIBANK N.A.">CITIBANK N.A.</div>
-            <div style="font-size:10px;color:#84cc16;margin-top:1px">Em processamento</div>
+            <div style="font-size:10px;color:#84cc16;margin-top:1px">Entrou em processamento</div>
           </div>
         </div><div style="display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid #f0f0f0">
           <span style="font-size:10px;color:#aaa;white-space:nowrap;min-width:40px;padding-top:1px">28/07</span>
@@ -574,13 +572,13 @@ function filtrarStatus(s) {
   document.getElementById('filtroStatus').value = s;
 
   // Highlight stat card
-  document.querySelectorAll('.stat').forEach(el => el.classList.remove('ativo'));
+  document.querySelectorAll('.stat,.media-box').forEach(el => el.classList.remove('ativo'));
   if (s === '') document.getElementById('stat-all')?.classList.add('ativo');
-  else if (s === 'Protocolo') document.getElementById('stat-prot')?.classList.add('ativo');
-  else if (s === 'Na fila') document.getElementById('stat-fila')?.classList.add('ativo');
-  else if (s === 'Em processamento') document.getElementById('stat-emproc')?.classList.add('ativo');
-  else if (s === 'Processado') document.getElementById('stat-proc')?.classList.add('ativo');
-  else if (s === '__resultado__') document.getElementById('stat-result')?.classList.add('ativo');
+  else if (s === 'Protocolo') { document.getElementById('stat-prot')?.classList.add('ativo'); document.getElementById('stat-prot-m')?.classList.add('ativo'); }
+  else if (s === 'Na fila') { document.getElementById('stat-fila')?.classList.add('ativo'); document.getElementById('stat-fila-m')?.classList.add('ativo'); }
+  else if (s === 'Em processamento') { document.getElementById('stat-emproc')?.classList.add('ativo'); document.getElementById('stat-emproc-m')?.classList.add('ativo'); }
+  else if (s === 'Processado') { document.getElementById('stat-proc')?.classList.add('ativo'); document.getElementById('stat-proc-m')?.classList.add('ativo'); }
+  else if (s === '__resultado__') { document.getElementById('stat-result')?.classList.add('ativo'); document.getElementById('stat-result-m')?.classList.add('ativo'); }
 
   aplicarFiltros();
 }
@@ -591,7 +589,7 @@ function limparFiltros() {
   document.getElementById('filtroStatus').value = '';
   document.getElementById('filtroTipo').value = '';
   document.getElementById('filtroNotif').value = '';
-  document.querySelectorAll('.stat').forEach(el => el.classList.remove('ativo'));
+  document.querySelectorAll('.stat,.media-box').forEach(el => el.classList.remove('ativo'));
   aplicarFiltros();
 }
 
