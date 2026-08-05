@@ -125,7 +125,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div class="hd-info">
     <span>🔄 Atualiza dias úteis às <strong style="color:rgba(255,255,255,.9)">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong></span>
     <span style="opacity:.35">&nbsp;|&nbsp;</span>
-    <span>Última atualização: <strong style="color:rgba(255,255,255,.9)">05/08/2026 11:31</strong></span>
+    <span>Última atualização: <strong style="color:rgba(255,255,255,.9)">05/08/2026 11:35</strong></span>
     <span style="opacity:.35">&nbsp;|&nbsp;</span>
     <span>Próxima: <strong style="color:rgba(255,255,255,.9)" id="info-proxima">...</strong></span>
     <span style="opacity:.35">&nbsp;|&nbsp;</span>
@@ -498,10 +498,9 @@ function atualizarMedias() {
   const elTGMed = document.getElementById('media-total-geral-mediana');
   if (elTGMed) elTGMed.textContent = sTotalGeral.mediana !== null ? 'mediana ' + sTotalGeral.mediana + ' d' : '';
   const elTGN = document.getElementById('media-total-geral-n');
-  if (elTGN) elTGN.textContent = sTotalGeral.n ? sTotalGeral.n + ' processos finalizados' : '';
-  const nTGTipo = src.filter(r => isRef(r) && r.status && (r.status === 'Processado' || r.status.includes('Resultado') || r.status.includes('Deferida') || r.status.includes('Indeferida'))).length;
+  if (elTGN) elTGN.textContent = src.length + ' processos';
   const elTGTipo = document.getElementById('media-total-geral-tipo');
-  if (elTGTipo) elTGTipo.textContent = (nTGTipo && nTGTipo !== sTotalGeral.n) ? nTGTipo + ' perf./poço' : '';
+  if (elTGTipo) elTGTipo.textContent = sTotalGeral.n ? sTotalGeral.n + ' finalizados' : '';
   _medias = {
     dias_protocolo:     sProt.media,
     dias_fila:          sFila.media,
