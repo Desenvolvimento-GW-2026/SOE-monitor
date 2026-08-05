@@ -125,7 +125,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div class="hd-info">
     <span>🔄 Atualiza dias úteis às <strong style="color:rgba(255,255,255,.9)">8h &nbsp;·&nbsp; 11h &nbsp;·&nbsp; 15h &nbsp;·&nbsp; 17h</strong></span>
     <span style="opacity:.35">&nbsp;|&nbsp;</span>
-    <span>Última atualização: <strong style="color:rgba(255,255,255,.9)">05/08/2026 11:13</strong></span>
+    <span>Última atualização: <strong style="color:rgba(255,255,255,.9)">05/08/2026 11:16</strong></span>
     <span style="opacity:.35">&nbsp;|&nbsp;</span>
     <span>Próxima: <strong style="color:rgba(255,255,255,.9)" id="info-proxima">...</strong></span>
     <span style="opacity:.35">&nbsp;|&nbsp;</span>
@@ -143,9 +143,9 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   <div class="card" style="padding:16px 20px">
 
     <!-- Boxes de médias (clicáveis, com contagem) -->
-    <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:10px">
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
       <div onclick="filtrarStatus('Protocolo')" id="stat-prot-m"
-        class="media-box" style="flex:1;min-width:160px;background:#fff5f0;border-radius:8px;padding:12px 16px;border-left:4px solid #ea580c;cursor:pointer">
+        class="media-box" style="background:#fff5f0;border-radius:8px;padding:12px 16px;border-left:4px solid #ea580c;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
           <span style="font-size:11px;color:#c2410c;font-weight:700">PROTOCOLO</span>
           <span style="font-size:20px;font-weight:700;color:#c2410c">18</span>
@@ -156,7 +156,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:10px;color:#9ca3af;margin-top:2px" id="media-prot-tipo"></div>
       </div>
       <div onclick="filtrarStatus('Na fila')" id="stat-fila-m"
-        class="media-box" style="flex:1;min-width:160px;background:#fffbeb;border-radius:8px;padding:12px 16px;border-left:4px solid #f59e0b;cursor:pointer">
+        class="media-box" style="background:#fffbeb;border-radius:8px;padding:12px 16px;border-left:4px solid #f59e0b;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
           <span style="font-size:11px;color:#b45309;font-weight:700">NA FILA</span>
           <span style="font-size:20px;font-weight:700;color:#b45309">26</span>
@@ -167,7 +167,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:10px;color:#9ca3af;margin-top:2px" id="media-fila-tipo"></div>
       </div>
       <div onclick="filtrarStatus('Em processamento')" id="stat-emproc-m"
-        class="media-box" style="flex:1;min-width:160px;background:#ecfccb;border-radius:8px;padding:12px 16px;border-left:4px solid #84cc16;cursor:pointer">
+        class="media-box" style="background:#ecfccb;border-radius:8px;padding:12px 16px;border-left:4px solid #84cc16;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
           <span style="font-size:11px;color:#3f6212;font-weight:700">EM PROCESSAMENTO</span>
           <span style="font-size:20px;font-weight:700;color:#3f6212">66</span>
@@ -178,7 +178,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:10px;color:#9ca3af;margin-top:2px" id="media-proc-tipo"></div>
       </div>
       <div onclick="filtrarStatus('Processado')" id="stat-proc-m"
-        class="media-box" style="flex:1;min-width:160px;background:#d1fae5;border-radius:8px;padding:12px 16px;border-left:4px solid #10b981;cursor:pointer">
+        class="media-box" style="background:#d1fae5;border-radius:8px;padding:12px 16px;border-left:4px solid #10b981;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
           <span style="font-size:11px;color:#065f46;font-weight:700">PROCESSADO</span>
           <span style="font-size:20px;font-weight:700;color:#065f46">17</span>
@@ -189,7 +189,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:10px;color:#9ca3af;margin-top:2px" id="media-total-tipo"></div>
       </div>
       <div onclick="filtrarStatus('__resultado__')" id="stat-result-m"
-        class="media-box" style="flex:1;min-width:160px;background:#bbf7d0;border-radius:8px;padding:12px 16px;border-left:4px solid #16a34a;cursor:pointer">
+        class="media-box" style="background:#bbf7d0;border-radius:8px;padding:12px 16px;border-left:4px solid #16a34a;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
           <span style="font-size:11px;color:#14532d;font-weight:700">🚩 OUTORGA PUBLICADA</span>
           <span style="font-size:20px;font-weight:700;color:#14532d">504</span>
@@ -201,7 +201,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <div style="font-size:10px;color:#9ca3af;margin-top:1px" id="media-resultado-todos"></div>
       </div>
       <div onclick="filtrarStatus('')" id="stat-total-geral-m"
-        class="media-box" style="flex:1;min-width:160px;background:#f1f5f9;border-radius:8px;padding:12px 16px;border-left:4px solid #64748b;cursor:pointer">
+        class="media-box" style="background:#f1f5f9;border-radius:8px;padding:12px 16px;border-left:4px solid #64748b;cursor:pointer">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px">
           <span style="font-size:11px;color:#475569;font-weight:700">TOTAL GERAL</span>
           <span style="font-size:20px;font-weight:700;color:#475569">631</span>
