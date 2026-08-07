@@ -26851,26 +26851,18 @@ function atualizarMedias() {
     const elTodos = document.getElementById(prefix+'-todos');
     if (elTodos) elTodos.textContent = '';
   }
-  const protocoloRef  = srcRef.filter(r => r.status === 'Protocolo');
-  const filaRef       = srcRef.filter(r => r.status === 'Na fila');
-  const emProcRef     = srcRef.filter(r => r.status === 'Em processamento');
   const processadoRef = srcRef.filter(r => r.status === 'Processado');
   const resultadoRef  = srcRef.filter(r => r.status && (r.status.includes('Resultado') || r.status.includes('Deferida') || r.status.includes('Indeferida')));
 
-  // Médias por etapa consideram só quem está ATIVO naquela etapa agora —
-  // não misturam com a duração histórica de casos já finalizados.
-  const sProt      = stats('dias_protocolo', protocoloRef);
-  const sFila      = stats('dias_fila',      filaRef);
-  const sProc      = stats('dias_processamento', emProcRef);
+  // Média e mediana por etapa consideram TODOS os processos de poço que já
+  // passaram por ali, independente do status atual — respondem "quanto tempo
+  // uma requisição normalmente fica nessa etapa", não só quem está parado lá agora.
+  const sProt      = stats('dias_protocolo', srcRef);
+  const sFila      = stats('dias_fila',      srcRef);
+  const sProc      = stats('dias_processamento', srcRef);
   const sTotal     = stats('dias_total',     processadoRef);
   const sTotalAll  = stats('dias_total',     srcRef);
   const sResultado = stats('dias_total',     resultadoRef);
-
-  // Mediana considera TODOS os processos de poço, independente do status
-  // atual — inclui quanto tempo casos já finalizados ficaram em cada etapa.
-  sProt.mediana      = stats('dias_protocolo',     srcRef).mediana;
-  sFila.mediana      = stats('dias_fila',          srcRef).mediana;
-  sProc.mediana      = stats('dias_processamento', srcRef).mediana;
   sTotal.mediana     = sTotalAll.mediana;
   sResultado.mediana = sTotalAll.mediana;
 
