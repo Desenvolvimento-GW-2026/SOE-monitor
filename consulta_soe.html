@@ -26818,7 +26818,8 @@ function parseDMY(s) {
 
 function atualizarMedias() {
   const src = DADOS;
-  const isRef = r => r.tipo && (/perfura[çc][ãa]o/i.test(r.tipo) || /direito de uso para po[çc]o/i.test(r.tipo));
+  // � (�) cobre casos onde a acentuacao foi corrompida na coleta
+  const isRef = r => r.tipo && (/perfura[çc�][ãa�]o/i.test(r.tipo) || /direito de uso para po[çc�]o/i.test(r.tipo));
   const srcRef = src.filter(isRef);
 
   function stats(campo, subset) {
