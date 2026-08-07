@@ -26866,6 +26866,14 @@ function atualizarMedias() {
   const sTotalAll  = stats('dias_total',     srcRef);
   const sResultado = stats('dias_total',     resultadoRef);
 
+  // Mediana considera TODOS os processos de poço, independente do status
+  // atual — inclui quanto tempo casos já finalizados ficaram em cada etapa.
+  sProt.mediana      = stats('dias_protocolo',     srcRef).mediana;
+  sFila.mediana      = stats('dias_fila',          srcRef).mediana;
+  sProc.mediana      = stats('dias_processamento', srcRef).mediana;
+  sTotal.mediana     = sTotalAll.mediana;
+  sResultado.mediana = sTotalAll.mediana;
+
   const allProt     = src.filter(r => r.dias_protocolo      != null && r.dias_protocolo      !== '').length;
   const allFila     = src.filter(r => r.dias_fila           != null && r.dias_fila           !== '').length;
   const allProcEl   = src.filter(r => r.dias_processamento  != null && r.dias_processamento  !== '').length;
